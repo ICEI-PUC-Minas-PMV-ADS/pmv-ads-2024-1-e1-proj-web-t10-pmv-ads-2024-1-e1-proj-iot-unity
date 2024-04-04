@@ -1,10 +1,10 @@
 # IOT Unity
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas - PUC Minas`
 
-`DISCIPLINA`
+`Desenvolvimento de aplicação web front-end`
 
-`SEMESTRE`
+`1º semestre/2024`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
 
@@ -19,7 +19,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
 
 ## Orientador
 
-* Nome completo do professor
+* Humberto Azevedo Nigiri do Carmo
 
 # Documentação
 
