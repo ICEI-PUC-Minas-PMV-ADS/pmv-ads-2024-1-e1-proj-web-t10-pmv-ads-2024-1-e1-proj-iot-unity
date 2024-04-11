@@ -98,30 +98,30 @@
 
 |ID    | Descrição                | Prioridade |
 |----|---------------------------------|----|
-|RF- 01	|	Registrar uma conta de usuário	|	Alta	|
-|RF- 02	|	Abrir chamados de suporte.	|	Alta	|
-|RF- 03	|	Adicionar dispositivos.	|	Alta	|
-|RF- 04	|	Remover dispositivos.	|	Alta	|
-|RF- 05	|	Conta de administrador para o suporte	|	Alta	|
-|RF- 06	|	Capacidade visualizar chamados abertos pelos clientes	|	Média	|
-|RF- 07	|	Capacidade do cliente ver seus chamados abertos	|	Média	|
-|RF- 08	|	Interface personalizável.	|	Baixa	|
-|RF- 09	|	Capacidade de nomear o dispositivo.	|	Média	|
-|RF- 10	|	Adicionar descrição ao dispositivo.	|	Média	|
-|RF- 11	|	Adicionar localização do dispositivo.	|	Média	|
-|RF- 12	|	Verificar o Status do dispositivo.	|	Alta	|
-|RF- 13	|	Programar rotinas para os dispositivos.	|	Baixa	|
-|RF- 14	|	Enviar alertas através do navegador.	|	Baixa	|
-|RF- 15	|	Chat de atendimento rápido	|	Baixa	|
-|RF- 16	|	Administração do perfil de usuário	|	Média	|
-|RF- 17	|	Login bloqueado em caso de inadimplência	|	Média	|
-|RF- 18	|	Localização de cômodos nos dispositivos	|	Média	|
-|RF- 19	|	Controle de acesso através de perfis secundários.	|	Baixa	|
-|RF- 20	|	Interface prática, intuitiva	|	Média	|
-|RF- 21	|	Separar dispositivos por tipo	|	Baixa	|
-|RF- 22	|	Remover conta de usuário/Quero excluir minha conta	|	Média	|
-|RF- 23	|	Trocar senha/Esqueci minha senha	|	Média	|
-|RF- 24	|	Histórico do chat (Para futuras situações que aconteçam o mesmo problema)	|	Média	|
+|RF- 01	|	A aplicação deve permitar ao usuário criar uma conta |	Alta	|
+|RF- 02	|	A aplicação deve permitir ao usuário abrir chamados de suporte.	|	Alta	|
+|RF- 03	| A aplicação deve permitir ao usuário	adicionar dispositivos.	|	Alta	|
+|RF- 04	|	A aplicação deve permitir ao usuário remover dispositivos.	|	Alta	|
+|RF- 05	|	A aplicação deve permitir ao Administrador criar um conta para o suporte	|	Alta	|
+|RF- 06	|	A aplicação deve permitir ao Administrador de visualizar chamados abertos pelos clientes	|	Média	|
+|RF- 07	|	A aplicação deve permitir ao usuário visualizar seus chamados abertos	|	Média	|
+|RF- 08	|	A aplicação deve oferecer uma funcionalidade de Interface personalizável.	|	Baixa	|
+|RF- 09	|	A aplicação deve permitir ao usuário nomear o dispositivo.	|	Média	|
+|RF- 10	|	A aplicação deve permitir ao usuário adicionar descrição ao dispositivo.	|	Média	|
+|RF- 11	|	A aplicação deve permitir ao usuário localização do dispositivo.	|	Média	|
+|RF- 12	|	A aplicação deve permitir ao usuário verificar o Status do dispositivo.	|	Alta	|
+|RF- 13	|	A aplicação deve permitir ao usuário programar rotinas para os dispositivos.	|	Baixa	|
+|RF- 14	|	A aplicação deve enviar alertas através do navegador.	|	Baixa	|
+|RF- 15	|	A aplicação deve oferecer uma funcionalidade de chat de atendimento rápido	|	Baixa	|
+|RF- 16	|	A aplicão deve permitir ao usuário alterar as informações do perfil de usuário	|	Média	|
+|RF- 17	|	A aplicação deve oferecer uma funcionalidade de Login bloqueado em caso de inadimplência	|	Média	|
+|RF- 18	|	A aplicação permitir ao usuário de adcionar localização de cômodos nos dispositivos	|	Média	|
+|RF- 19	|	A aplicção deve oferecer uma funcionalidade de controle de acesso para perfis secundários.	|	Baixa	|
+|RF- 20	|	A aplicação deve apresentar interface prática, intuitiva	|	Média	|
+|RF- 21	|	A aplicação deve permitir ao usuário separar dispositivos por tipo	|	Baixa	|
+|RF- 22	|	A aplicação deve oferecer a funcionalidade de conta de usuário/Quero excluir minha conta	|	Média	|
+|RF- 23	|	A aplicação deve oferecer uma funcionalidae de trocar senha/Esqueci minha senha	|	Média	|
+|RF- 24	|	A aplicação deve apresentar Histórico do chat (Para futuras situações que aconteçam o mesmo problema)	|	Média	|
 
 
 **Prioridade: Alta / Média / Baixa. 
@@ -132,13 +132,12 @@
 
 |ID      | Descrição               |Prioridade |
 |--------|-------------------------|----|
-|	RNF-01	|	Responsividade com dispositivos móveis. 	|	Alta	|
-|	RNF-02	|	Executar uma função em até 3 segundos.	|	Média	|
-|	RNF-03	|	Disponibilidade 24H	|	Alta	|
-|	RNF-04	|	Prover segurança para as credenciais (LGPD)	|	Alta	|
-|	RNF-05	|	Design Intuitivo	|	Média	|
-|	RNF-06	|	Funcional nos principais navegadores.	|	Alta	|
-
+|	RNF-01	|	A aplicação deve ter responsividade com dispositivos móveis. 	|	Alta	|
+|	RNF-02	|	A aplicação deve executar uma função em até 3 segundos.	|	Média	|
+|	RNF-03	|	A aplicação deve ter disponibilidade 24H	|	Alta	|
+|	RNF-04	|	A aplicação deve prover segurança para as credenciais (LGPD)	|	Alta	|
+|	RNF-05	|	A aplicação deve possuir design intuitivo	|	Média	|
+|	RNF-06	|	A aplicaçaõ deve ser funcional nos principais navegadores.	|	Alta	|
 
 **Prioridade: Alta / Média / Baixa. 
 
