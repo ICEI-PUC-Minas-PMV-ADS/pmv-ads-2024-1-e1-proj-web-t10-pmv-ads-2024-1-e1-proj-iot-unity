@@ -26,6 +26,8 @@ Diante disso, a equipe está oraganizada da seguinte maneira
 - Doing: Quando uma tarefa tiver sido iniciada, ela é movida para cá. 
 - Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
 
+[Adicionado por Guilherme] - Uma vez definido o processo Scrum para a construção do software, a equipe decidiu utilizar a ferramenta GiHub Project para registrar as Sprint e gerenciar as tarefas a serem executadas pelos membros da equipe. A imagem do quadro Kanban que segue abaixo reflete um determinado momento no tempo com relação ao desenvolvimento da segunda etapa do projeto. 
+
   <a href="../documentos/img/kanban.png">Quadro Kanban</a>
 
 > **Links Úteis**:
