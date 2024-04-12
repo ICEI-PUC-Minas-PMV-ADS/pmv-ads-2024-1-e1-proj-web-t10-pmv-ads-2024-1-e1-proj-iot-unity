@@ -54,7 +54,7 @@ Diante disso, a equipe está oraganizada da seguinte maneira
     <figcaption>Figura 3 - Tela do esquema de cores e categorias</figcaption>
 </figure> 
 
-<a href="../documentos/img/kanban.png">Etiquetas relacionadas às tarefas do quadro Kanban</a>
+<a href="../documentos/img/issues.png">Etiquetas relacionadas às tarefas do quadro Kanban</a>
   
 ### Ferramentas
 
