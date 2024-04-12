@@ -26,7 +26,7 @@ Diante disso, a equipe está oraganizada da seguinte maneira
 - Doing: Quando uma tarefa tiver sido iniciada, ela é movida para cá. 
 - Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
 
-  <a href="../documentos/img/kanban.png">User flow</a>
+  <a href="../documentos/img/kanban.png">Quadro Kanban</a>
 
 > **Links Úteis**:
 > - [Project management, made simple](https://github.com/features/project-management/)
