@@ -59,8 +59,8 @@ Os artefatos do projeto são desenvolvidos a partir das plataformas GitHub e Fig
 |-------------------------------------|------------------------------------|----------------------------------------|
 | Repositório de código fonte | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/blob/main/README.md |
 | Documentos do projeto | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/tree/main |
-| Projeto de Interface | Figma | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1015/views/1 |
-| Gerenciamento do Projeto | GitHub | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1015/views/1 |
+| Projeto de Interface | Figma | |
+| Gerenciamento do Projeto | GitHub | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1015/views/3 |
 
 
 ### Estratégia de Organização de Codificação 
