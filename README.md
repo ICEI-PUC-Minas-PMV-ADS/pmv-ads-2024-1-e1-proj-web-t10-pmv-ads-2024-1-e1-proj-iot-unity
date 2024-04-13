@@ -6,7 +6,7 @@
 
 `1º semestre/2024`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
+Gerenciamento de dispositivos inteligentes (IoT) de forma centralizada.
 
 ## Integrantes
 
