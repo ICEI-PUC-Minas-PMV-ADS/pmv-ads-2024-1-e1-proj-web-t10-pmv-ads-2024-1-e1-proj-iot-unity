@@ -15,10 +15,10 @@ Diante disso, a equipe está oraganizada da seguinte maneira
 
 ### Processo
 
-- Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista. 
-- To Do: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando. 
-- Doing: Quando uma tarefa tiver sido iniciada, ela é movida para cá. 
-- Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
+- **Backlog:** recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista. 
+- **To Do:** Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando. 
+- **Doing:** Quando uma tarefa tiver sido iniciada, ela é movida para cá. 
+- **Done:** nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
 
 Uma vez definido o processo Scrum para a construção do software, a equipe decidiu utilizar a ferramenta GiHub Project para registrar as Sprint e gerenciar as tarefas a serem executadas pelos membros da equipe. A opção por esta ferramenta se baseou na facilidade de uso que ela oferece e pelo fato de estar disponível dentro da própria plataforma do GitHub, que já é relativamente bem conhecida pelos membros da equipe e por sinal abrigará todo o código a ser produzido. A imagem do quadro Kanban cujo link de acesso segue abaixo reflete um determinado momento no tempo do desenvolvimento da segunda etapa do projeto. 
 
