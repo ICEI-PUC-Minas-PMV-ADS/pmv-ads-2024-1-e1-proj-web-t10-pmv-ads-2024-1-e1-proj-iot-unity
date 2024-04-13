@@ -97,31 +97,31 @@
 [Utilize o modelo de tabela abaixo para apresentar os requisitos funcionais]
 
 |ID    | Descrição                | Prioridade |
-|----|---------------------------------|----|
-|RF- 01	|	A aplicação deve permitar ao usuário criar uma conta |	Alta	|
-|RF- 02	|	A aplicação deve permitir ao usuário abrir chamados de suporte.	|	Alta	|
-|RF- 03	| A aplicação deve permitir ao usuário	adicionar dispositivos.	|	Alta	|
-|RF- 04	|	A aplicação deve permitir ao usuário remover dispositivos.	|	Alta	|
-|RF- 05	|	A aplicação deve permitir ao Administrador criar um conta para o suporte	|	Alta	|
-|RF- 06	|	A aplicação deve permitir ao Administrador de visualizar chamados abertos pelos clientes	|	Média	|
-|RF- 07	|	A aplicação deve permitir ao usuário visualizar seus chamados abertos	|	Média	|
-|RF- 08	|	A aplicação deve oferecer uma funcionalidade de Interface personalizável.	|	Baixa	|
-|RF- 09	|	A aplicação deve permitir ao usuário nomear o dispositivo.	|	Média	|
-|RF- 10	|	A aplicação deve permitir ao usuário adicionar descrição ao dispositivo.	|	Média	|
-|RF- 11	|	A aplicação deve permitir ao usuário localização do dispositivo.	|	Média	|
-|RF- 12	|	A aplicação deve permitir ao usuário verificar o Status do dispositivo.	|	Alta	|
-|RF- 13	|	A aplicação deve permitir ao usuário programar rotinas para os dispositivos.	|	Baixa	|
-|RF- 14	|	A aplicação deve enviar alertas através do navegador.	|	Baixa	|
-|RF- 15	|	A aplicação deve oferecer uma funcionalidade de chat de atendimento rápido	|	Baixa	|
-|RF- 16	|	A aplicão deve permitir ao usuário alterar as informações do perfil de usuário	|	Média	|
-|RF- 17	|	A aplicação deve oferecer uma funcionalidade de Login bloqueado em caso de inadimplência	|	Média	|
-|RF- 18	|	A aplicação permitir ao usuário de adcionar localização de cômodos nos dispositivos	|	Média	|
-|RF- 19	|	A aplicção deve oferecer uma funcionalidade de controle de acesso para perfis secundários.	|	Baixa	|
-|RF- 20	|	A aplicação deve apresentar interface prática, intuitiva	|	Média	|
-|RF- 21	|	A aplicação deve permitir ao usuário separar dispositivos por tipo	|	Baixa	|
-|RF- 22	|	A aplicação deve oferecer a funcionalidade de conta de usuário/Quero excluir minha conta	|	Média	|
-|RF- 23	|	A aplicação deve oferecer uma funcionalidae de trocar senha/Esqueci minha senha	|	Média	|
-|RF- 24	|	A aplicação deve apresentar Histórico do chat (Para futuras situações que aconteçam o mesmo problema)	|	Média	|
+|----|---------------------------------|:----:|
+|RF- 01	|	A aplicação deve permitar ao usuário criar uma conta |	ALTA	|
+|RF- 02	|	A aplicação deve permitir ao usuário abrir chamados de suporte.	|	ALTA	|
+|RF- 03	| A aplicação deve permitir ao usuário	adicionar dispositivos.	|	ALTA	|
+|RF- 04	|	A aplicação deve permitir ao usuário remover dispositivos.	|	ALTA	|
+|RF- 05	|	A aplicação deve permitir ao Administrador criar um conta para o suporte	|	ALTA	|
+|RF- 06	|	A aplicação deve permitir ao Administrador de visualizar chamados abertos pelos clientes	|	MÉDIA	|
+|RF- 07	|	A aplicação deve permitir ao usuário visualizar seus chamados abertos	|	MÉDIA	|
+|RF- 08	|	A aplicação deve oferecer uma funcionalidade de Interface personalizável.	|	BAIXA	|
+|RF- 09	|	A aplicação deve permitir ao usuário nomear o dispositivo.	|	MÉDIA	|
+|RF- 10	|	A aplicação deve permitir ao usuário adicionar descrição ao dispositivo.	|	MÉDIA	|
+|RF- 11	|	A aplicação deve permitir ao usuário localização do dispositivo.	|	MÉDIA	|
+|RF- 12	|	A aplicação deve permitir ao usuário verificar o Status do dispositivo.	|	ALTA	|
+|RF- 13	|	A aplicação deve permitir ao usuário programar rotinas para os dispositivos.	|	BAIXA	|
+|RF- 14	|	A aplicação deve enviar alertas através do navegador.	|	BAIXA	|
+|RF- 15	|	A aplicação deve oferecer uma funcionalidade de chat de atendimento rápido	|	BAIXA	|
+|RF- 16	|	A aplicão deve permitir ao usuário alterar as informações do perfil de usuário	|	MÉDIA	|
+|RF- 17	|	A aplicação deve oferecer uma funcionalidade de Login bloqueado em caso de inadimplência	|	MÉDIA	|
+|RF- 18	|	A aplicação permitir ao usuário de adcionar localização de cômodos nos dispositivos	|	MÉDIA	|
+|RF- 19	|	A aplicção deve oferecer uma funcionalidade de controle de acesso para perfis secundários.	|	BAIXA	|
+|RF- 20	|	A aplicação deve apresentar interface prática, intuitiva	|	MÉDIA	|
+|RF- 21	|	A aplicação deve permitir ao usuário separar dispositivos por tipo	|	BAIXA	|
+|RF- 22	|	A aplicação deve oferecer a funcionalidade de conta de usuário/Quero excluir minha conta	|	MÉDIA	|
+|RF- 23	|	A aplicação deve oferecer uma funcionalidae de trocar senha/Esqueci minha senha	|	MÉDIA	|
+|RF- 24	|	A aplicação deve apresentar Histórico do chat (Para futuras situações que aconteçam o mesmo problema)	|	MÉDIA	|
 
 
 **Prioridade: Alta / Média / Baixa. 
@@ -131,13 +131,13 @@
 [Utilize o modelo de tabela abaixo para apresentar os requisitos não-funcionais]
 
 |ID      | Descrição               |Prioridade |
-|--------|-------------------------|----|
-|	RNF-01	|	A aplicação deve ter responsividade com dispositivos móveis. 	|	Alta	|
-|	RNF-02	|	A aplicação deve executar uma função em até 3 segundos.	|	Média	|
-|	RNF-03	|	A aplicação deve ter disponibilidade 24H	|	Alta	|
-|	RNF-04	|	A aplicação deve prover segurança para as credenciais (LGPD)	|	Alta	|
-|	RNF-05	|	A aplicação deve possuir design intuitivo	|	Média	|
-|	RNF-06	|	A aplicaçaõ deve ser funcional nos principais navegadores.	|	Alta	|
+|--------|-------------------------|:----:|
+|	RNF-01	|	A aplicação deve ter responsividade com dispositivos móveis. 	|	ALTA	|
+|	RNF-02	|	A aplicação deve executar uma função em até 3 segundos.	|	MÉDIA	|
+|	RNF-03	|	A aplicação deve ter disponibilidade 24H	|	ALTA	|
+|	RNF-04	|	A aplicação deve prover segurança para as credenciais (LGPD)	|	ALTA	|
+|	RNF-05	|	A aplicação deve possuir design intuitivo	|	MÉDIA	|
+|	RNF-06	|	A aplicaçaõ deve ser funcional nos principais navegadores.	|	ALTA	|
 
 **Prioridade: Alta / Média / Baixa. 
 
