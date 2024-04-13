@@ -33,24 +33,16 @@ Diante disso, a equipe está oraganizada da seguinte maneira
 
 
 ### Etiquetas
-<p>As tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:</p>
 
-<ul>
-  <li>Bug (Erro no código)</li>
-  <li>Desenvolvimento (Development)</li>
-  <li>Documentação (Documentation)</li>
-  <li>Gerência de Projetos (Project Management)</li>
-  <li>Infraestrutura (Infrastructure)</li>
-  <li>Testes (Tests)</li>
-</ul>
+As tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:
+- Atenção extra (Alguns pontos requerem atenção extra)
+- Bug (Erro no código)
+- Documentação (Documentação do projeto)
+- Gestão do projeto (Gerenciamento do projeto)
 
-<figure> 
-  <img src="https://user-images.githubusercontent.com/100447878/164068979-9eed46e1-9b44-461e-ab88-c2388e6767a1.png"
-    <figcaption>Figura 3 - Tela do esquema de cores e categorias</figcaption>
-</figure> 
 
-<a href="../documentos/img/issues.png">Etiquetas relacionadas às tarefas do quadro Kanban</a>
-  
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/assets/165733363/4609bb27-8110-4011-9dd4-ac6898e57ba8)
+
 ### Ferramentas
 As ferramentas utilizadas no projeto são:
 
