@@ -8,10 +8,10 @@ A metodologia ágil escolhida para o desenvolvimento deste projeto foi o SCRUM, 
 ### Divisão de Papéis
 
 Diante disso, a equipe está oraganizada da seguinte maneira
-- Scrum Master: Joel Onofre 
-- Product Owner: Guilherme Henrique
-- Equipe de Desenvolvimento: Ana Luiza, Bruno Duarte, Guilherme Henrique, Joel Onofre, Larissa Moreira, Rafael Reggiani
-- Equipe de Design: Ana Luiza e Larissa Moreira
+- **Scrum Master:** Joel Onofre 
+- **Product Owner:** Guilherme Henrique
+- **Equipe de Desenvolvimento:** Ana Luiza, Bruno Duarte, Guilherme Henrique, Joel Onofre, Larissa Moreira, Rafael Reggiani
+- **Equipe de Design:** Ana Luiza e Larissa Moreira
 
 ### Processo
 
