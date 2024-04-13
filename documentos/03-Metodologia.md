@@ -25,13 +25,6 @@ Uma vez definido o processo Scrum para a construção do software, a equipe deci
   <a href="https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1015/views/3">O quadro kanban do grupo no GitHub está disponível neste link e sua imagem pode ser vista abaixo:<a>
   <img src="../documentos/img/my-kanban.png" alt="quadro kanban">
 
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
-
-
 ### Etiquetas
 
 As tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:
