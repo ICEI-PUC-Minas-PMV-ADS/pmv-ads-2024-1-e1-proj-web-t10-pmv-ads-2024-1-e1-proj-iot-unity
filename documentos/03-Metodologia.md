@@ -50,7 +50,7 @@ As ferramentas utilizadas no projeto são:
 - Ferramentas de gerenciamento e comunicação
 - Ferramentas de desenho de tela (_Wireframing_)
 
-As ferramentas foram escolhidas tendo em vista alguns elementos chaves como, versionamento de código, gerenciamento de atividades, unificação de plataformas, isenção de taxas para uso. Com isso, grande parte do projeto é realizada no Github tendo em vista que a ferramenta abraange todos esses requisitos. Referente a ferramenta de Wireframing foi escolhido o Figma devido a sua simplicidade e recepção para o usuário.
+As ferramentas foram escolhidas tendo em vista alguns elementos chaves como, versionamento de código, gerenciamento de atividades, unificação de plataformas, isenção de taxas para uso. Com isso, grande parte do projeto é realizada no Github tendo em vista que a ferramenta abrange todos esses requisitos. Referente a ferramenta de Wireframing foi escolhido o Figma devido a sua simplicidade e recepção para o usuário.
 
 Os artefatos do projeto são desenvolvidos a partir das plataformas GitHub e Figma, e a relação dos ambientes com seu respectivo propósito é apresentada na tabela abaixo.
 
