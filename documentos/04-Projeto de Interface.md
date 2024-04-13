@@ -11,10 +11,10 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 
 Desenvolver um protótipo emerge como uma das maneiras mais ágeis e econômicas de validar uma ideia, conceito ou funcionalidade. Isso permite a interação, avaliação, modificação e aprovação das principais características de uma interface antes de entrar na fase de desenvolvimento. Leia o artigo [Protótipos: baixa, média ou alta fidelidade?](https://medium.com/ladies-that-ux-br/prot%C3%B3tipos-baixa-m%C3%A9dia-ou-alta-fidelidade-71d897559135).
 
-<img src="../documentos/img/Home Page.png" alt="Home Page">
 
 
-<img src="../documentos/img/Tela de Ambiente.png" alt="Tela de Ambiente">
+
+
 
 
 ### Protótipo de baixa fidelidade
@@ -24,7 +24,10 @@ Protótipos de baixa fidelidade apresentam de forma simplificada o design da int
 [Elabore as principais interfaces gráficas da aplicação de modo que os requisitos funcionais sejam contemplados nas telas propostas.]
 
 [Adicione aqui as telas da sua aplicação com seus devidos títulos.] 
- 
+
+<img src="../documentos/img/Home Page.png" alt="Home Page">
+
+<img src="../documentos/img/Tela de Ambiente.png" alt="Tela de Ambiente">
 
 
 
