@@ -15,13 +15,12 @@ Diante disso, a equipe está oraganizada da seguinte maneira
 
 ### Processo
 
-[Adicione informações sobre detalhes da implementação do Scrum seguido pela equipe. A equipe poderá fazer uso de ferramentas on-line (GitHub Project ou Trello) para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução. O quadro Kanban deverá apresentar a estrutura abaixo. Inserir despois das informações uma imagem do Kanban do projeto.]
 - Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista. 
 - To Do: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando. 
 - Doing: Quando uma tarefa tiver sido iniciada, ela é movida para cá. 
 - Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
 
-[Adicionado por Guilherme] - Uma vez definido o processo Scrum para a construção do software, a equipe decidiu utilizar a ferramenta GiHub Project para registrar as Sprint e gerenciar as tarefas a serem executadas pelos membros da equipe. A opção por esta ferramenta se baseou na facilidade de uso que ela oferece e pelo fato de estar disponível dentro da própria plataforma do GitHub, que já é relativamente bem conhecida pelos membros da equipe e por sinal abrigará todo o código a ser produzido. A imagem do quadro Kanban cujo link de acesso segue abaixo reflete um determinado momento no tempo do desenvolvimento da segunda etapa do projeto. 
+Uma vez definido o processo Scrum para a construção do software, a equipe decidiu utilizar a ferramenta GiHub Project para registrar as Sprint e gerenciar as tarefas a serem executadas pelos membros da equipe. A opção por esta ferramenta se baseou na facilidade de uso que ela oferece e pelo fato de estar disponível dentro da própria plataforma do GitHub, que já é relativamente bem conhecida pelos membros da equipe e por sinal abrigará todo o código a ser produzido. A imagem do quadro Kanban cujo link de acesso segue abaixo reflete um determinado momento no tempo do desenvolvimento da segunda etapa do projeto. 
 
   <a href="../documentos/img/kanban.png">Quadro Kanban</a>
 
@@ -60,7 +59,7 @@ Os artefatos do projeto são desenvolvidos a partir das plataformas GitHub e Fig
 | Repositório de código fonte | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/blob/main/README.md |
 | Documentos do projeto | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/tree/main |
 | Projeto de Interface | Figma | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1015/views/1 |
-| Gerenciamento do Projeto | GitHub | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1015 |
+| Gerenciamento do Projeto | GitHub | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1015/views/1 |
 
 
 ### Estratégia de Organização de Codificação 
