@@ -113,7 +113,6 @@
 |RF- 24	|	A aplicação deve apresentar Histórico do chat (Para futuras situações que aconteçam o mesmo problema)	|	MÉDIA	|
 
 
-**Prioridade: Alta / Média / Baixa. 
 
 ### Requisitos não Funcionais
 
@@ -126,5 +125,4 @@
 |	RNF-05	|	A aplicação deve possuir design intuitivo	|	MÉDIA	|
 |	RNF-06	|	A aplicaçaõ deve ser funcional nos principais navegadores.	|	ALTA	|
 
-**Prioridade: Alta / Média / Baixa. 
 
