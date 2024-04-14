@@ -21,9 +21,7 @@ O nosso protótipo apresenta as funções de cadastro, login e gerenciamento de 
 ### Protótipo de baixa fidelidade
 
 As telas apresentam as funções e um design bem simplista, focado em apontar as principais funções do projeto de forma sucinta e clara.
-
-
-[Adicione aqui as telas da sua aplicação com seus devidos títulos.] 
+ 
 
 ### Tela Login
 
