@@ -52,7 +52,7 @@ Os artefatos do projeto são desenvolvidos a partir das plataformas GitHub e Fig
 |-------------------------------------|------------------------------------|----------------------------------------|
 | Repositório de código fonte | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/blob/main/README.md |
 | Documentos do projeto | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/tree/main |
-| Projeto de Interface | Figma | |
+| Projeto de Interface | Figma | https://www.figma.com/file/xbCviKS2fvfj2zjWvtdcyJ/Prot%C3%B3tipo-IOT-UNity-ver-1?type=design&node-id=0-1&mode=design |
 | Gerenciamento do Projeto | GitHub | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1015/views/3 |
 
 
