@@ -1,7 +1,21 @@
 @import url("./variaveis.css");
 
+
 .menu{
     background-color: var(--fundo-principal);
-    height: 25vh;
+    border-bottom: solid 1px;
+    display: flex;
+    height: 21vh;
     width: 100%;
+}
+
+.menu__logo{
+    height: 100%;
+    width: 15vw;
+}
+
+.menu__nav{
+    display: flex;
+    height: 100%;
+    width: 85vw;
 }
