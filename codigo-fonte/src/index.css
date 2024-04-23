@@ -1,0 +1,7 @@
+@import url("./variaveis.css");
+
+.menu{
+    background-color: var(--fundo-principal);
+    height: 25vh;
+    width: 100%;
+}
