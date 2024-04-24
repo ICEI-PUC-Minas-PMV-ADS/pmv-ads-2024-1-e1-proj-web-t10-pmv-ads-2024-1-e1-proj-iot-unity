@@ -67,19 +67,21 @@ h1{
 }
 
 .container{
-    border: 1px solid #fff;
+    border: 0px solid #fff;
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
+    padding: 0px 20px 0px 20px;
+    justify-content: center;
     grid-gap: 20px;
     grid-template-areas:
-    "sidenav content content"
-    "sidenav content content"
-    "sidenav content content"
+    "sidenav content"
+    "sidenav content"
+    "sidenav content"
 }
 
 .sidenav{
-    width: 300px;
+    width: 350px;
     height: 100%;
     box-shadow: 0px 2px 0px #d0d7de;
     background-color: white;
@@ -106,15 +108,30 @@ h1{
     color: white;
 }
 
+
 .content{
+    max-width: 900px;
+    min-width: 350px;
+    height: 900px;
+    background-color: aqua;
+    border-radius: 20px;
     grid-area: "content";
     grid-column: content;
     grid-row: content;
-    background-color: aqua;
-    width: 600px;
-    height: 900px;
 
+}
 
+@media (max-width: 740px){
+    .container{
+        grid-template-areas:
+        "sidenav"
+        "content"
+        "content"
+        "content"
+        "content"
+        "content"
+
+    }
 }
 
 footer{
