@@ -1,0 +1,18 @@
+.container {
+display: flex;
+justify-content: center;    
+}
+.card{
+    width: 550px;
+    height: 450px;
+    border-radius: 15px;
+    background-color: rgba(185, 180, 180, 0.562);
+}
+.text-main{
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+p{color: black;
+font-size: 12px;
+font-family: Arial, Helvetica, sans-serif;
+}
