@@ -24,6 +24,12 @@
 }
 
 .menu__logo p{
+    font-family: var(--fonte-logo);
+    font-size: 1.7em;
+    font-weight: 600;
+}
+
+.menu__logo p{
     cursor: pointer;
 }
 
@@ -44,6 +50,9 @@
 
 .menu__li{
     cursor: pointer;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-style: normal;
     margin-bottom: 3rem;
 }
 
@@ -61,6 +70,9 @@
     background-color: var(--fundo-secundario);
     border-radius: 6em;
     cursor: pointer;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-style: normal;
     height: 1.5rem;
-    padding: 0 .5rem 0 .5rem;
+    padding: .4rem .3rem .4rem .3rem;
 }
