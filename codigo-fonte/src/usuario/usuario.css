@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', cursive;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #fffafa;
+    display:flex;
+    padding: 10px;
+    justify-content: space-between;
+    box-shadow: 0px 2px 0px #d0d7de;
+
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+}
+
+.menu li a{
+    color:#020202;
+    display: block;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.menu li a:hover{
+    color:#fff;
+    display: block;
+    text-decoration: none;
+    margin-left: 10px;
+    background-color: #333;
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #ccc;
+
+}
+
+.profile-picture{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #ccc;
+}
+
+h1{
+    color:#fff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container{
+    border: 0px solid #fff;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    padding: 0px 20px 0px 20px;
+    justify-content: center;
+    grid-gap: 20px;
+    grid-template-areas:
+    "sidenav content"
+    "sidenav content"
+    "sidenav content"
+}
+
+.sidenav{
+    width: 350px;
+    height: 100%;
+    box-shadow: 0px 2px 0px #d0d7de;
+    background-color: white;
+    border-radius: 0px;
+    grid-area: "sidenav";
+}
+
+.submenu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+.submenu li a{
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.submenu li a:hover{
+    background-color: #f6f7f9;
+    color: black;
+}
+
+
+.content{
+    max-width: 900px;
+    min-width: 350px;
+    height: 900px;
+    background-color: aqua;
+    border-radius: 20px;
+    grid-area: "content";
+    grid-column: content;
+    grid-row: content;
+
+}
+
+@media (max-width: 740px){
+    .container{
+        grid-template-areas:
+        "sidenav"
+        "content"
+        "content"
+        "content"
+        "content"
+        "content"
+
+    }
+}
+
+footer{
+    margin-top: 15px;
+    width: 100%;
+    height: 100px;
+    background-color: #b36464;
+
+}
