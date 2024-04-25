@@ -1,0 +1,14 @@
+@import url("variaveis.css");
+
+.texto{
+    align-items: center;
+    border-top: solid 1px grey;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+
+.texto div{
+    width: 70%;
+}

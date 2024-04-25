@@ -1,5 +1,8 @@
-@import url("./variaveis.css");
+@import url("../codigo-fonte/variaveis.css");
 
+html{
+    scroll-behavior: smooth;
+}
 
 .menu{
     background-color: var(--fundo-principal);

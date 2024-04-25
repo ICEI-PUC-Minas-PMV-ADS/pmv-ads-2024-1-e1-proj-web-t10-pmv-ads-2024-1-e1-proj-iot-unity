@@ -1,0 +1,53 @@
+@import url("variaveis.css");
+
+.conteudo{
+    display: flex;
+    height: 79vh;
+    width: 100%;
+}
+
+.conteudo__aside{
+    display: flex;
+    height: 100%;
+    width: 50%;
+}
+
+.conteudo__aside__esquerdo{
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.aside__texto{
+    display: flex;
+    flex-direction: column;
+    width: 78%;
+}
+
+.conteudo__aside__esquerdo h2{
+    align-content: start;
+    font-family: var(--fonte-principal);
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    width: 75%;
+}
+
+.conteudo__aside__esquerdo h3{
+    align-content: start;
+    font-family: var(--fonte-principal);
+    font-size: 1rem;
+    font-weight: 400;
+    width: 85%;
+}
+
+.conteudo__aside__direito{
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo__aside img{
+    border-radius: 3rem;
+    height: 90%;
+    width: 65%;
+}
+
