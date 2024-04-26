@@ -1,0 +1,28 @@
+@import url("variaveis.css");
+
+.texto{
+    align-items: center;
+    border-top: solid 1px grey;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding-top: 21vh;
+    width: 100%;
+}
+
+.texto h3{
+    font-family: var(--fonte-principal);
+    font-size: 2rem;
+    margin: 2rem 2rem 2rem 2rem;
+}
+
+.texto div{
+    border: solid 1px grey;
+    border-radius: 2rem;
+    padding: 2rem;
+    width: 70%;
+}
+
+.texto p{
+    font-family: var(--fonte-secundaria);
+}
