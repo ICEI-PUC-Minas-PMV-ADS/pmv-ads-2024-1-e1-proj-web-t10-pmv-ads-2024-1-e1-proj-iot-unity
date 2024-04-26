@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-y: hidden;
+    padding-top: 20px;
+}
+
+.left {
+    left: 0;
+    background-color: #f5f5f5;
+    color: black;
+}
+
+.right {
+    right: 0;
+    background-color: #f5f5f5;
+    color: black;
+}
+
+.centered {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.login-container {
+    background: #c5c5c5;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 33%;
+}
+
+.radio-container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.radio-container input[type="radio"]{
+    margin: 0 10px 0 0;
+}
+
+.radio-container label{
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin: 0;    
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    background-color: #ffa41c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #cc8400;
+}
+
+.help-text {
+    font-size: 12px;
+    color: #555;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.forgot-password-link {
+    color: #0066c0;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.forgot-password-link:hover {
+    text-decoration: underline;
+    color: #004080;
+}
+
+@media (min-width: 1024px){
+    .split{
+        width: 50%;
+    }
+    .login-container{
+        width: 75%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .login-container{
+        width: 80%;    
+    }
+    .radio-container{
+        gap: 40px;
+        display: flex;
+    }
+}
+
+@media (max-width: 767px){
+    .split{
+        width: 100%;
+    }
+    .centered{
+        padding: 10px;
+    }
+    .login-container{
+        width: 95%;
+    }
+    .form-group input[type="text"], .form-group input[type="password"]{
+        padding: 15px;
+    }
+    .radio-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login de Usuário</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <div class="split left">
+        <div class="centered">
+            <h1>IoT Unity</h1>
+            <br>
+            <img src="http://source.unsplash.com/random/400x240" alt="IoT Unity">
+            <!--trocar src da imagem para a da logo-->
+        </div>
+    </div>
+    <div class="split right">
+        <div class="centered">
+            <div class="login-container">
+                <h2>Login</h2>
+                <form action="/codigo-fonte/src/Cadastro/cadastro.html" method="POST">
+                     <!-- n sei exatamente para onde deve ir form para conferir login -->
+                    <div class="form-group">
+                        <label for="email">Email ou Nome de Usuário</label>
+                        <input type="text" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Senha</label>
+                        <input type="password" id="password" name="password" required>
+                        <br>
+                        <!-- Link para redefinição de senha -->
+                        <div><a href="/forgot-password" class="forgot-password-link">Esqueci minha senha</a></div>
+                        <br>
+                        <div class="radio-container">
+                            <input type="radio" id="admin" name="role">
+                            <label for="admin">Administrador</label>
+                            <input type="radio" id="user" name="role">
+                            <label for="user">Usuário</label>
+                        </div>
+                    </div>
+                    <button type="submit" class="login-button">Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
