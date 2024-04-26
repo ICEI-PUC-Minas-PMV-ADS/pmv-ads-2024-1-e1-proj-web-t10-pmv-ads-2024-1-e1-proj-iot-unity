@@ -27,13 +27,10 @@ html{
 }
 
 .menu__logo p{
+    cursor: pointer;
     font-family: var(--fonte-logo);
     font-size: 1.7em;
     font-weight: 600;
-}
-
-.menu__logo p{
-    cursor: pointer;
 }
 
 .menu__nav{
@@ -57,6 +54,14 @@ html{
     font-weight: 400;
     font-style: normal;
     margin-bottom: 3rem;
+    transition-duration: .75s;
+    transform: translateY(2px);
+}
+
+.menu__li:hover{
+    transition-duration: .75s;
+    transform: translateY(-2px);
+    
 }
 
 .menu__login{
