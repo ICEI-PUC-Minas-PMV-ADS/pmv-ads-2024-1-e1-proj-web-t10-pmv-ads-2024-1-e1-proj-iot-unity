@@ -57,11 +57,11 @@ header{
 
 }
 
-main.cards{
+.cards{
     display: flex;
     padding: 32px;
 }
-main.cards section.card {
+.card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -75,22 +75,22 @@ main.cards section.card {
     border-radius: 12px;
 
 }
-main.cards section.card:first-child{
+.card:first-child{
     margin-left: 0%;
 }
 
-main.cards section.card .icon{
+.icon{
 width: 64px;
 height: 64px
 }
-main.cards section.card img{
+.card img{
     width: 100%;
 }
-main.cards section.card h3{
+.card h3{
     font-size: 100%;
     margin: 16px 0;
 }
-main.cards section.card span {
+.card span {
     font-weight: 300;
     max-height: 240px;
     font-size: 85%;
@@ -98,7 +98,7 @@ main.cards section.card span {
     margin-left: 0.5rem;
     margin-bottom: 16px;
 }
-main.cards section.card button{
+button{
     padding: 0.3rem 0.7rem;
     text-transform: uppercase;
     border-radius: 32px;
@@ -109,14 +109,14 @@ main.cards section.card button{
     background: linear-gradient(to right, #e6c619,#fff1ba);
 }
 @media screen and (max-width: 720px){
-    main.cards {
+    .cards {
         flex-direction: column;
     }
-    main.cards section.card{
+    .cards section.card{
         margin-left: 0;
         margin-bottom: 32px;
     }
-    main.cards selection.card:last-child {
+    .cards selection.card:last-child {
         margin-bottom: 0;
     }
 }
