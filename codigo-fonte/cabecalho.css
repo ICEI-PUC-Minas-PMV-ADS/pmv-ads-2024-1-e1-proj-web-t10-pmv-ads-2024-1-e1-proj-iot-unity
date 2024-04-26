@@ -9,6 +9,7 @@ html{
     border-bottom: solid 1px grey;
     display: flex;
     height: 21vh;
+    position: fixed;
     width: 100%;
 }
 

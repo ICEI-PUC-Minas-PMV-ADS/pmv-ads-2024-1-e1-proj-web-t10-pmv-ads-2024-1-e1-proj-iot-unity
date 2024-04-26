@@ -3,6 +3,8 @@
 .conteudo{
     display: flex;
     height: 79vh;
+    padding-top: 21vh;
+    padding-bottom: 21vh;
     width: 100%;
 }
 
