@@ -26,3 +26,14 @@
 .texto p{
     font-family: var(--fonte-secundaria);
 }
+
+@media screen and (max-width: 720px){
+    .texto{
+        padding-top: 1rem;
+    }
+
+    .texto h3{
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+}
