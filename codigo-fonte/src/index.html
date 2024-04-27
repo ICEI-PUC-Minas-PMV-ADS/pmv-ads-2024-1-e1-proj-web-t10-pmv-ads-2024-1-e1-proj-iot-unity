@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../cabecalho.css">
     <link rel="stylesheet" href="../conteudo-principal.css">
     <link rel="stylesheet" href="../sobre.css">
+    <link rel="stylesheet" href="../contato.css">
 </head> 
 <body>
     <header>
@@ -21,7 +22,7 @@
                     <li class="menu__li"><a href="./Planos/planos.html">Planos</a></li>
                     <li class="menu__li"><a href="#artigo">Sobre</a></li>
                     <li class="menu__li">Suporte</li>
-                    <li class="menu__li">Contato</li>
+                    <li class="menu__li"><a href="#contato">Contato</a></li>
                 </ul>
                 <ul class="menu__login">
                     <li class="login__li">Cadastre-se</li>
@@ -50,8 +51,25 @@
             </div>
         </article>
     </main>
-    <footer>
-
+    <footer class="rodape" id="contato">
+        <h2 >Contato</h2>
+        <img src="../src/imagens/portrait-woman-customer-service-worker.jpg" alt="mulher atendente de telemarketing">
+        <h3>Para dúvidas, entre em contato com a gente preenchendo o formulário abaixo:</h3>
+        <form action="" class="formulario">
+            <div class="formulario__cliente">
+                <div>
+                    <label for="nome">Nome</label>
+                    <input type="text" placeholder="Nome" name="nome" id="nome">
+                </div>
+                <div>
+                    <label for="e-mail" name="e-mail">E-mail</label>
+                    <input type="text" placeholder="E-mail" id="e-mail">
+                </div>
+            </div>
+            <label for="mensagem" class="label-mensagem">Mensagem</label>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Mensagem"></textarea>
+            <button>Enviar</button>
+        </form>
     </footer>
 </body>
 </html>

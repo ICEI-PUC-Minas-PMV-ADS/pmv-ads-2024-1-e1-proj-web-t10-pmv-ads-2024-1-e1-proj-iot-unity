@@ -1,0 +1,85 @@
+@import url("../codigo-fonte/variaveis.css");
+
+.rodape{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 21vh;
+    width: 98vw;
+}
+
+.rodape h2{
+    font-family: var(--fonte-principal);
+    font-size: 2rem;
+    margin: 2rem 2rem 2rem 2rem;
+}
+
+.rodape img{
+    object-fit: cover;
+    width: 60%;
+}
+
+.rodape h3{
+    font-family: var(--fonte-principal);
+    font-size: 1rem;
+    margin: 2rem;
+}
+
+.formulario{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formulario__cliente{
+    display: flex;
+}
+
+.formulario__cliente div{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0rem;
+}
+
+.formulario__cliente input, label{
+    font-family: var(--fonte-secundaria);
+    margin: .5rem .5rem;
+}
+
+.formulario textarea{
+    padding: 0;
+    width: calc(100% - 1rem);
+}
+
+.label-mensagem{
+    align-self: self-start;
+}
+
+.formulario button{
+    margin: 2rem 0;
+    width: 30%;
+}
+
+@media screen and (max-width: 720px){
+    .rodape{
+        padding: 0;
+    }
+
+    .formulario{
+        width: 80%;
+    }
+
+    .formulario__cliente{
+        flex-direction: column;
+    }
+
+    .formulario__cliente div{
+        margin: .5rem 0;
+    }
+
+    .formulario input, label{
+        margin: 0 0;
+    }
+}

@@ -5,8 +5,9 @@
     border-top: solid 1px grey;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: auto;
     padding-top: 21vh;
+    margin-bottom: 21vh;
     width: 100%;
 }
 
@@ -27,9 +28,14 @@
     font-family: var(--fonte-secundaria);
 }
 
+.texto__container p{
+    margin: 2rem 2rem;
+}
+
 @media screen and (max-width: 720px){
     .texto{
         padding-top: 1rem;
+        margin: 0;
     }
 
     .texto h3{
