@@ -8,7 +8,7 @@ html{
     background-color: var(--fundo-principal);
     border-bottom: solid 1px grey;
     display: flex;
-    height: 21vh;
+    height: 23vh;
     position: fixed;
     width: 100%;
 }
@@ -84,4 +84,40 @@ html{
     font-style: normal;
     height: 1.5rem;
     padding: .4rem .3rem .4rem .3rem;
+}
+
+@media screen and (max-width: 720px){
+    .menu{
+        align-items: center;
+        height: auto;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .menu__nav{
+        flex-direction: column;
+    }
+
+    .menu__ul{
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .menu__li{
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+
+    .menu__login{
+        margin-bottom: 2rem;
+    }
+
+    .login__li{
+        margin: .5rem 0 0 0;
+    }
+
+    
 }

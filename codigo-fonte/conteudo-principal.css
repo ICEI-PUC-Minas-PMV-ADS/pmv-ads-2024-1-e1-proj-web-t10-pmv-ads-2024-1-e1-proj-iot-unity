@@ -53,3 +53,38 @@
     width: 65%;
 }
 
+@media screen and (max-width: 720px){
+    .conteudo{
+        flex-direction: column;
+        height: auto;
+        padding-top: 0rem;
+        padding-bottom: 2rem;
+    }
+
+    .conteudo__aside{
+        width: 100%;
+    }
+
+    .conteudo__aside__esquerdo{
+        flex-direction: column ;
+    }
+
+    .aside__texto{
+        width: 80%;
+    }
+
+    .aside__texto h2{
+        font-size: 2rem;
+        margin: 1rem 1rem;
+    }
+
+    .aside__texto h3{
+        margin: 1rem 1rem;
+    }
+
+    .conteudo__aside__direito img{
+        margin: 0;
+    }
+}
+
+
