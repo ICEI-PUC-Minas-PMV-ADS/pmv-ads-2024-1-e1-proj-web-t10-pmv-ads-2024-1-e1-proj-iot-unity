@@ -112,9 +112,6 @@ button{
 button:hover{
     background: linear-gradient(to right, #e6c619,#fff1ba);
 }
-.faq{
-    height: 
-}
  details summary{
     background-color: rgb(128, 190, 219);
     padding: 2%;
@@ -143,5 +140,4 @@ footer{
     margin-top: 15px;
     width: 100%;
     height: 100px;
-    background-color:
 }
