@@ -55,16 +55,16 @@
         <h2 >Contato</h2>
         <img src="../src/imagens/portrait-woman-customer-service-worker.jpg" alt="mulher atendente de telemarketing">
         <h3>Para dúvidas, entre em contato com a gente preenchendo o formulário abaixo:</h3>
-        <form action="" class="formulario">
+        <form class="formulario" id="form-contato">
             <div class="formulario__cliente">
-                <div>
+                <fieldset form="form-contato">
                     <label for="nome">Nome</label>
                     <input type="text" placeholder="Nome" name="nome" id="nome">
-                </div>
-                <div>
+                </fieldset>
+                <fieldset form="form-contato">
                     <label for="e-mail" name="e-mail">E-mail</label>
-                    <input type="text" placeholder="E-mail" id="e-mail">
-                </div>
+                    <input type="email" placeholder="E-mail" id="e-mail">
+                </fieldset>
             </div>
             <label for="mensagem" class="label-mensagem">Mensagem</label>
             <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Mensagem"></textarea>
