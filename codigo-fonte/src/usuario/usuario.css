@@ -68,6 +68,7 @@ header{
 .container{
     border: 0px solid #fff;
     max-width: 1500px;
+    height: 100%;
     margin: 0 auto;
     display: grid;
     padding: 60px 20px 0px 20px;
@@ -75,18 +76,17 @@ header{
     grid-gap: 20px;
     grid-template-areas:
     "sidenav content"
-    "sidenav content"
-    "sidenav content"
+    "none content"
+    "none content"
 }
 
 .sidenav{
     width: 350px;
     height: 100%;
     padding: 0px 24px 0px 0px;
-    box-shadow: 0px 2px 0px #d0d7de;
     background-color: white;
     border-radius: 0px;
-    grid-area: "sidenav";
+    grid-area: sidenav;
 }
 
 .submenu{
@@ -94,6 +94,7 @@ header{
     margin: 0;
     padding: 0;
     text-align: start;
+    box-shadow: 0px 2px 0px #d0d7de;
 }
 
 .submenu li a{
@@ -126,13 +127,13 @@ header{
 }
 
 .content{
-    max-width: 900px;
-    min-width: 700px;
-    height: 900px;
+    max-width: 100%;
+    min-width: 450px;
+    height: 100%;
     padding: 0px 16px;
     background-color: white;
     border-radius: 20px;
-    grid-area: "content";
+    grid-area: content;
     grid-column: content;
     grid-row: content;
 
@@ -172,9 +173,15 @@ header{
         "content"
 
     }
+    .sidenav{
+        width: 450px;
+    }
+    .submenu{
+        text-align: center;
+    }
 }
 
-footer{
+.rodape{
     margin-top: 15px;
     width: 100%;
     height: 100px;
