@@ -18,29 +18,26 @@ header{
 }
 
 .dashboard{
-    background-color: rgb(107, 3, 3);
-    border: 0px;
-    max-width: 100%;
-    height: 100%;
-    margin: 0 auto;
     display: grid;
-    grid-template-areas:
-    "leftmenu workarea workarea"
-    "leftmenu workarea workarea"
-    "leftmenu workarea workarea"
+    grid-template-columns: 15% 1fr;
+    grid-template-rows: auto;
+    background-color: aqua;
+    grid-template-areas:"leftmenu workarea" ;
+    height: 100%;
+
 }
 
 .leftmenu{
-background-color: black;
-width: 30%;
-height: 100%;
-grid-area: leftmenu;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    grid-area: leftmenu;
 }
 
 .workarea{
-background-color: blue;
-width: 100%;
-height: 100%;
-grid-area: workarea;
+    background-color: blue
+    width: 100%;
+    height: 100%;
+    grid-area: workarea;
 
 }
