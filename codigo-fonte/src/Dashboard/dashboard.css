@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'apple-system', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+header{
+    width: 100%;
+    height: 6cqmax;
+    background-color: aquamarine;
+}
+
+.dashboard{
+    background-color: rgb(107, 3, 3);
+    border: 0px;
+    max-width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas:
+    "leftmenu workarea workarea"
+    "leftmenu workarea workarea"
+    "leftmenu workarea workarea"
+}
+
+.leftmenu{
+background-color: black;
+width: 30%;
+height: 100%;
+grid-area: leftmenu;
+}
+
+.workarea{
+background-color: blue;
+width: 100%;
+height: 100%;
+grid-area: workarea;
+
+}
