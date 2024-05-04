@@ -11,4 +11,8 @@
     --fonte-logo: "Quicksand", sans-serif;
     --fonte-principal: "Roboto", sans-serif;
     --fonte-secundaria: "Raleway", sans-serif;
+
+    /*icones*/
+
+    --icones-principais: rgb(87, 86, 86);
 }
