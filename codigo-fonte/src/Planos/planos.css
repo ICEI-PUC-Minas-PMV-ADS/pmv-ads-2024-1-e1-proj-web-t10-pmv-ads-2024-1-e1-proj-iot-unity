@@ -1,26 +1,22 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: arial, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
+
 body{
     background: white;
-    height: 100vh;
-    width: 100%;
     color: #434343;
+    margin: 0;
 }
+
 header{
     width: 100%;
     height: 70px;
     background-color: #fffafa;
     display:flex;
-    padding: 10px;
+    padding: 10px 0px 0px 0px;
     justify-content: space-between;
     box-shadow: 0px 2px 0px #d0d7de;
-
     align-items: center;
     flex-wrap: wrap;
 }
+
 .menu{
     list-style: none;
     display: flex;
@@ -28,11 +24,11 @@ header{
 
 .menu li a{
     color:#020202;
-    display: block;
     text-decoration: none;
     padding: 10px 20px 10px 20px;
     border-radius: 10px;
     margin-left: 10px;
+    display:block;
 }
 
 .menu li a:hover{
@@ -56,11 +52,14 @@ header{
     height: 40px;
 }
 
+
 .cards{
     display: flex;
-    padding: 32px;
-    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: space-evenly;
     flex-wrap: wrap;
+
 }
 .card {
     display: flex;
@@ -68,27 +67,29 @@ header{
     align-items: center;
     text-align: center;
     background: rgb(199, 199, 199);
-    padding: 1rem 1.5px;
-    max-height: 400px;
-    height: 355px;
-    margin-left: 32px;
+    height: 455px;
+    width: 400px;
+    padding: 0px 0px 0px 0px;
     box-shadow: 20px 20px  50px -30px black;
     border-radius: 12px;
+    margin-bottom: 32px;
 }
-.card:first-child{
-    margin-left: 0%;
-}
+
 .icon{
-width: 64px;
-height: 64px
+    width: 64px;
+    height: 64px;
+    padding-top: 50px;
 }
+
 .card img{
     width: 100%;
 }
+
 .card h3{
     font-size: 100%;
     margin: 16px 0;
 }
+
 .card span {
     font-weight: 300;
     max-height: 240px;
@@ -97,6 +98,7 @@ height: 64px
     margin-left: 0.5rem;
     margin-bottom: 16px;
 }
+
 button{
     padding: 0.3rem 0.7rem;
     text-transform: uppercase;
@@ -109,35 +111,21 @@ button{
     font-weight: 455;
     background-color: #fff1ba;
 }
+
 button:hover{
     background: linear-gradient(to right, #e6c619,#fff1ba);
 }
- details summary{
+
+details summary{
     background-color: rgb(128, 190, 219);
-    padding: 2%;
+    padding: 2% 0% 0% 1%;
     border-bottom:2px solid black ;
     color: #020202;
     
+    
 }
-section p{
-    background-color: #b1b1b1;
-    padding: 2%;
-
-}
-@media screen and (max-width: 720px){
-    .cards {
-        flex-direction: column;
-    }
-    .cards section.card{
-        margin-left: 0;
-        margin-bottom: 32px;
-    }
-    .cards section.card:last-child {
-        margin-bottom: 0;
-    }
-}
-footer{
-    margin-top: 15px;
-    width: 100%;
-    height: 100px;
+.paragrafo{
+    display: flex;
+    background-color: #d0d7de;
+    padding-left: 1%;
 }
