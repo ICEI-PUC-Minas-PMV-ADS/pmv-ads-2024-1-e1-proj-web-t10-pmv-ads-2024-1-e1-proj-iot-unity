@@ -68,7 +68,7 @@ header{
 
 .dashboard{
     display: grid;
-    grid-template-columns: 15% 1fr;
+    grid-template-columns: 20% 80%;
     grid-template-rows: auto;
     background-color: aqua;
     grid-template-areas:"leftmenu workarea" ;
@@ -77,25 +77,69 @@ header{
 }
 
 .leftmenu{
+    display: grid;
     background-color: black;
-    width: 400px;
+    width: 100%;
     height: 100%;
     grid-area: leftmenu;
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content;
+    grid-template-areas:
+    "areanavbar"
+    "areadispositivo"
+    "areanome"
+    "areastatus"
+    "arealocal"
+    "areadescricao";
+    padding-top: 0;
+    justify-content: center;
+    
+}
+
+.areanavbar{
+    background-color: purple;
+    width: 100%;
+    height: 50px;
+    grid-area: areanavbar;
+    
+}
+
+.areadispositivo{
+    width: 100%;
+    height: max-content;
     padding-top: 30px;
-    display: flex;
     place-content: center;
+    grid-area: areadispositivo;
+    place-content: center;
+    display: grid;
+}
+
+.areanome{
+
+}
+
+.areastatus{
+
+}
+
+.arealocal{
+
+}
+
+.areadescricao{
     
 }
 
 .fotodispositivo{
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     border-radius: 10px;
     background-color: white;
 }
 
+
 .workarea{
-    background-color: blue;
+    background-color: rgba(1, 1, 73, 0.993);
     width:100%;
     height: 100%;
     grid-area: workarea;
