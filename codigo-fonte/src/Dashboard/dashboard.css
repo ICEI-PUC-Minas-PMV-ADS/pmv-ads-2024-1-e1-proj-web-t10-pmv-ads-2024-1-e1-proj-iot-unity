@@ -143,35 +143,42 @@ header{
 .workarea{
     background-color: var(--fundo-principal);
     width:100%;
-    height: 100%;
+    height: calc(100vh - 70px);
     grid-area: workarea;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.dispositivo{
+.ambientes{
+    display: flex;
+    flex-wrap: wrap;
+    height: 70%;
+    width: 100%;
+}
+
+.ambiente{
     background-color: var(--fundo-secundario);
     border-radius: 10px;
-    height: 25vh;
+    height: 24vh;
     margin: 0 2rem;
     width: 18vw;
 }
 
-.dispositivo__titulo h3{
+.ambiente__titulo h3{
     color: var(--icones-principais);
     font-family: var(--fonte-principal);
 }
 
 
-.dispositivo__titulo{
+.ambiente__titulo{
     display: flex;
     justify-content: space-between;
     padding: 1rem 1rem;
     width: 100%;
 }
 
-.dispositivo__titulo i{
+.ambiente__titulo i{
     color: var(--icones-principais);
     cursor: pointer;
     font-size: 1.3rem;
@@ -180,7 +187,7 @@ header{
     
 }
 
-.dispositivo__titulo i:hover{
+.ambiente__titulo i:hover{
     transform: translate(0, 0px);
 }
 
@@ -201,7 +208,7 @@ header{
     opacity: 0;
 }
 
-.dispositivo__titulo i:hover .tooltip{
+.ambiente__titulo i:hover .tooltip{
     align-content: center;
     background-color: rgb(173, 173, 173);
     border-radius: 5px;
@@ -220,11 +227,45 @@ header{
     opacity: 80%;
 }
 
-.dispositivo__info{
+.ambiente__dispositivos{
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 1.5rem;
+    width: 90%;
+}
+
+.dispositivos__dispositivo{
+    background-color: var(--fundo-dispositivo);
+    border-radius: 2px;
     display: flex;
     justify-content: space-between;
-    margin: .5rem .5rem;
-    padding-right: 3rem;
-    width: 50%;
+    margin: .2rem 0;
+    padding: 2px;
+    width: 100%;
 }
+
+.geral{
+    background-color: var(--fundo-secundario);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    width: 100%;
+}
+
+.geral__dispositivo{
+    align-items: center;
+    background-color: var(--fundo-principal);
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 5rem;
+    margin: 2rem;
+    width: 5rem;
+}
+
+
+
+
 
