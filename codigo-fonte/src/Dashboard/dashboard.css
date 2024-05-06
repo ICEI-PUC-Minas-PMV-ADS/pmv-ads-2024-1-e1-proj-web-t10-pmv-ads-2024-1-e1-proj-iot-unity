@@ -108,20 +108,92 @@ header{
 
 .areadispositivo{
     width: 100%;
-    height: max-content;
-    padding-top: 30px;
-    place-content: center;
+    height: 200px;
     grid-area: areadispositivo;
     place-content: center;
     display: grid;
 }
+.fotodispositivo{
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+    
+}
 
 .areanome{
+    width: 465px;
+    height: 120px;
+    padding-left: 190px;
+}
 
+.nome-texto{
+    color: black;
+    grid-area: areanome;
+    width: 100px;
+    height: 50px;
+    display: grid;
+    padding: 15px 0px 0px 0px;
+    border-radius: 10px;
+}
+input{
+    width: 100px;
+    height: 30px;
+    text-align: center;
 }
 
 .areastatus{
+    width: 465px;
+    padding-left: 150px;
+}
 
+input.status{
+    width: 150px;
+    height: 75px;
+    background-color: #d0d7de;
+    border-radius: 14px;
+    
+}
+label{
+    position: relative;
+    width: px;
+    height: 75px;
+    background-color: grey;
+    border-radius: 10px;
+}
+label span{
+    position: absolute;
+    top: -60px;
+    left: 0;
+    width: 75px;
+    height: 75px;
+    background-color: rgb(92, 92, 92);
+    border: 6px solid black;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+label span ion-icon {
+    color: rgba(148, 54, 54);
+    font-size: 1.5rem;
+    transition: 0.5s;
+}
+label input:checked ~ span ion-icon{
+    color: rgb(19, 202, 43, 0.25);
+    filter: drop-shadow(0 0 5px #fff)
+            drop-shadow(0 0 10px #fff)
+            drop-shadow(0 0 15px #fff);
+}
+label input{
+    appearance: none;
+
+}
+label input:checked ~ span{
+    left:75px;
 }
 
 .arealocal{
@@ -131,14 +203,6 @@ header{
 .areadescricao{
     
 }
-
-.fotodispositivo{
-    width: 120px;
-    height: 120px;
-    border-radius: 10px;
-    background-color: white;
-}
-
 
 .workarea{
     background-color: var(--fundo-principal);
