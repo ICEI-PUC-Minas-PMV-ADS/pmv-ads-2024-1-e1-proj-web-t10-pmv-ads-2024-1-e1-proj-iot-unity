@@ -23,14 +23,25 @@
                 <div class="fotodispositivo"><img src="assets/Camera.png"></div>
             </div>
             <div class="areanome">
-                <div class="nome-texto"><input type="text">
-                </div>
+                <input class="nometexto" type="text">
             </div>
-            <div class="areadescricao"></div>
-            <div class="arealocal"></div>
+            <div class="areadescricao">
+                <textarea rows="4" cols="50" class="descricao" ></textarea>
+            </div>
+            <div class="arealocal">
+                <div><h2 class="arealocalTitulo">Local<h2></h2></div>
+            </div>
+            <div class="local">
+                <select name="comodos">
+                    <option value="" class="opcoes">Sala</option>
+                    <option value="" class="opcoes">Cozinha</option>
+                    <option value="" class="opcoes">Quarto</option>
+                    <option value="" class="opcoes">Garagem</option>
+                </select>
+            </div>
             <div class="areastatus">
                 <div class="status">
-                <label for="on/off">
+                <label>
                     <input class="status" type="checkbox">
                     <span class="power"><ion-icon name="power-outline"></ion-icon></span>
                 </div>
