@@ -15,26 +15,28 @@ body {
 
 header{
     width: 100%;
-    height: 70px;
-    background-color: #565655;
+    height: 80px;
+    background-color: #565656;
     display:flex;
     padding: 10px;
     justify-content: space-between;
     box-shadow: 0px 2px 0px #d0d7de;
-    align-items: center;
+    align-items: start;
     flex-wrap: wrap;
 }
 
 .menu{
     list-style: none;
     display: flex;
+    font-size: 14px;
+    text-align: center;
 }
 
 .menu li a{
     color:#020202;
     display: block;
     text-decoration: none;
-    padding: 10px 20px 10px 20px;
+    padding: 5px 20px 10px 20px;
     border-radius: 10px;
     margin-left: 10px;
 }
@@ -48,16 +50,19 @@ header{
 }
 
 .logo{
-    width: 40px;
-    height: 40px;
     border-radius: 10px;
-    background-color: #ccc;
-
+    background-color: #c5c5c5;
 }
 
 .logo img{
-    width: 50px;
+    width: 45px;
+    height: 45px;
+}
+.menu img{
+    width: 40px;
     height: 40px;
+    border-radius: 10px;
+    background-color: #c5c5c5;
 }
 
 .profile-picture{
