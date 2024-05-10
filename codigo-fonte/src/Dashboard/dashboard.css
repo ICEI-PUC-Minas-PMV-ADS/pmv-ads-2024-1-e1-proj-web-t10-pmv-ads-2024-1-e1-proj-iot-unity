@@ -15,32 +15,25 @@ body {
 
 header{
     width: 100%;
-    height: max-content;
+    height: 50px;
     background-color: #565656;
     display:flex;
+    justify-content: space-between;
     box-shadow: 0px 2px 0px #d0d7de;
-    align-items: center;
     flex-wrap: wrap;
-    flex-basis: 100%;
 }
 
-.areamenu{
-    height: 55px;
+header img{
+    width: 50px;
+    height: 50px;
 }
 
 .menu{
     list-style: none;
     display: flex;
-    font-size: 14px;
-}
-
-.menu li{
-    height: 100%;
 }
 
 .menu li a{
-    height: 100%;
-    width: 100%;
     color:#020202;
     text-decoration: none;
 }
@@ -52,28 +45,18 @@ header{
     background-color: #333;
 }
 
-.logo{
-    border-radius: 10px;
-}
-
-.logo img{
-    width: 50px;
-    height: 100%;
-}
-.menu img{
-    width: 40px;
-    height: 100%;
-    border-radius: 10px;
-}
-
 .profile-picture{
-    margin-top: 5px;
-    background-image: url(../imagens/perfil-40px.png);
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
+    margin-right: 10px;
+    display: flex;
+    height: 50px;
+    align-items: center;
+
 }
 
+.profile-picture img{
+    width: 30px;
+    height: 30px;
+}
 
 .dashboard{
     display: grid;
