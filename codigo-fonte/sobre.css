@@ -12,7 +12,7 @@
 }
 
 .texto h3{
-    font-family: var(--fonte-principal);
+    font-family: var(--subtitulo);
     font-size: 2rem;
     margin: 2rem 2rem 2rem 2rem;
 }
@@ -25,7 +25,7 @@
 }
 
 .texto p{
-    font-family: var(--fonte-secundaria);
+    font-family: var(--paragrafo);
 }
 
 .texto__container p{

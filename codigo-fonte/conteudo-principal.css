@@ -28,7 +28,7 @@
 
 .conteudo__aside__esquerdo h2{
     align-content: start;
-    font-family: var(--fonte-principal);
+    font-family: var(--subtitulo);
     font-size: 4rem;
     margin-bottom: 2rem;
     width: 75%;
@@ -36,7 +36,7 @@
 
 .conteudo__aside__esquerdo h3{
     align-content: start;
-    font-family: var(--fonte-principal);
+    font-family: var(--titulo);
     font-size: 1rem;
     font-weight: 400;
     width: 85%;

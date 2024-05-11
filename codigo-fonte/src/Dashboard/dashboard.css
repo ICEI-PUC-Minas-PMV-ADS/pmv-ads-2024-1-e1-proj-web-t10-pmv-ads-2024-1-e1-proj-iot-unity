@@ -214,8 +214,10 @@ label input:checked ~ span{
 
 .ambientes{
     display: flex;
+    box-sizing: border-box;
     flex-wrap: wrap;
     height: 70%;
+    padding: 1rem;
     width: 100%;
 }
 
@@ -229,7 +231,7 @@ label input:checked ~ span{
 
 .ambiente__titulo h3{
     color: var(--icones-principais);
-    font-family: var(--fonte-principal);
+    font-family: var(--subtitulo);
 }
 
 
@@ -297,13 +299,17 @@ label input:checked ~ span{
 }
 
 .dispositivos__dispositivo{
-    background-color: var(--fundo-dispositivo);
+    background-color: var(--fundo-secundario);
     border-radius: 2px;
     display: flex;
     justify-content: space-between;
     margin: .2rem 0;
     padding: 2px;
     width: 100%;
+}
+
+.dispositivos__dispositivo p{
+    font-family: var(--subtitulo);
 }
 
 .geral{
@@ -325,6 +331,10 @@ label input:checked ~ span{
     height: 5rem;
     margin: 2rem;
     width: 5rem;
+}
+
+.geral__dispositivo h4{
+    font-family: var(--paragrafo);
 }
 
 @media (max-width: 1060px){
