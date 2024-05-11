@@ -1,12 +1,20 @@
 # Template padrão da Aplicação
 
-Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
+O layout padrão do site foi construído com as linguagens de marcação HTML e CSS
 
-[Apresente a estrutura padrão da sua aplicação.]
+As páginas terão como elementos padrões sidebar, header, footer e main além dos elementos de identidade visual citados abaixo:
 
-> **Links Úteis**:
->
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+<ul>
+<li>Cores: RGB: #ffffff, #565656, #d9dadb, e7e2e2;</li>
+<li>Font-family: Teachers, Nunito Sans e Open Sans.</li>
+<li>Font-size: Large and Small. </li>
+</ul>
+
+O código utilizado para a construção dos elementos citados,pode ser consultado <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/tree/main/codigo-fonte">aqui</a>. As imagens e ícones utilizados no projeto estão disponíveis <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/tree/main/codigo-fonte/src/imagens">aqui</a>.
+
+<h3><b>Tela do dashboard</b></h3>
+<p>Exibe informações sobre quantos dispositivos, ambientes, edição, configuração de cada dispositivo e ligar e desligar dispositivos</p>
+<figure>
+<img src="https://i.ibb.co/c33WgqQ/Dashboard.png" alt="Dashboard" border="0" width ="500" > 
+<figcaption> Figura 1 - Dashboard
+</figure>

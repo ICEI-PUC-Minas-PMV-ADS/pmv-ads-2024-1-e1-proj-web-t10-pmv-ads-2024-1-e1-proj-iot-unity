@@ -80,7 +80,8 @@
 |	HU-22	|Usuário(a)	|Gostaria de remover um colega de quarto que mudou de residência.	|Assim permito o acesso apenas daqueles que moram comigo.	|
 |	HU-23	|Usuário(a)	|Esqueci minha senha e gostaria de redefini-la.	|Conseguir acessar minha conta novamente.	|
 |	HU-24	|Usuário(a)	|Tive um problema pela segunda vez e gostaria de acessar o histórico com o chat.	|Dessa forma, conseguirei ter acesso a informações de como posso solucionar tal questão.	|
-
+| HU-25 | Usuário(a) | Gostaria de realizar login na aplicação. | Dessa forma conseguirei acessar minha conta e os meus dispositivos. |
+| HU-26 | Usuário(a) | Gostaria de visualizar quais planos estão disponíveis para assinar. | Dessa forma vou conseguir visualizar quais planos estão disponíveis. |
 ## Requisitos do Projeto
 
 ### Requisitos Funcionais
@@ -111,6 +112,8 @@
 |RF- 22	|	A aplicação deve oferecer a funcionalidade de conta de usuário/Quero excluir minha conta	|	MÉDIA	|
 |RF- 23	|	A aplicação deve oferecer uma funcionalidae de trocar senha/Esqueci minha senha	|	MÉDIA	|
 |RF- 24	|	A aplicação deve apresentar Histórico do chat (Para futuras situações que aconteçam o mesmo problema)	|	MÉDIA	|
+|RF- 25 | A aplicação deve permitir ao usuário fazer login | ALTA |
+|RF- 26 | A aplicação deve ter uma página informando quais planos oferta | MÉDIA |
 
 
 
