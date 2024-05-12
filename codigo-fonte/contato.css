@@ -10,7 +10,7 @@
 }
 
 .rodape h2{
-    font-family: var(--fonte-principal);
+    font-family: var(--subtitulo);
     font-size: 2rem;
     margin: 2rem 2rem 2rem 2rem;
 }
@@ -21,7 +21,7 @@
 }
 
 .rodape h3{
-    font-family: var(--fonte-principal);
+    font-family: var(--subtitulo);
     font-size: 1rem;
     margin: 2rem;
 }
@@ -44,7 +44,7 @@
 }
 
 .formulario__cliente input, label{
-    font-family: var(--fonte-secundaria);
+    font-family: var(--paragrafo);
     margin: .5rem .5rem;
 }
 

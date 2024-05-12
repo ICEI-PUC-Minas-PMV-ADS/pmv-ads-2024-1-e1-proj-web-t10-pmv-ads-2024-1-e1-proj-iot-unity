@@ -29,7 +29,7 @@ html{
 
 .menu__logo p{
     cursor: pointer;
-    font-family: var(--fonte-logo);
+    font-family: var(--titulo);
     font-size: 1.7em;
     font-weight: 600;
 }
@@ -51,7 +51,7 @@ html{
 
 .menu__li{
     cursor: pointer;
-    font-family: var(--fonte-principal);
+    font-family: var(--subtitulo);
     font-weight: 400;
     font-style: normal;
     margin-bottom: 3rem;
@@ -79,7 +79,7 @@ html{
     background-color: var(--fundo-secundario);
     border-radius: 6em;
     cursor: pointer;
-    font-family: var(--fonte-principal);
+    font-family: var(--subtitulo);
     font-weight: 400;
     font-style: normal;
     height: 1.5rem;
