@@ -1,15 +1,26 @@
 
+@import url(../../variaveis.css);
 body{
     background: white;
     color: #434343;
     margin: 0;
-    font-family: Arial, sans-serif;
+   
+}
+
+p{
+    font-family: var(--paragrafo);
+    font-size: small;
+}
+
+h3{
+    font-family: var(--titulo);
+    font-size: large;
 }
 
 header{
     width: 100%;
     height: 90px;
-    background-color: #989fa7;
+    background-color: var(--fundo-header);
     display:flex;
     padding: 10px 0px 0px 0px;
     justify-content: center;
@@ -22,7 +33,6 @@ header{
     width: 40px;
     height: 40px;
     border-radius: 10px;
-    background-color: #ccc;
 
 }
 
@@ -40,6 +50,7 @@ header{
     flex-wrap: wrap;
 
 }
+
 .card {
     display: flex;
     flex-direction: column;
@@ -65,14 +76,12 @@ header{
 }
 
 .card h3{
-    font-size: 100%;
     margin: 16px 0;
 }
 
 .card span {
     font-weight: 300;
     max-height: 240px;
-    font-size: 85%;
     margin-right: 0.5rem;
     margin-left: 0.5rem;
     margin-bottom: 16px;
@@ -99,12 +108,13 @@ details summary{
     background-color: rgb(128, 190, 219);
     padding: 2% 0% 0% 1%;
     border-bottom:2px solid black ;
-    color: #020202;
-    
-    
+    color: #020202;  
 }
+
 .paragrafo{
     display: flex;
     background-color: #d0d7de;
     padding-left: 1%;
+    font-size: small;
+    font-family: var(--paragrafo);
 }
