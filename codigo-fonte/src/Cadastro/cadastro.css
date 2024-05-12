@@ -1,8 +1,15 @@
+@import url(../../variaveis.css);
+
 body {
-    background-color: #F5F5F5; 
-    font-family: 'Arial', cursive; 
+    background-color: var(--fundo-principal); 
+    font-family: var(--paragrafo);
+    font-size: small;
 }
 
+h1{
+    font-family: var(--titulo);
+    font-size: large;
+}
 
 input, button { 
     border-radius: 10px; 

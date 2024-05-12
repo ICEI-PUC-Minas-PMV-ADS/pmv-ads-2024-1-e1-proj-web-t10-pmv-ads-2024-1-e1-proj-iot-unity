@@ -1,6 +1,15 @@
+@import url(../../variaveis.css);
+
 body {
-    font-family: Arial, sans-serif;
+    background-color: var(--fundo-principal);
+    font-family: var(--subtitulo);
 }
+
+h2{
+    font-family: var(--titulo);
+    font-size: large;
+}
+
 
 .split {
     height: 100%;

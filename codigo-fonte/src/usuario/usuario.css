@@ -1,19 +1,30 @@
+@import url(../../variaveis.css);
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'apple-system', sans-serif;
 }
 body {
     width: 100%;
     height: 100vh;
-    background-color: white;
+    background-color: var(--fundo-principal);
+}
+
+p{
+    font-family: var(--paragrafo);
+    font-size: small;
+}
+
+h2{
+    font-family: var(--titulo);
+    font-size: large;
 }
 
 header{
     width: 100%;
     height: 70px;
-    background-color: #fffafa;
+    background-color: var(--fundo-header);
     display:flex;
     padding: 10px;
     justify-content: space-between;
@@ -29,6 +40,7 @@ header{
 }
 
 .menu li a{
+    font-family: var(--subtitulo);
     color:#020202;
     display: block;
     text-decoration: none;
@@ -49,7 +61,6 @@ header{
     width: 40px;
     height: 40px;
     border-radius: 10px;
-    background-color: #ccc;
 
 }
 
@@ -59,10 +70,10 @@ header{
 }
 
 .profile-picture{
-    background-image: url(../imagens/perfil-40px.png);
     width: 40px;
     height: 40px;
-    border-radius: 20px;
+    border-radius: 10px;
+
 }
 
 .container{
@@ -102,7 +113,8 @@ header{
     padding: 8px 16px;
     text-decoration: none;
     font: arial black;
-    font-weight: 550;
+    font-family: var(--subtitulo);
+    font-size: small;
     
 }
 
@@ -144,6 +156,11 @@ header{
     padding-bottom: 10px;
     box-shadow: 0px 2px 0px #d0d7de;
 
+}
+
+dl dt{
+    font-family: var(--paragrafo);
+    font-size: small;
 }
 
 .form dt{
