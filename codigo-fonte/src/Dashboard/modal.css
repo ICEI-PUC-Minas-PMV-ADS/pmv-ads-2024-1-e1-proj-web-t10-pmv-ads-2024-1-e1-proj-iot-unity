@@ -1,0 +1,11 @@
+@import url("../../variaveis.css");
+
+.modal{
+    background-color: green;
+    position: absolute;
+    height:20vh;
+    top: 30vh;
+    right: 35vw;
+    width: 30vw;
+    z-index: 1;
+}
