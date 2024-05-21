@@ -223,6 +223,13 @@ label input:checked ~ span{
     width: 100%;
 }
 
+.ambientes__botao{
+    box-sizing: border-box;
+    display: block;
+    margin: 1.5% 30%;
+    width: 20%;
+}
+
 .ambiente{
     background-color: var(--fundo-secundario);
     border-radius: 10px;
