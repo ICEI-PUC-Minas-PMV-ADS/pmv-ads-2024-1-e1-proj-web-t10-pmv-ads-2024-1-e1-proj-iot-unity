@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>=Planos</title>
     <link rel="stylesheet" href="planos.css">
+    <link rel="stylesheet" href="modalplano.css">
+    <script src="modalplano.js"></script>
 </head>
 <body>
     <header>
@@ -19,7 +21,7 @@
             </div>
             <h3>Plano basico</h3>
             <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum, ipsam.</span>
-            <button>Saiba mais</button>
+            <button onclick="abrirmodal()" class="saiba">Saiba mais</button>
         </section>
         <section class="card">
             <div class="icon">
@@ -27,7 +29,7 @@
             </div>
             <h3>Plano Intermediario</h3>
             <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, deleniti?</span>
-            <button>Saiba mais</button>
+            <button onclick="abrirmodal()" class="saiba">Saiba mais</button>
         </section>
         <section class="card">
             <div class="icon">
@@ -35,7 +37,7 @@
             </div>
             <h3>Plano Primium</h3>
             <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, alias!.</span>
-            <button>Saiba mais</button>
+            <button onclick="abrirmodal()" class="saiba">Saiba mais</button>
         </section>
     </main>
     <section>
@@ -61,5 +63,12 @@
             <summary>Lorem, ipsum dolor.</summary>
            <div class="paragrafo"> <p>Lorem ipsum dolor sit amet conseddctetur adipisicing elit. Nesciunt corporis eum quae libero architecto debitis!</p></div>
         </details>
+        <div class="janela-modal" id="janela-modal">
+            <div class="modal">
+                <button class="fechar" id="fechar">X</button>
+                <h1>Assine</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem a ipsum similique libero in asperiores.</p>
+            </div>
+        </div>
 </body>
 </html>

@@ -87,7 +87,7 @@ header{
     margin-bottom: 16px;
 }
 
-button{
+.saiba{
     padding: 0.3rem 0.7rem;
     text-transform: uppercase;
     border-radius: 32px;
@@ -100,7 +100,7 @@ button{
     background-color: #fff1ba;
 }
 
-button:hover{
+.saiba:hover{
     background: linear-gradient(to right, #e6c619,#fff1ba);
 }
 
