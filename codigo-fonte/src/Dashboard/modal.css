@@ -1,11 +1,18 @@
 @import url("../../variaveis.css");
 
+:root{
+    --largura:auto;
+    --altura: auto;
+}
+
+
+
 .modal{
-    background-color: green;
     position: absolute;
-    height:20vh;
-    top: 30vh;
-    right: 35vw;
-    width: 30vw;
+    height:40vh;
+    background-color: green;
+    right: calc(50vw - var(--largura));;
+    top: calc(50vh - var(--altura));
+    width: 50vw;
     z-index: 1;
 }

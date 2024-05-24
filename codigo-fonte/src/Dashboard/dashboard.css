@@ -63,7 +63,6 @@ header img{
     display: grid;
     grid-template-columns: 15% 85%;
     grid-template-rows: auto;
-    background-color: aqua;
     grid-template-areas:"leftmenu workarea" ;
     height: 100%;
 
@@ -218,7 +217,7 @@ label input:checked ~ span{
     display: flex;
     box-sizing: border-box;
     flex-wrap: wrap;
-    height: 70%;
+    min-height: 70%;
     padding: 1rem;
     width: 100%;
 }
@@ -234,7 +233,7 @@ label input:checked ~ span{
     background-color: var(--fundo-secundario);
     border-radius: 10px;
     height: 24vh;
-    margin: 0 2rem;
+    margin: 1rem 2rem;
     width: 18vw;
 }
 
