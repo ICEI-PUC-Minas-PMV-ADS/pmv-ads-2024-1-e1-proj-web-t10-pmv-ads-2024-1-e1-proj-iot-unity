@@ -18,6 +18,7 @@
     backdrop-filter: blur(10px);
     text-align: center;
     border-radius: 22px;
+    
 }
 
 .fechar{
@@ -37,4 +38,16 @@
 }
 .janela-modal.abrir{
     display: flex;
+}
+.Assine{
+    margin: 10px;
+}
+input{
+    position: relative;
+    left: 20px;
+}
+#senha{
+    position: absolute;
+    right: 10px;
+    left: 54px;
 }

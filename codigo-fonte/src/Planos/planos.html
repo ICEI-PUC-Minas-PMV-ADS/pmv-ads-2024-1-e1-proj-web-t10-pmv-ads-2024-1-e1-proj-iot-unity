@@ -15,29 +15,53 @@
     </header>
 
     <main class="cards">
-        <section class="card ">
+        <section class="card " id="card1">
             <div class="icon">
             <img src="assets/Plano Inicial.png" alt="Plano Basico">
             </div>
             <h3>Plano basico</h3>
-            <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum, ipsam.</span>
-            <button onclick="abrirmodal()" class="saiba">Saiba mais</button>
+            <span>
+                <ol>
+                    <ul><img class="imagens" src="assets/email.png" alt="">Suporte por e-mail em 48 hrs.</ul>
+                    <ul><img class="imagens" src="assets/dispositivos-eletronicos.png" alt="">Gerencie até 20 equipamentos.</ul>
+                    <ul><img class="imagens" src="assets/ambiente.png" alt="">Adicione ate 4 perfis de ambiente.</ul>
+                </ol>
+            </span>
+            <button onclick="abrirmodal()" class="saiba">Assine já</button>
         </section>
-        <section class="card">
+        <section class="card" id="card2">
             <div class="icon">
             <img src="assets/Plano Intermediario.png" alt="Plano Intermediario">
             </div>
-            <h3>Plano Intermediario</h3>
-            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, deleniti?</span>
-            <button onclick="abrirmodal()" class="saiba">Saiba mais</button>
+            <h3>Plano Intermediário</h3>
+            <span>
+                <ol><ul><img class="imagens" src="assets/apoio-suporte.png" alt="">Suporte online em horario comercial.</ul>
+                    <ul><img class="imagens" src="assets/email.png" alt="">Suporte por e-mail em 48 hrs.</ul>
+                    <ul><img class="imagens" src="assets/web-chat.png">Chat para contato online</ul>
+                    <ul><img class="imagens" src="assets/dispositivos-eletronicos.png" alt="">Gerencie até 40 equipamentos.</ul>
+                    <ul><img class="imagens" src="assets/ambiente.png" alt="">Adicione ate 8 perfis de ambiente.</ul>
+                    <ul><img class="imagens" src="assets/status.png">Stats em tempo real.</ul>
+                </ol>
+            </span>
+            <button onclick="abrirmodal()" class="saiba">Assine já</button>
         </section>
-        <section class="card">
+        <section class="card" id="card3">
             <div class="icon">
             <img src="assets/Plano Premium.png" alt="Plano Premium">
             </div>
             <h3>Plano Primium</h3>
-            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, alias!.</span>
-            <button onclick="abrirmodal()" class="saiba">Saiba mais</button>
+            <span> <ol>
+                <ul><img class="imagens" src="assets/apoio-suporte.png" alt="">Suporte online exclusivo 24/7.</ul>
+                <ul><img class="imagens" src="assets/email.png" alt="">Suporte via e-mail prioritário.</ul>
+                <ul><img class="imagens" src="assets/web-chat.png">Chat para contato online</ul>
+                <ul><img class="imagens" src="assets/trabalhador-formal.png">Atendimento personalizado exclusivo 24/7</ul>
+                <ul><img class="imagens" src="assets/dispositivos-eletronicos.png" alt="">Administre um número ilimitado <br> de equipamentos.</ul>
+                <ul><img class="imagens" src="assets/ambiente.png" alt="">Inclua uma variedade ilimitada de <br> ambientes ao seu gosto.</ul>
+                <ul><img class="imagens" src="assets/status.png">Stats em tempo real.</ul>
+                <ul><img class="imagens" src="assets/whatsapp.png">Acesso ao grupo do whatsapp.</ul>
+                    </ol>
+            </span>
+            <button onclick="abrirmodal()" class="saiba">Assine já</button>
         </section>
     </main>
     <section>
@@ -67,7 +91,27 @@
             <div class="modal">
                 <button class="fechar" id="fechar">X</button>
                 <h1>Assine</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem a ipsum similique libero in asperiores.</p>
+                <div class="Assine">
+                    <label> Email </label>
+                    <input type="email" placeholder="Digite o seu email"/>
+                </div>
+                <div class="Assine">
+                    <label> Senha </label>
+                    <input
+                      type="password"
+                      placeholder="Insira sua senha"
+                      required
+                      minlength="8"
+                    />
+                </div>
+                <div class="Assine" id="senha">
+                    <input
+                      type="password"
+                      placeholder="Confirme sua senha"
+                      required
+                      minlength="8"
+                    />
+                </div>
             </div>
         </div>
 </body>
