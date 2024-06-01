@@ -63,7 +63,6 @@ header{
     margin-bottom: 32px;
     overflow: hidden;
    
-    
 }
 
 #card2:hover{
@@ -125,20 +124,7 @@ height: 520px;
     background: linear-gradient(to right, #e6c619,#fff1ba);
 }
 
-details summary{
-    background-color: rgb(128, 190, 219);
-    padding: 2% 0% 0% 1%;
-    border-bottom:2px solid black ;
-    color: #020202;  
-}
 
-.paragrafo{
-    display: flex;
-    background-color: #d0d7de;
-    padding-left: 1%;
-    font-size: small;
-    font-family: var(--paragrafo);
-}
 ol,ul{
     line-height: 25px;
     text-align: left;
