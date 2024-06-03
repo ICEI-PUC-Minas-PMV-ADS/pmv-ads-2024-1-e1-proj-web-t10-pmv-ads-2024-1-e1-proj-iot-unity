@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="dashboard.css">
     <link rel="stylesheet" href="./modal.css">
+    <link rel="stylesheet" href="./modal-dispositivo.css">
+    <script defer src="./crud-dispositivos.js"></script>
+    <script defer src="./funcoes.js"></script>
     <title>Dashboard</title>
 </head>
 <body>
@@ -14,7 +17,7 @@
                 <li><a title="Dispositivos" href="#"><img src="../imagens/Dispositivos.png" alt="#"></a></li>
                 <li><a title="Ambientes" href="#"><img src="../imagens/Ambientes.png" alt="#"></a></li>
                 <li><a title="Configurações" href="#"><img src="../imagens/Config 2.png" alt="#"></a></li>
-                <li><a title="Adcionar Marcador" href="#"><img src="../imagens/Add.png" alt="#"></a></li>
+                <li id="addDispositivo"><a title="Adcionar Dispositivo" href="#"><img src="../imagens/Add.png" alt="#"></a></li>
             </ul>
         <a href="../usuario/usuario.html"><div class="profile-picture"><img src="../imagens/conta-icon.png" alt=""></div></a>
     </header>
@@ -50,6 +53,7 @@
                     <span class="ambiente__titulo">
                         <h3>Sala</h3>
                         <i class="fa-solid fa-gear"><span class="tooltip">Configurações</span></i>
+                        <img src="./assets/remove.png" alt="Icone remover" class="excluirAmbiente"> 
                     </span>
                     <span class="ambiente__dispositivos">
                         <span class="dispositivos__dispositivo">
@@ -66,6 +70,7 @@
                     <span class="ambiente__titulo">
                         <h3>Cozinha</h3>
                         <i class="fa-solid fa-gear"><span class="tooltip">Configurações</span></i>
+                        <img src="./assets/remove.png" alt="Icone remover" class="excluirAmbiente"> 
                     </span>
                     <span class="ambiente__dispositivos">
                         <span class="dispositivos__dispositivo">
@@ -82,6 +87,7 @@
                     <span class="ambiente__titulo">
                         <h3>Quarto</h3>
                         <i class="fa-solid fa-gear"><span class="tooltip">Configurações</span></i>
+                        <img src="./assets/remove.png" alt="Icone remover" class="excluirAmbiente"> 
                     </span>
                     <span class="ambiente__dispositivos">
                         <span class="dispositivos__dispositivo">
@@ -98,6 +104,7 @@
                     <span class="ambiente__titulo">
                         <h3>Garagem</h3>
                         <i class="fa-solid fa-gear"><span class="tooltip">Configurações</span></i>
+                        <img src="./assets/remove.png" alt="Icone remover" class="excluirAmbiente"> 
                     </span>
                     <span class="ambiente__dispositivos">
                         <span class="dispositivos__dispositivo">
@@ -147,9 +154,40 @@
             </div>
         </div>
     </section>
+    <div id="modalTarefa" class="modal-dispositivo">
+        <div class="corpoModal">
+          <div class="headerModal">
+            <span id="fechaModal">&times;</span>
+            <h3>Dispositivo</h3>
+          </div>
+          <p>
+            <label for="campoDescricao">Nome: </label>
+            <input type="text" id="campoNome" />
+            <input type="hidden" id="campoID" />
+          </p>
+          <p>
+            <label for="campoData">Descrição: </label> <input type="text" id="campoDescricao" />
+          </p>
+          <p>
+            <label for="campoPrioridade">Localização: </label>
+            <select id="campoLocalizacao">
+              <option value="1">Sala</option>
+              <option value="2">Cozinha</option>
+              <option value="3">Garagem</option>
+              <option value="4">Quarto</option>
+            </select>
+          </p>
+          <p>
+            <button id="btMTCriar">Criar</button>
+            <button id="btMTCancelar">Cancelar</button>
+          </p>
+        </div>
+      </div>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script type="module" src="./adicionarAmbienteEDispositivo.js"></script>
+    <script src="deletar.js"></script>
+
 </body>
 <script src="https://kit.fontawesome.com/180a605619.js" crossorigin="anonymous"></script>
 </html>

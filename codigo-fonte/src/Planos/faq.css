@@ -1,0 +1,77 @@
+@import url(../../variaveis.css);
+body{
+    background: white;
+    color: #434343;
+    margin: 0;
+   
+}
+
+p{
+    font-family: var(--paragrafo);
+    font-size: small;
+}
+
+h3{
+    font-family: var(--titulo);
+    font-size: large;
+}
+section.Faq{
+    min-height: 50vh;
+    width: 100%;
+    margin: o auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.faq{
+    background-color: rgba(255, 255, 255, 0.795);
+    box-shadow: 20px 20px  50px -30px #434343;
+    max-width: 700px;
+    margin-top: 2rem ;
+    padding-bottom: 1rem;
+    cursor: pointer;
+    border-bottom: 2px solid black;
+    margin-bottom: 0px;
+}
+.questao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 700px;
+    min-width: 700px;
+}
+.questao h3{
+    font-size: 1rem;
+}
+
+.resposta{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.8s ease;
+}
+
+.resposta p{
+   padding-top: 1rem;
+   line-height: 1.6;
+   font-size: 12px;
+
+}
+
+.faq.active .resposta{
+    max-height: 300px;
+}
+
+.faq.active svg {
+    transform: rotate(180deg);
+}
+svg {
+    transition: transform .5s ease-in ;
+}
+
+.paragrafo{
+    display: flex;
+    background-color: #d0d7de;
+    padding-left: 1%;
+    font-size: small;
+    font-family: var(--paragrafo);
+}

@@ -1,3 +1,20 @@
+@import url(../../variaveis.css);
+body{
+    background: white;
+    color: #434343;
+    margin: 0;
+   
+}
+
+p{
+    font-family: var(--paragrafo);
+    font-size: small;
+}
+
+h3{
+    font-family: var(--titulo);
+    font-size: large;
+}
 .janela-modal{
     width: 100%;
     height: 100%;
@@ -14,10 +31,34 @@
     width: 40%;
     min-width: 450px;
     min-height: 450px;
-    background-color: #ffffff96;
+    background-color: #0a010128;
     backdrop-filter: blur(10px);
     text-align: center;
     border-radius: 22px;
+    
+}
+
+.Email{
+    margin: 10px;
+}
+.Senha{margin: 10px;
+}
+
+.Confirme-senha{
+    margin: 10px;
+}
+input.Confirme{
+    position: relative;
+    left: 22px;    
+    
+}
+button.cadastro{
+    background-color: rgb(230, 203, 171);
+    position: relative;
+    left: 20px;
+}
+button.cadastro:hover{
+    background: linear-gradient(to right,rgb(223, 190, 150),rgb(209, 170, 121));
 }
 
 .fechar{

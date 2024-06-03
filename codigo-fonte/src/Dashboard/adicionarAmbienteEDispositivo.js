@@ -5,6 +5,7 @@ let componenteAmbiente = (nomeDoAmbiente) => {
         <span class="ambiente__titulo">
             <h3>${nomeDoAmbiente}</h3>
             <i class="fa-solid fa-gear"><span class="tooltip">Configurações</span></i>
+            
         </span>
         <span class="ambiente__dispositivos">
             <span class="dispositivos__dispositivo">
