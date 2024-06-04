@@ -59,7 +59,12 @@ document.getElementById("addDispositivo").onclick = function () {
     modalDispositivo.style.display = "none";
   };
 
-  // Cancela a criação, alteração ou exclusão do dispositivo
+  // Configura o botão de fechar a janela da lista de dispositivos
+  fechaModal2.onclick = function () {
+    modalDispositivos.style.display = "none";
+  };
+
+  // Cancela a criação do dispositivo
 btMTCancelar.onclick = function () {
     modalDispositivo.style.display = "none";
   };

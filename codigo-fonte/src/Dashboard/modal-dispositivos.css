@@ -9,3 +9,68 @@
     overflow: auto;
     background-color: rgba(0,0,0,0.4);
   }
+
+  .headerModal {
+    margin-top: 0;
+  }
+  
+  .corpoModal2 {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 10px 20px;
+    border: 1px solid #888;
+    width: 800px;
+    height: min-content;
+  
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    animation-name: animacao;
+    animation-duration: 1s
+  }
+
+  table {
+    width: 100%;
+    font-family: "Roboto", "Arial", sans-serif;
+    color: #212529;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+  }
+  
+  thead, tbody, tfoot {
+    vertical-align: middle;
+  }
+
+  th {
+    text-align: left;
+    vertical-align: bottom;
+    padding: 0.75rem;
+    font-weight: 400;
+  }
+  
+  td {
+    text-align: left;
+    color: #555;
+    font-weight: 100;
+    vertical-align: middle;
+    padding: 0.75rem;
+    border-top: 1px solid #DEE2E6;
+    width: 100%;
+  }
+  
+  table #col_sel, table .selecao {
+    width: 1.5rem;
+  }
+
+  #fechaModal2 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: -1rem;
+  }
+  
+  #fechaModal2:hover,
+  #fechaModal2:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
