@@ -1,3 +1,4 @@
+// Monta a lista de disopositivos atuais
 function montaTabela() {
   //carrega os dispositivos do local storage
   let dados = readDispositivos();
@@ -143,6 +144,7 @@ btMAlterar.onclick = function () {
   montaTabela();
 };
 
+// Abre janela modal para confirmar a remoção do dispositivo
 btMRemover.onclick = function () {
   let selecoes = Array.from(
     document.querySelectorAll("input[name=campoSelecao]")
