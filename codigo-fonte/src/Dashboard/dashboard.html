@@ -16,8 +16,8 @@
         <div class="logo"><img src="../imagens/Logo 3.png"/></div>
             <ul class="menu">
                 <li id="listaDispositivos"><a title="Dispositivos" href="#"><img src="../imagens/Dispositivos.png" alt="#"></a></li>
-                <li><a title="Ambientes" href="#"><img src="../imagens/Ambientes.png" alt="#"></a></li>
-                <li><a title="Configurações" href="#"><img src="../imagens/Config 2.png" alt="#"></a></li>
+                <!--<li><a title="Ambientes" href="#"><img src="../imagens/Ambientes.png" alt="#"></a></li>
+                <li><a title="Configurações" href="#"><img src="../imagens/Config 2.png" alt="#"></a></li>-->
                 <li id="addDispositivo"><a title="Adcionar Dispositivo" href="#"><img src="../imagens/Add.png" alt="#"></a></li>
             </ul>
         <a href="../usuario/usuario.html"><div class="profile-picture"><img src="../imagens/conta-icon.png" alt=""></div></a>
@@ -167,7 +167,7 @@
             <input type="hidden" id="campoID" />
           </p>
           <p>
-            <label for="campoData">Descrição: </label> <input type="text" id="campoDescricao" />
+            <label for="campoData">Descrição: </label> <input maxlength="100" type="text" id="campoDescricao" />
           </p>
           <p>
             <label for="campoPrioridade">Localização: </label>
@@ -180,6 +180,8 @@
           </p>
           <p>
             <button id="btMTCriar">Criar</button>
+            <button id="btMAlterar">Editar</button>
+            <button id="btMExcluir">Excluir</button>
             <button id="btMTCancelar">Cancelar</button>
           </p>
         </div>
@@ -201,8 +203,8 @@
                 <tfoot>
                     <tr>
                         <td colspan="4">
-                            <button id="btEditar" class="botao">Editar</button>
-                            <button id="btExcluir" class="botao">Excluir</button>
+                            <button id="btMEditar" class="botao">Editar</button>
+                            <button id="btMRemover" class="botao">Excluir</button>
                         </td>
                         <td></td>
                     </tr>
