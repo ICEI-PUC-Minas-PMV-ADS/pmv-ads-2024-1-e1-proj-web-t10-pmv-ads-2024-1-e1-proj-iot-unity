@@ -1,20 +1,4 @@
-@import url(../../variaveis.css);
-body{
-    background: white;
-    color: #434343;
-    margin: 0;
-   
-}
 
-p{
-    font-family: var(--paragrafo);
-    font-size: small;
-}
-
-h3{
-    font-family: var(--titulo);
-    font-size: large;
-}
 .janela-modal{
     width: 100%;
     height: 100%;

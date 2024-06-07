@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="faq.css">
     <script defer src="modalplano.js"></script>
     <script defer src="faq.js"></script>
+    <link defer rel="stylesheet" href="Chat.css">
+    <script defer src="Chat.js"></script>
+    <script defer src="modal-chat.js"></script>
 </head>
 <body>
     <header>
@@ -143,5 +146,21 @@
                 <button class="cadastro"><a href="../Cadastro/cadastro.html">Termine o cadastro</a></button>
             </div>
         </div> 
+        <section id="container-chat">
+            <div id="Chat-titulo">
+               <h1>Chat suporte</h1>
+           </div>
+           <div id="chatlogs">
+              <!-- <div class="chat-texto">-->
+       
+               </div>
+           </div>
+           <div id="chat-form">
+               <textarea id="Mensagem-Input" placeholder="digite sua mensagem"></textarea>
+               <button id="sendButton">Enviar</button>
+           </div>
+       </section>
+       <div id="chat-button-suporte"><img src="assets/chat-suporte.png" onclick="suporte()" class="chat-suporte" ></div>
+       
 </body>
 </html>
