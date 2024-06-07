@@ -1,0 +1,59 @@
+body {
+    background: #fff;
+    margin: 0; /* Add this to remove default body margin */
+    height: 100vh; /* Optional: Ensures body takes full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.emailContainer, .resetContainer {
+    background: #c5c5c5;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Ensures inner elements are centered */
+}
+.resetContainer {
+    display: none;
+    margin-left: 10%;
+}
+.verificationContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; 
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0; /* Adds space around inputs */
+    border: 1px solid #ccc; /* Corrected from 'border: 10px #ccc;' */
+    border-radius: 10px;
+    height: 15px;
+}
+
+button {
+    width: calc(100% - 20px); /* Adjust width to account for padding */
+    background-color: #ffa41c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-get {
+    width: auto;
+    flex-grow: 1;
+    margin-left: 10px; /* Adds a small margin between the button and the input field */
+}
+
+button:hover {
+    background-color: #cc8400;
+}

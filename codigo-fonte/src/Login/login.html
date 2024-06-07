@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login de Usuário</title>
     <link rel="stylesheet" href="login.css">
+    <script src="login.js"></script>
 </head>
 
 <body>
@@ -13,16 +14,18 @@
         <div class="centered">
             <h1>IoT Unity</h1>
             <br>
-            <img src="../imagens/Logo 3.png" alt="IoT Unity">
-            <!--trocar src da imagem para a da logo-->
+            <img src="../imagens/Logo 3.png" alt="IoT Unity" class="img">            
         </div>
     </div>
     <div class="split right">
+        
         <div class="centered">
             <div class="login-container">
-                <h2>Login</h2>
-                <form action="/codigo-fonte/src/Cadastro/cadastro.html" method="POST">
-                     <!-- n sei exatamente para onde deve ir form para conferir login -->
+                <a href="../index.html">
+                    <img src="../imagens/Ambientes.png" alt="Página Inicial" class="home">
+                </a>
+                <h2>Login</h2>            
+                <form action="#" method="POST" id="loginForm">
                     <div class="form-group">
                         <label for="email">Email ou Nome de Usuário</label>
                         <input type="text" id="email" name="email" required>
@@ -30,18 +33,18 @@
                     <div class="form-group">
                         <label for="password">Senha</label>
                         <input type="password" id="password" name="password" required>
-                        <br>
-                        <!-- Link para redefinição de senha -->
-                        <div><a href="/forgot-password" class="forgot-password-link">Esqueci minha senha</a></div>
-                        <br>
-                        <div class="radio-container">
+                    </div>
+                    <a href="../Cadastro/cadastro.html" id="forgotPasswordLink">Cadastre-se</a> |
+                    <a href="Reset/reset.html" id="forgotPasswordLink">Esqueci minha senha</a>
+                    <br>                    
+                    <div class="radio-container">
                             <input type="radio" id="admin" name="role">
                             <label for="admin">Administrador</label>
                             <input type="radio" id="user" name="role">
                             <label for="user">Usuário</label>
                         </div>
-                    </div>
-                    <button type="submit" class="login-button">Login</button>
+                    <br>
+                    <button type="submit" class="login-button" id="butaoLogin">Login</button>
                 </form>
             </div>
         </div>
