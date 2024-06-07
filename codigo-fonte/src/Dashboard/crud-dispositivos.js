@@ -32,8 +32,8 @@ function updateDispositivos(dispositivos){
 
 function updateDispositivo(dispositivoAtualizado){
     let dispositivos = readDispositivos();
-    let indice = dispositivos.findIndex((dispositivo) => dispositivo.id == dispositivoAtualizado);
-    dispositivos[indice] = dispositivoAtualizado
+    let indice = dispositivos.findIndex((dispositivo) => dispositivo.id == dispositivoAtualizado.id);
+    dispositivos[indice] = dispositivoAtualizado;
     updateDispositivos(dispositivos);
 }
 
