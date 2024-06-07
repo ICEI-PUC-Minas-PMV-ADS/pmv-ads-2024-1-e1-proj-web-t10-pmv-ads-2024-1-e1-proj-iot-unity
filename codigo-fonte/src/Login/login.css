@@ -9,8 +9,18 @@ h2{
     font-family: var(--titulo);
     font-size: large;
 }
+img {
+    transform: scale(0.5);
+    transform-origin: left;
 
-
+}
+img.home {
+    width: 100px;
+    position: fixed;
+    right: 0%;
+    top: 0%;
+    
+}
 .split {
     height: 100%;
     width: 50%;
@@ -40,6 +50,7 @@ h2{
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
+    
 }
 
 .login-container {
@@ -123,7 +134,6 @@ button:hover {
     text-decoration: underline;
     color: #004080;
 }
-
 @media (min-width: 1024px){
     .split{
         width: 50%;
@@ -132,14 +142,16 @@ button:hover {
         width: 75%;
     }
 }
-
 @media (min-width: 768px) and (max-width: 1023px) {
     .login-container{
-        width: 80%;    
+        width: 75%;    
     }
     .radio-container{
-        gap: 40px;
+        gap: 35px;
         display: flex;
+    }
+    img {
+        transform: scale(0.47);
     }
 }
 
@@ -159,6 +171,6 @@ button:hover {
     .radio-container{
         flex-direction: row;
         flex-wrap: wrap;
-        gap: 5px;
+        gap: 40px;
     }
 }

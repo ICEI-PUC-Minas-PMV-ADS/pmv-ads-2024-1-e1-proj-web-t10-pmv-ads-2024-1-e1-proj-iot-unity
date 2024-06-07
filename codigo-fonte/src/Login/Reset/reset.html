@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trocar Senha</title>
+    <link rel="stylesheet" href="reset.css">
+    <script src="reset.js"></script>
+</head>
+<body>
+    <div class="emailContainer">
+        <h2>Insira seu email</h2>
+        <p>Enviaremos um email com as instruções para alterar sua senha</p>
+        <div>               
+            <input type="text" id="email" name="email" required placeholder="Endereço de Email">
+            <div class="verificationContainer">
+                <input type="text" minlength="6" maxlength="6" id="verificationCode" placeholder="Código de Verificação">
+                <button id="getCode" class="btn-get">Obter</button>
+            </div>            
+        <button id="sendMail" class="btn-send">Enviar</button>
+      </div>
+    </div>
+    <div class="resetContainer">
+        <h2>Definir Nova Senha</h2>
+        Nova Senha:
+         <input type="password" id="newPassword" placeholder="Nova Senha">
+        Confirmar Senha:
+        <input type="password" id="confirmPassword" placeholder="Confirmar Senha">       
+        <div id="errorMessages" style="color: red;"></div>
+
+        <button class="btn-reset">Confirmar</button>
+    </div>
+</body>
+</html>

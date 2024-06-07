@@ -38,6 +38,17 @@ function montaTabela() {
   btMRemover.disabled = true;
 }
 
+function montaDashboard () {
+  //Carrega os dados do local storage
+  let dadosDashboard = readDispositivos();
+
+  //Gera conteúdo do dashboard
+  let conteudoDashboard = "";
+  dadosDashboard.forEach((disp) => {
+    conteudoDashboard +=
+  })
+}
+
 // Mostra a janela modal para adição de novo dispositivo
 document.getElementById("addDispositivo").onclick = function () {
     campoNome.value = "";
