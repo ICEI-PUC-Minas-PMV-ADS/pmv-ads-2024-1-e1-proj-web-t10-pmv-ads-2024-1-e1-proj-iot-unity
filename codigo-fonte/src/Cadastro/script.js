@@ -20,28 +20,24 @@ function togglePasswordVisibility(inputId, buttonId) {
   });  
 
 document.addEventListener('DOMContentLoaded', function() {
-    const form = document.getElementById('cadastroForm');
+    const form = document.getElementById('Sent');
   
-    form.addEventListener('submit', function(event) {
+    form.addEventListener('click', function(event) {
       event.preventDefault(); // Impedir que o submit salve sem ter completado tudo
-  
-      const nome = document.getElementById('nome').value;
-      const email = document.getElementById('email').value;
-      const dataNascimento = document.getElementById('dataNascimento').value;
-      const senha = document.getElementById('senha').value;
-  
-      if (senha!== document.getElementById('confirmacaoSenha').value) {
+      
+      let usuario = {
+      nome : document.getElementById('nome').value,
+      email : document.getElementById('email').value,
+      dataNascimento : document.getElementById('dataNascimento').value,
+      senha : document.getElementById('senha').value,
+      };
+
+      if (document.getElementById('senha').value!== document.getElementById('confirmacaoSenha').value) {
         alert('As senhas não são iguais.');
         return;
       }
   
-      localStorage.setItem('usuario', JSON.stringify({
-        nome,
-        email,
-        dataNascimento,
-        senha
-        //senha não vai salvar a senha mudar se achar necessario
-      }));
+      createUsuario(usuario);
   
       alert('user cadastrado com sucesso!');
     });
