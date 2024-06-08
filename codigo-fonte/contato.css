@@ -1,6 +1,6 @@
 @import url("../codigo-fonte/variaveis.css");
 
-.rodape{
+.rodape__section{
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -9,18 +9,18 @@
     width: 98vw;
 }
 
-.rodape h2{
+.rodape__section h2{
     font-family: var(--subtitulo);
     font-size: 2rem;
     margin: 2rem 2rem 2rem 2rem;
 }
 
-.rodape img{
+.rodape__section img{
     object-fit: cover;
     width: 60%;
 }
 
-.rodape h3{
+.rodape__section h3{
     font-family: var(--subtitulo);
     font-size: 1rem;
     margin: 2rem;
@@ -63,7 +63,7 @@
 }
 
 @media screen and (max-width: 720px){
-    .rodape{
+    .rodape__section{
         padding: 0;
     }
 
