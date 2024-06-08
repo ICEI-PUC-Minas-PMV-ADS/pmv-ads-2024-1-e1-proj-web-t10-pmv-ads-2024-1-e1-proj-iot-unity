@@ -16,9 +16,8 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 
   Responsável: Guilherme.
 
-https://user-images.githubusercontent.com/100447878/174854223-c457e6ca-a9ce-48d3-aba9-b9e617132f31.mov
-
   </li>
+  <li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/blob/main/documentos/records/funcionalidade-links-pagina-inicial.mp4">Link para a gravação</a></li>
   <hr>
   
   <li> CT-02: Verificar o funcionamento do filtro de pesquisa.
