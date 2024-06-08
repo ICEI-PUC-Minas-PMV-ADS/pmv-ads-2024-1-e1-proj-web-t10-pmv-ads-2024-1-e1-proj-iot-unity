@@ -1,3 +1,4 @@
+// -------------------------------- Funções para os dispositivos-------------------------------------
 // Monta a lista de disopositivos atuais
 function montaTabela() {
   //carrega os dispositivos do local storage
@@ -38,6 +39,7 @@ function montaTabela() {
   btMRemover.disabled = true;
 };
 
+// Monta a bara de dispositivos
 function montaDashboard() {
   //Carrega os dados do local storage
   let dadosDashboard = readDispositivos();
@@ -103,8 +105,7 @@ btMTCriar.onclick = function () {
 let liberaBotaoMT = function () {
     if (
       campoNome.value.length > 0 &&
-      campoDescricao.value.length > 0 &&
-      campoLocalizacao.value.length > 0
+      campoDescricao.value.length > 0
     ) {
       btMTCriar.disabled = false;
       btMAlterar.disabled = false;
@@ -211,13 +212,12 @@ btMExcluir.onclick = function () {
 };
 
 //------------------------------------ Funções para os ambientes -------------------------------------//
-
 // Monta o dashboard de acordo com os ambientes no Loca Storage
 function montaAmbiente () {
 
 // Carrega os dados do Local Storage
 let dadosAmbiente = readAmbientes();
-
+// gera o conteúdo do ambiente
 let conteudoAmbiente = "";
 dadosAmbiente.forEach((item) => {
   conteudoAmbiente+= `<div class="ambiente" value="${item.id}">
@@ -232,6 +232,7 @@ dadosAmbiente.forEach((item) => {
 
 dashboardAmbiente.innerHTML = conteudoAmbiente
 
+// Gera os botões de excluir ambiente
 document.querySelectorAll(".excluirAmbiente").forEach(function(icon){
   icon.addEventListener("click", function(){
     let ambienteID = icon.getAttribute("value");
@@ -246,6 +247,7 @@ document.querySelectorAll(".excluirAmbiente").forEach(function(icon){
 })
 }
 
+// Gera o conteududo de dispositivos do ambiente de acordo com a localização informada para o dispositivo
 function atualizaWorkarea() {
   document.querySelectorAll(".ambiente__dispositivos").forEach(function (ambient) {
     let ambienteID = ambient.getAttribute("value");
@@ -281,6 +283,7 @@ function atualizaWorkarea() {
   });
 }
 
+// Atualiza a lista de ambientes disponíveis para atribuir ao dispositivo de acordo com os ambientes criados
 function atualizaAmbiente () {
   //carrega os ambientes do local storage
   let dadosAmbientes = readAmbientes();
