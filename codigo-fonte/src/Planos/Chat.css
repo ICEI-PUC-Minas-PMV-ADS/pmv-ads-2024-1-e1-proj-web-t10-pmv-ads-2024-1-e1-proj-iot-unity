@@ -7,7 +7,7 @@
     display: none;
     position: fixed;
     top: 50px;
-    left: 50;
+    right: 40px;
     box-shadow: 2px 2px 20px rgba(0,0,0,0.4);
     background-color: dodgerblue;
 }
@@ -35,12 +35,11 @@
     border: solid rgb(2, 2, 2);
     margin: 10px;
 }
-#chat-button-suporte{
-    position: absolute;
+.chat-button-suporte{
+    position: fixed;
+    bottom: 0;
     right: 0;
-
 }
-    
 #container-chat.abrir{
     display: flex;
 }
@@ -54,4 +53,19 @@ textarea{
     height: 65%;
     width: 49.8%;
     margin-left: 109.55px;
+}
+.fechar-chat{
+    position: absolute;
+    top: 2px;
+    right: 0px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 0;
+    color: aliceblue;
+    cursor: pointer;
+
+}
+.janela-modal.abrir{
+    display: flex;
 }

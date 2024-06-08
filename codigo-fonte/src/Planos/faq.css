@@ -16,7 +16,8 @@ h3{
     font-size: large;
 }
 section.Faq{
-    min-height: 50vh;
+    min-height: 30vh;
+    max-height: 40vh;
     width: 100%;
     margin: o auto;
     display: flex;
