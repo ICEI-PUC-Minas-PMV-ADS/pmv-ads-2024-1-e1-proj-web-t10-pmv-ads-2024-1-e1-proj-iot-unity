@@ -1,3 +1,5 @@
+@import url("../variaveis.css");
+
 .modal-dispositivos {
     display: none;
     position: fixed;
@@ -15,7 +17,8 @@
   }
   
   .corpoModal2 {
-    background-color: #fefefe;
+    background-color: var(--fundo-principal);
+
     margin: 15% auto;
     padding: 10px 20px;
     border: 1px solid #888;
@@ -32,7 +35,6 @@
 
   table {
     width: 100%;
-    font-family: "Roboto", "Arial", sans-serif;
     color: #212529;
     border-collapse: collapse;
     margin-bottom: 1rem;
@@ -47,6 +49,7 @@
     vertical-align: bottom;
     padding: 0.75rem;
     font-weight: 400;
+    font-family: var(--subtitulo);
   }
   
   .celula-1,.celula-2 {
