@@ -28,7 +28,9 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
     <li>RF-001:	O site deve permitir ao usuário visualizar os planos para aquisição do produto.</li>
    <li>RF-002:	O site deve permitir ao usuário entrar em contato com a empresa para tirar dúvidas gerais sobre o produto.</li>
    <li>RF-005:	O site deve permitir ao usuário entrar em contato com uma área de atendimento para solucionar problemas relacionados ao sistema.</li>
-    <li>RF-007:	O site deve permitir ao usuário visualizar os detalhes do livro.</li>
+    <li>RF-006:	O site deve permitir ao usuário acessar uma área específica que resume os objetivos do software.</li>
+    <li>RF-007:	O site deve permitir ao usuário cadastrar-se na plataforma do sistema.</li>
+    <li>RF-008:	O site deve permitir fazer login em sua área específica no software, quando já tiver se cadastrado.</li>
    </ul>
   </td>
   <td>Verificar se os links da página Home estão encaminhando para as respectivas páginas corretamente</td>
@@ -40,8 +42,8 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
     <li>Clicar nos links da página Home.</li>
    </ol>
    </td>
-  <td>Todos os links da página Home devem encaminhar os usuários para as páginas descritas.</td>
-  <td>Maria</td>
+  <td>Todos os links da página Home devem encaminhar os usuários para as páginas ou seções da página descritas.</td>
+  <td>Guilherme</td>
  </tr>
 </table>
  
