@@ -40,6 +40,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
     <li>Informar o endereço do site.</li>
     <li>Visualizar a página Home.</li>
     <li>Clicar nos links da página Home.</li>
+    <li>Preencher os formulários da área de "contato" e "suporte" e então verificar se os dados preenchidos no campo foram enviados para o e-mail cadastrado pelo desenvolvedor</li>
    </ol>
    </td>
   <td>Todos os links da página Home devem encaminhar os usuários para as páginas ou seções da página descritas.</td>
