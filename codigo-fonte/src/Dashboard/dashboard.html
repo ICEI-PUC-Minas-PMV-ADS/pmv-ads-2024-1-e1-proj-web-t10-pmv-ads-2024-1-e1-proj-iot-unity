@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="./modal.css">
     <link rel="stylesheet" href="./modal-dispositivo.css">
     <link rel="stylesheet" href="./modal-dispositivos.css">
+    <link rel="stylesheet" href="./modal-ambiente.css">
     <script defer src="./crud-dispositivos.js"></script>
+    <script defer src="./crud-Ambientes.js"></script>
     <script defer src="./funcoes.js"></script>
     <title>Dashboard</title>
 </head>
@@ -43,75 +45,7 @@
             </div>
         </div>
         <div class="workarea">
-            <div class="ambientes" data-ambientes>
-                <div class="ambiente">
-                    <span class="ambiente__titulo">
-                        <h3>Sala</h3>
-                        <i class="fa-solid fa-gear"><span class="tooltip">Configurações</span></i>
-                        <img src="./assets/remove.png" alt="Icone remover" class="excluirAmbiente"> 
-                    </span>
-                    <span class="ambiente__dispositivos">
-                        <span class="dispositivos__dispositivo">
-                            <p>Lâmpada 1</p>
-                            <i class="fa-solid fa-bars"></i>
-                        </span>
-                        <span class="dispositivos__dispositivo">
-                            <p>Câmera 1</p>
-                            <i class="fa-solid fa-bars"></i>
-                        </span>
-                    </span>
-                </div>
-                <div class="ambiente">
-                    <span class="ambiente__titulo">
-                        <h3>Cozinha</h3>
-                        <i class="fa-solid fa-gear"><span class="tooltip">Configurações</span></i>
-                        <img src="./assets/remove.png" alt="Icone remover" class="excluirAmbiente"> 
-                    </span>
-                    <span class="ambiente__dispositivos">
-                        <span class="dispositivos__dispositivo">
-                            <p>Lâmpada 2</p>
-                            <i class="fa-solid fa-bars"></i>
-                        </span>
-                        <span class="dispositivos__dispositivo">
-                            <p>Câmera 2</p>
-                            <i class="fa-solid fa-bars"></i>
-                        </span>
-                    </span>
-                </div>
-                <div class="ambiente">
-                    <span class="ambiente__titulo">
-                        <h3>Quarto</h3>
-                        <i class="fa-solid fa-gear"><span class="tooltip">Configurações</span></i>
-                        <img src="./assets/remove.png" alt="Icone remover" class="excluirAmbiente"> 
-                    </span>
-                    <span class="ambiente__dispositivos">
-                        <span class="dispositivos__dispositivo">
-                            <p>Lâmpada 3</p>
-                            <i class="fa-solid fa-bars"></i>
-                        </span>
-                        <span class="dispositivos__dispositivo">
-                            <p>Câmera 3</p>
-                            <i class="fa-solid fa-bars"></i>
-                        </span>
-                    </span>
-                </div>
-                <div class="ambiente">
-                    <span class="ambiente__titulo">
-                        <h3>Garagem</h3>
-                        <i class="fa-solid fa-gear"><span class="tooltip">Configurações</span></i>
-                        <img src="./assets/remove.png" alt="Icone remover" class="excluirAmbiente"> 
-                    </span>
-                    <span class="ambiente__dispositivos">
-                        <span class="dispositivos__dispositivo">
-                            <p>Lâmpada 4</p>
-                            <i class="fa-solid fa-bars"></i>
-                        </span>
-                        <span class="dispositivos__dispositivo">
-                            <p>Câmera 4</p>
-                            <i class="fa-solid fa-bars"></i>
-                        </span>
-                    </span>
-                </div>
+            <div class="ambientes" id="dashboardAmbiente" >
             </div>
             <div id="barraDispositivos" class="geral">
             </div>
@@ -129,15 +63,11 @@
             <input type="hidden" id="campoID" />
           </p>
           <p>
-            <label for="campoData">Descrição: </label> <input maxlength="100" type="text" id="campoDescricao" />
+            <label for="campoDescricao">Descrição: </label> <input maxlength="100" type="text" id="campoDescricao" />
           </p>
           <p>
-            <label for="campoPrioridade">Localização: </label>
+            <label for="campoLocal">Localização: </label>
             <select id="campoLocalizacao">
-              <option value="Sala">Sala</option>
-              <option value="Cozinha">Cozinha</option>
-              <option value="Garagem">Garagem</option>
-              <option value="Quarto">Quarto</option>
             </select>
           </p>
           <p>
@@ -173,14 +103,24 @@
                 </tfoot>
             </Table>
         </div>
-
-
-    </div>  
+    </div>
+    <div id="modalAmbiente" class="modal-ambiente">
+        <div class="corpoModal3">
+          <div class="headerModal3">
+            <span id="fechaModal3">&times;</span>
+            <h3>Ambiente</h3>
+          </div>
+          <p>
+            <label for="Tipos">Tipo: </label>
+            <input type="text" id="campoTipo"/>
+          </p>
+          <p>
+            <button id="btmAdicionar">Criar</button>      
+          </p>
+        </div>
+      </div>  
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    <script type="module" src="./adicionarAmbienteEDispositivo.js"></script>
-    <script src="deletar.js"></script>
-
 </body>
 <script src="https://kit.fontawesome.com/180a605619.js" crossorigin="anonymous"></script>
 </html>

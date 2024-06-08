@@ -1,12 +1,12 @@
 // Monta a lista de disopositivos atuais
 function montaTabela() {
   //carrega os dispositivos do local storage
-  let dados = readDispositivos();
+  let dadosDispositivo = readDispositivos();
 
   //gera o conteúdo da lista
-  let conteudo = "";
-  dados.forEach((item) => {
-    conteudo += `
+  let conteudoDispositivo = "";
+  dadosDispositivo.forEach((item) => {
+    conteudoDispositivo += `
       <tr id='linha-${item.id}'>
         <td class= 'selecao'>
           <input type="radio" name="campoSelecao" value="${item.id}" />
@@ -24,7 +24,7 @@ function montaTabela() {
       </tr>          
       `;
   });
-  conteudoDispositivos.innerHTML = conteudo;
+  conteudoDispositivos.innerHTML = conteudoDispositivo;
 
   // determina comportamento dos botões e outros componentes interativos
   let botoesSelecao = document.querySelectorAll("input[name=campoSelecao]");
@@ -207,5 +207,115 @@ btMExcluir.onclick = function () {
   montaDashboard()
 };
 
-montaDashboard();
+//------------------------------------ Funções para os ambientes -------------------------------------//
+
+// Monta o dashboard de acordo com os ambientes no Loca Storage
+function montaAmbiente () {
+
+// Carrega os dados do Local Storage
+let dadosAmbiente = readAmbientes();
+
+let conteudoAmbiente = "";
+dadosAmbiente.forEach((item) => {
+  conteudoAmbiente+= `<div class="ambiente" value="${item.id}">
+  <span class="ambiente__titulo">
+      <h3>${item.nome}</h3>
+      <img value="${item.id}" src="./assets/remove.png" alt="Icone remover" class="excluirAmbiente"> 
+  </span>
+  <span id="${item.id}" value="${item.id}" class="ambiente__dispositivos">
+  </span>
+</div>`
+});
+
+dashboardAmbiente.innerHTML = conteudoAmbiente
+
+document.querySelectorAll(".excluirAmbiente").forEach(function(icon){
+  icon.addEventListener("click", function(){
+    let ambienteID = icon.getAttribute("value");
+    let ambiente = readAmbiente(ambienteID)
+    if(confirm("Tem certeza que deseja excluir esse ambiente?")){
+      deleteAmbiente(ambiente)
+    }
+    montaAmbiente();
+    atualizaAmbiente();
+  })
+})
+}
+
+function atualizaWorkarea() {
+  document.querySelectorAll(".ambiente__dispositivos").forEach(function (ambient) {
+    let ambienteID = ambient.getAttribute("value");
+    let ambiente = readAmbiente(ambienteID);
+    let dispositivos = readDispositivos();
+    for (let i = 0; i < dispositivos.length; i++) {
+      if (dispositivos[i].localizacao === ambiente.nome) {
+        let conteudoAmbient = "";
+        conteudoAmbient += `
+          <span class="dispositivos__dispositivo">
+            <p>${dispositivos[i].nome}</p>
+            <i class="fa-solid fa-bars"></i>
+          </span>
+        `;
+      }
+    }
+  });
+}
+
+function atualizaAmbiente () {
+  //carrega os ambientes do local storage
+  let dadosAmbientes = readAmbientes();
+
+  //gera o conteúdo da lista
+  let conteudoAmbientes = "";
+  dadosAmbientes.forEach((item) => {
+    conteudoAmbientes +=`<option value="${item.nome}">${item.nome}</option>`
+});
+
+campoLocalizacao.innerHTML = conteudoAmbientes
+}
+
+// Mostra a janela modal para adição de um novo ambiente
+document.getElementById("addAmbiente").onclick = function () {
+  campoTipo.value = "";
+  campoTipo.disabled = false;
+  btmAdicionar.disabled = true;
+  modalAmbiente.style.display = "block";
+  btmAdicionar.style.display = "inline-block";
+  campoTipo.focus();
+};
+
+// Configura o botão de fechar a janela da lista de dispositivos
+fechaModal3.onclick = function () {
+  modalAmbiente.style.display = "none";
+};
+
+// Confirma a criação do ambiente
+btmAdicionar.onclick = function () {
+  let ambiente = {
+    nome: campoTipo.value,
+  };
+  modalAmbiente.style.display = "none";
+  createAmbiente(ambiente);
+  montaAmbiente();
+  atualizaAmbiente();
+  atualizaWorkarea();
+};
+
+// Verifica se os três campos estão preenchidos antes de criar o dispositivo
+let liberaBotaoMT2 = function () {
+  if (
+    campoTipo.value.length > 0
+  ) {
+    btmAdicionar.disabled = false;
+  } else {
+    btmAdicionar.disabled = true;
+  }
+};
+campoTipo.onchange = liberaBotaoMT2;
+
 montaTabela();
+montaDashboard();
+montaAmbiente();
+atualizaAmbiente();
+atualizaWorkarea();
+

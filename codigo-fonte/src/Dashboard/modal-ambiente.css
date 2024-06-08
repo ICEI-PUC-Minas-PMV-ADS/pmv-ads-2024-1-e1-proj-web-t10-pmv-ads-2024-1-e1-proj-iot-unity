@@ -1,0 +1,55 @@
+.modal-ambiente{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+  .headerModal3 {
+    margin-top: 0;
+  }
+  
+  .corpoModal3 {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 10px 20px;
+    border: 1px solid #888;
+    width: 450px;
+    height: fit-content;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    animation-name: animacao;
+    animation-duration: 1s
+  }
+  
+  .corpoModal3 p {
+    margin-top: 10px;
+  }
+
+  @keyframes animacao {
+    from {opacity: 0}
+    to {opacity: 1}
+  }
+  
+  #fechaModal3 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: -1rem;
+  }
+  
+  #fechaModal3:hover,
+  #fechaModal3:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  
+  
