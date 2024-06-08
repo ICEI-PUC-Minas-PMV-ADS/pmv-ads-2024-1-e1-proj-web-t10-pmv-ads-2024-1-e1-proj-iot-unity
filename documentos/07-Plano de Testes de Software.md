@@ -61,24 +61,28 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
   <td>CT-01: Verificar se as funcionalidades gerais da página "Dashboard" estão funcionando corretamente</td>
   <td>
    <ul>
-    <li>RF-001:	O site deve permitir ao usuário criar/excluir um ambiente.</li>
-   <li>RF-002:	O site deve permitir ao usuário criar/excluir um dispositivo.</li>
-   <li>RF-003:	O site deve permitir ao usuário ligar/desligar um dispositivo.</li>
-    <li>RF-004:	O site deve permitir ao usuário visualizar os dispositivos numa lista que pode ser filtrada pelo nome do ambiente.</li>
-    <li>RF-005:	O site deve permitir ao usuário editar o nome, o ambiente/localização e sua descrição a partir da lista mencionada no item anterior.</li>
+    <li>RF-009:	O site deve permitir ao usuário criar/excluir um ambiente.</li>
+   <li>RF-010:	O site deve permitir ao usuário criar/excluir um dispositivo.</li>
+   <li>RF-011:	O site deve permitir ao usuário ligar/desligar um dispositivo.</li>
+    <li>RF-012:	O site deve permitir ao usuário visualizar os dispositivos numa lista que pode ser filtrada pelo nome do ambiente.</li>
+    <li>RF-013:	O site deve permitir ao usuário editar o nome, o ambiente/localização e sua descrição a partir da lista mencionada no item anterior.</li>
    </ul>
   </td>
   <td>Verificar se os links da página Home estão encaminhando para as respectivas páginas corretamente</td>
   <td>
    <ol>
-    <li>Acessar o navegador.</li>
-    <li>Informar o endereço do site.</li>
-    <li>Visualizar a página Home.</li>
-    <li>Clicar nos links da página Home.</li>
+    <li>Abrir a página de dashboard.</li>
+    <li>Clicar no link "Adicionar Dispositivo".</li>
+    <li>Preencher todas as informações e clicar em "Criar", verificando, em seguida, se o dispositivo foi criado.</li>
+    <li>Clicar no link "Adicionar ambiente".</li>
+    <li>Preencher o formulário, clicar em "Criar", verificando, em seguida, se o ambiente foi criado</li>
+    <li>Clicar no link "Dispositivos" e verificar se todos os dispositivos criados se encontram na lista, bem como os ambientes/localização</li>
+    <li>Selecionar algum dispositivo e verificar se é disponibilizada a opção para edição. Caso positivo, preencher o formulário e verificar se houve a mudança desejada</li>
+    <li>Digitar no campo "pesquisar por ambientes" e verificar se a lista filtra os dispositivos comparando o texto digitado com a relação de ambientes diponíveis</li>
    </ol>
    </td>
   <td>Todos os links da página Home devem encaminhar os usuários para as páginas descritas.</td>
-  <td>Maria</td>
+  <td>Bruno</td>
  </tr>
 </table>
 
