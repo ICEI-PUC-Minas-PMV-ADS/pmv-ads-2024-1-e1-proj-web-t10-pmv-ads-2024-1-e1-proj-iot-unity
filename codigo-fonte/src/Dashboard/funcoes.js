@@ -212,7 +212,7 @@ btMExcluir.onclick = function () {
 };
 
 //------------------------------------ Funções para os ambientes -------------------------------------//
-// Monta o dashboard de acordo com os ambientes no Loca Storage
+// Monta o dashboard de acordo com os ambientes no Local Storage
 function montaAmbiente () {
 
 // Carrega os dados do Local Storage

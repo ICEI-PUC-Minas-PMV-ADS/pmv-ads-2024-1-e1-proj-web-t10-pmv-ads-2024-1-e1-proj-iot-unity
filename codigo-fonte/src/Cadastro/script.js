@@ -39,6 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
         nome,
         email,
         dataNascimento,
+        senha
         //senha não vai salvar a senha mudar se achar necessario
       }));
   
