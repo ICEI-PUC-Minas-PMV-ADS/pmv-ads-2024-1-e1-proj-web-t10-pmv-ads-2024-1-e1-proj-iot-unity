@@ -47,6 +47,41 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
   <td>Guilherme</td>
  </tr>
 </table>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-01: Verificar se as funcionalidades gerais da página "Dashboard" estão funcionando corretamente</td>
+  <td>
+   <ul>
+    <li>RF-001:	O site deve permitir ao usuário criar/excluir um ambiente.</li>
+   <li>RF-002:	O site deve permitir ao usuário criar/excluir um dispositivo.</li>
+   <li>RF-003:	O site deve permitir ao usuário ligar/desligar um dispositivo.</li>
+    <li>RF-004:	O site deve permitir ao usuário visualizar os dispositivos numa lista que pode ser filtrada pelo nome do ambiente.</li>
+    <li>RF-005:	O site deve permitir ao usuário editar o nome, o ambiente/localização e sua descrição a partir da lista mencionada no item anterior.</li>
+   </ul>
+  </td>
+  <td>Verificar se os links da página Home estão encaminhando para as respectivas páginas corretamente</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página Home.</li>
+    <li>Clicar nos links da página Home.</li>
+   </ol>
+   </td>
+  <td>Todos os links da página Home devem encaminhar os usuários para as páginas descritas.</td>
+  <td>Maria</td>
+ </tr>
+</table>
+
  
 > **Links Úteis**:
 > - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
