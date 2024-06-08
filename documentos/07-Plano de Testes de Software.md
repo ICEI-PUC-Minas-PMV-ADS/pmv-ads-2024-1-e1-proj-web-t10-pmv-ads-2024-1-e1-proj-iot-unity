@@ -22,7 +22,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
   <th>Responsável</th>
  </tr>
  <tr>
-  <td>CT-01: Verificar o funcionamento dos links da página Home</td>
+  <td>CT-01: Verificar o funcionamento dos links da página inicial</td>
   <td>
    <ul>
     <li>RF-001:	O site deve permitir ao usuário visualizar os planos para aquisição do produto.</li>
@@ -33,7 +33,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
     <li>RF-008:	O site deve permitir fazer login em sua área específica no software, quando já tiver se cadastrado.</li>
    </ul>
   </td>
-  <td>Verificar se os links da página Home </td>
+  <td>Verificar se os links da página inicial estão encaminhando o usuário para as páginas/seções corretamente</td>
   <td>
    <ol>
     <li>Acessar o navegador.</li>
@@ -43,7 +43,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
     <li>Preencher os formulários da área de "contato" e "suporte" e então verificar se os dados preenchidos no campos foram enviados para o e-mail cadastrado pelo desenvolvedor</li>
    </ol>
    </td>
-  <td>Todos os links da página Home devem encaminhar os usuários para as páginas ou seções da página descritas.</td>
+  <td>Todos os links da página inicial de fato encaminham o usuário às páginas esperadas, bem como às seções esperadas da própria página inicial.</td>
   <td>Guilherme</td>
  </tr>
 </table>
@@ -58,7 +58,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
   <th>Responsável</th>
  </tr>
  <tr>
-  <td>CT-01: Verificar se as funcionalidades gerais da página "Dashboard" estão funcionando corretamente</td>
+  <td>CT-02: Verificar se as funcionalidades gerais da página "Dashboard" estão funcionando corretamente</td>
   <td>
    <ul>
     <li>RF-009:	O site deve permitir ao usuário criar/excluir um ambiente.</li>
@@ -81,7 +81,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
     <li>Digitar no campo "pesquisar por ambientes" e verificar se a lista filtra os dispositivos comparando o texto digitado com a relação de ambientes diponíveis</li>
    </ol>
    </td>
-  <td>Todos os links da página Home devem encaminhar os usuários para as páginas descritas.</td>
+  <td>Todos os botões apresentam os comportamentos esperados, bem como os formulários, realizando a adição/edição/exclusão de dispositivos/ambientes.</td>
   <td>Bruno</td>
  </tr>
 </table>
