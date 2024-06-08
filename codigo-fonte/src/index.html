@@ -55,7 +55,8 @@
         <h2 >Contato</h2>
         <img src="../src/imagens/portrait-woman-customer-service-worker.jpg" alt="mulher atendente de telemarketing">
         <h3>Para dúvidas, entre em contato com a gente preenchendo o formulário abaixo:</h3>
-        <form class="formulario" id="form-contato">
+        <form class="formulario" action="https://api.web3forms.com/submit" id="form-contato" method="POST">
+            <input type="hidden" name="access_key" value="fe28ff33-7e14-44f4-af65-253f8190e45b">
             <div class="formulario__cliente">
                 <fieldset form="form-contato">
                     <label for="nome">Nome</label>
@@ -71,5 +72,6 @@
             <button>Enviar</button>
         </form>
     </footer>
+    <script src="https://web3forms.com/client/script.js" async defer></script>
 </body>
 </html>
