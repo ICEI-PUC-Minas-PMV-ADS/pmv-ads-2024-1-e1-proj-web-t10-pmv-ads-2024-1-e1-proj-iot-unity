@@ -34,7 +34,7 @@ let componenteModal = `
 
 let ambientes = document.querySelector("[data-ambientes]");
 
-botaoAdicionarModal.addEventListener('click', () => {
+document.getElementById("addAmbiente").onclick = function () {
     let modalContainer = document.createElement('div');
     modalContainer.style.position = "static";
     modalContainer.innerHTML = componenteModal
@@ -51,6 +51,6 @@ botaoAdicionarModal.addEventListener('click', () => {
         ambientes.appendChild(ambiente);
         modal.remove();
     });
-})
+}
 
 

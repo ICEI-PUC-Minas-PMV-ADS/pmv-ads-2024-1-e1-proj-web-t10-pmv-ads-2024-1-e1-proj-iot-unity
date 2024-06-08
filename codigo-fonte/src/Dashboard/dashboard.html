@@ -16,8 +16,8 @@
         <div class="logo"><img src="../imagens/Logo 3.png"/></div>
             <ul class="menu">
                 <li id="listaDispositivos"><a title="Dispositivos" href="#"><img src="../imagens/Dispositivos.png" alt="#"></a></li>
-                <!--<li><a title="Ambientes" href="#"><img src="../imagens/Ambientes.png" alt="#"></a></li>
-                <li><a title="Configurações" href="#"><img src="../imagens/Config 2.png" alt="#"></a></li>-->
+                <li id="addAmbiente"><a title="Adicionar Ambiente" href="#"><img src="../imagens/Ambientes.png" alt="#"></a></li>
+                <!--<li><a title="Configurações" href="#"><img src="../imagens/Config 2.png" alt="#"></a></li>-->
                 <li id="addDispositivo"><a title="Adcionar Dispositivo" href="#"><img src="../imagens/Add.png" alt="#"></a></li>
             </ul>
         <a href="../usuario/usuario.html"><div class="profile-picture"><img src="../imagens/conta-icon.png" alt=""></div></a>
@@ -28,16 +28,11 @@
             <div class="areainfo">
                 <div class="fotodispositivo"><img src="assets/Camera.png"></div>
                 <h2>Nome do dispositivo</h2>
-                <input type="text">
+                <input id="nome_Dispositivo" type="text">
                 <h2>Descrição</h2>
-                <textarea rows="4" cols="40"></textarea>
+                <textarea id="descricao_Dispositivo" rows="4" cols="40"></textarea>
                 <h2>Localização</h2>
-                <select name="comodos">
-                    <option value="" class="opcoes">Sala</option>
-                    <option value="" class="opcoes">Cozinha</option>
-                    <option value="" class="opcoes">Quarto</option>
-                    <option value="" class="opcoes">Garagem</option>
-                </select>
+                <input id="localização_Dispositivo" type="text">
             </div>
             <div class="areastatus">
                 <div class="status">
@@ -49,7 +44,6 @@
         </div>
         <div class="workarea">
             <div class="ambientes" data-ambientes>
-                <button class="ambientes__botao" data-adicionar>Adicionar dispositivo +</button>
                 <div class="ambiente">
                     <span class="ambiente__titulo">
                         <h3>Sala</h3>
@@ -119,39 +113,7 @@
                     </span>
                 </div>
             </div>
-            <div class="geral">
-                <span class="geral__dispositivo">
-                    <h4>Lâmpada 1</h4>
-                    <i class="fa-solid fa-bars"></i>
-                </span>
-                <span class="geral__dispositivo">
-                    <h4>Lâmpada 2</h4>
-                    <i class="fa-solid fa-bars"></i>
-                </span>
-                <span class="geral__dispositivo">
-                    <h4>Lâmpada 3</h4>
-                    <i class="fa-solid fa-bars"></i>
-                </span>
-                <span class="geral__dispositivo">
-                    <h4>Lâmpada 4</h4>
-                    <i class="fa-solid fa-bars"></i>
-                </span>
-                <span class="geral__dispositivo">
-                    <h4>Câmera 1</h4>
-                    <i class="fa-solid fa-bars"></i>
-                </span>
-                <span class="geral__dispositivo">
-                    <h4>Câmera 2</h4>
-                    <i class="fa-solid fa-bars"></i>
-                </span>
-                <span class="geral__dispositivo">
-                    <h4>Câmera 3</h4>
-                    <i class="fa-solid fa-bars"></i>
-                </span>
-                <span class="geral__dispositivo">
-                    <h4>Câmera 4</h4>
-                    <i class="fa-solid fa-bars"></i>
-                </span>
+            <div id="barraDispositivos" class="geral">
             </div>
         </div>
     </section>

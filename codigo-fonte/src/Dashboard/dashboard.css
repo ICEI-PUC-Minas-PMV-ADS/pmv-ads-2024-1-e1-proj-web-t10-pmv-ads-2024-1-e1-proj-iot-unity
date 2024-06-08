@@ -114,10 +114,13 @@ header img{
 
 .areainfo input{
     width: 60%;
+    text-align: center;
+    background-color: white;
 }
 
 .areainfo textarea{
     width: 90%;
+    background-color: white;
 
 }
 
@@ -206,7 +209,7 @@ label input:checked ~ span{
 .workarea{
     background-color: var(--fundo-principal);
     width:100%;
-    height: calc(100vh - 70px);
+    height: 100%;
     grid-area: workarea;
     display: flex;
     flex-wrap: wrap;

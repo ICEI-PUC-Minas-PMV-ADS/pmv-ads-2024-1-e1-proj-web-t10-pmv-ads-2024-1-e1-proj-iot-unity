@@ -36,18 +36,37 @@ function montaTabela() {
   });
   btMEditar.disabled = true;
   btMRemover.disabled = true;
-}
+};
 
-function montaDashboard () {
+function montaDashboard() {
   //Carrega os dados do local storage
   let dadosDashboard = readDispositivos();
 
   //Gera conteúdo do dashboard
   let conteudoDashboard = "";
-  dadosDashboard.forEach((disp) => {
-    conteudoDashboard +=
+  dadosDashboard.forEach((dispo) => {
+    conteudoDashboard += `
+      <span id="iconeDispositivo" value="${dispo.id}" name="iconDispo" class="geral__dispositivo">
+      <h4>${dispo.nome}</h4>
+      <i class="fa-solid fa-bars"></i>
+      </span>
+      `;
+  });
+  barraDispositivos.innerHTML = conteudoDashboard
+
+  document.querySelectorAll(".geral__dispositivo").forEach(function(icon){
+    icon.addEventListener("click", function(){
+      let dispositivoID = icon.getAttribute("value");
+      let dispositivo = readDispositivo(dispositivoID)
+      nome_Dispositivo.value = dispositivo.nome;
+      descricao_Dispositivo.value = dispositivo.descricao;
+      localização_Dispositivo.value = dispositivo.localizacao;
+      nome_Dispositivo.disabled = true;
+      descricao_Dispositivo.disabled = true;
+      localização_Dispositivo.disabled = true
+    })
   })
-}
+};
 
 // Mostra a janela modal para adição de novo dispositivo
 document.getElementById("addDispositivo").onclick = function () {
@@ -76,6 +95,7 @@ btMTCriar.onclick = function () {
   modalDispositivo.style.display = "none";
   btMExcluir.style.display = "inline-block";
   createDispositivo(dispositivo);
+  montaDashboard()
 };
 
 // Verifica se os três campos estão preenchidos antes de criar o dispositivo
@@ -153,6 +173,7 @@ btMAlterar.onclick = function () {
   updateDispositivo(dispositivoAtualizado);
   modalDispositivo.style.display = "none";
   montaTabela();
+  montaDashboard()
 };
 
 // Abre janela modal para confirmar a remoção do dispositivo
@@ -183,8 +204,8 @@ btMExcluir.onclick = function () {
   deleteDispositivo(parseInt(campoID.value));
   modalDispositivo.style.display = "none"
   montaTabela();
+  montaDashboard()
 };
 
-  montaTabela();
-
-  
+montaDashboard();
+montaTabela();
