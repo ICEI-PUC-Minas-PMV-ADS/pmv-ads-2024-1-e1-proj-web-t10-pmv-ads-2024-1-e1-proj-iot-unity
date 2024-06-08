@@ -11,11 +11,13 @@
     box-shadow: 2px 2px 20px rgba(0,0,0,0.4);
     background-color: dodgerblue;
 }
+
 #Chat-titulo h1{
     text-align: center;
     color: white;
     padding: 15px;
 }
+
 #chatlogs{
     flex: 1;
     color: white;
@@ -23,11 +25,13 @@
     padding: 20px 30px;
     overflow: auto;
 }
+
 #chat-form{
     display: flex;
     align-items: center;
     flex-direction: column;
 }
+
  .chat-texto{
     color: black;
     background-color: white;
@@ -44,6 +48,7 @@
     bottom: 0;
     right: 0;
 }
+
 #sendButton{
     width: 15%;
     cursor: pointer;
@@ -54,6 +59,7 @@ textarea{
     width: 49.8%;
     text-align: center;
 }
+
 .fechar-chat{
     position: absolute;
     top: 2px;
