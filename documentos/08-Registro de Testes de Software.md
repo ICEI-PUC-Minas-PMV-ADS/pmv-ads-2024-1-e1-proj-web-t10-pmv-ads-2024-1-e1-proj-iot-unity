@@ -18,9 +18,7 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 
   </li>
   <li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/blob/main/documentos/records/funcionalidade-links-pagina-inicial.mp4">Link para a gravação</a></li>
-  <hr>
+  <li>Verificou-se que todos os links exibidos na página inicial direcionam o usuário para a seção/página esperada.</li>
   
-  <li> CT-02: Verificar o funcionamento do filtro de pesquisa.
-
-  Responsável: Beatriz.
+ 
 </ul>
