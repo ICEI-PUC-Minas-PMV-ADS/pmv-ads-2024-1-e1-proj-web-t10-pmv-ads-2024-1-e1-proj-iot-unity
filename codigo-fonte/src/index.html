@@ -21,7 +21,7 @@
                 <ul class="menu__ul">
                     <li class="menu__li"><a href="./Planos/planos.html">Planos</a></li>
                     <li class="menu__li"><a href="#artigo">Sobre</a></li>
-                    <li class="menu__li">Suporte</li>
+                    <li class="menu__li"><a href="#suporte">Suporte</a></li>
                     <li class="menu__li"><a href="#contato">Contato</a></li>
                 </ul>
                 <ul class="menu__login">
@@ -51,27 +51,51 @@
             </div>
         </article>
     </main>
-    <footer class="rodape" id="contato">
-        <h2 >Contato</h2>
-        <img src="../src/imagens/portrait-woman-customer-service-worker.jpg" alt="mulher atendente de telemarketing">
-        <h3>Para dúvidas, entre em contato com a gente preenchendo o formulário abaixo:</h3>
-        <form class="formulario" action="https://api.web3forms.com/submit" id="form-contato" method="POST">
-            <input type="hidden" name="access_key" value="fe28ff33-7e14-44f4-af65-253f8190e45b">
-            <div class="formulario__cliente">
-                <fieldset form="form-contato">
-                    <label for="nome">Nome</label>
-                    <input type="text" placeholder="Nome" name="nome" id="nome">
-                </fieldset>
-                <fieldset form="form-contato">
-                    <label for="e-mail" name="e-mail">E-mail</label>
-                    <input type="email" placeholder="E-mail" id="e-mail">
-                </fieldset>
-            </div>
-            <label for="mensagem" class="label-mensagem">Mensagem</label>
-            <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Mensagem"></textarea>
-            <button>Enviar</button>
-        </form>
+    <footer>
+        <section class="rodape__section" id="contato">
+            <h2 >Contato</h2>
+            <img src="../src/imagens/portrait-woman-customer-service-worker.jpg" alt="mulher atendente de telemarketing">
+            <h3>Para dúvidas, entre em contato com a gente preenchendo o formulário abaixo:</h3>
+            <form class="formulario" action="https://api.web3forms.com/submit" id="form-contato" method="POST" data-form-contato>
+                <input type="hidden" name="access_key" value="fe28ff33-7e14-44f4-af65-253f8190e45b">
+                <div class="formulario__cliente">
+                    <fieldset form="form-contato">
+                        <label for="nome">Nome</label>
+                        <input type="text" placeholder="Nome" name="nome" id="nome">
+                    </fieldset>
+                    <fieldset form="form-contato">
+                        <label for="e-mail" name="e-mail">E-mail</label>
+                        <input type="email" placeholder="E-mail" id="e-mail">
+                    </fieldset>
+                </div>
+                <label for="mensagem" class="label-mensagem">Mensagem</label>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Mensagem"></textarea>
+                <button data-enviar-contato>Enviar</button>
+            </form>
+        </section>
+        <section class="rodape__section" id="suporte">
+            <h2>Suporte</h2>
+            <img src="../src/imagens/centro-de-atendimento.jpg" alt="mulher atendente de telemarketing">
+            <h3>Caso tenha algum problema com nosso sistema, entre em contato conosco através do formulário abaixo:</h3>
+            <form class="formulario" action="https://api.web3forms.com/submit" id="form-contato" method="POST" data-form-contato>
+                <input type="hidden" name="access_key" value="fe28ff33-7e14-44f4-af65-253f8190e45b">
+                <div class="formulario__cliente">
+                    <fieldset form="form-contato">
+                        <label for="nome">Nome</label>
+                        <input type="text" placeholder="Nome" name="nome" id="nome">
+                    </fieldset>
+                    <fieldset form="form-contato">
+                        <label for="e-mail" name="e-mail">E-mail</label>
+                        <input type="email" placeholder="E-mail" id="e-mail">
+                    </fieldset>
+                </div>
+                <label for="mensagem" class="label-mensagem">Mensagem</label>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Mensagem"></textarea>
+                <button data-enviar-contato>Enviar</button>
+            </form>
+        </section>
     </footer>
     <script src="https://web3forms.com/client/script.js" async defer></script>
+    <script type="module" src="./formularios-pagina-inicial.js"></script>
 </body>
 </html>
