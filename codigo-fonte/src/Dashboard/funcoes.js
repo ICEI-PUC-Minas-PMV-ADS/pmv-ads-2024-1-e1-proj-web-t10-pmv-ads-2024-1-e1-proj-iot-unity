@@ -8,7 +8,7 @@ function montaTabela() {
   let conteudoDispositivo = "";
   dadosDispositivo.forEach((item) => {
     conteudoDispositivo += `
-      <tr id='linha-${item.id}'>
+      <tr id='linha-${item.id}' class="linhas">
         <td class= 'selecao'>
           <input type="radio" name="campoSelecao" value="${item.id}" />
         </td>
@@ -37,6 +37,22 @@ function montaTabela() {
   });
   btMEditar.disabled = true;
   btMRemover.disabled = true;
+
+let inputFiltro = document.querySelector("[data-busca]");
+  inputFiltro.addEventListener('input', () =>{
+    const inputBusca = inputFiltro.value.toLowerCase();
+    const itensDaLista = document.querySelectorAll('.linhas');
+    dadosDispositivo.forEach(item => {
+      if(item.localizacao.toLowerCase().includes(inputBusca)){
+        let elemento = document.querySelector(`#linha-${item.id}`);
+        elemento.style.display = "";
+      } else{
+        let elemento = document.querySelector(`#linha-${item.id}`);
+        elemento.style.display = "none";
+      }
+    })
+  })
+
 };
 
 // Monta a bara de dispositivos
