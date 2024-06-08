@@ -18,10 +18,10 @@
   
   .corpoModal2 {
     background-color: var(--fundo-principal);
-
     margin: 15% auto;
     padding: 10px 20px;
     border: 1px solid #888;
+    border-radius: 10px;
     width: fit-content;
     height: fit-content;
     min-width: 600px;
@@ -31,6 +31,30 @@
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     animation-name: animacao;
     animation-duration: 1s
+  }
+
+  .corpoModal2 h1{
+    font-family: var(--subtitulo);
+  }
+
+  .container__input{
+    border: 1px solid black;
+    border-radius: 5px;
+    color: var(--icones-principais);
+    width: 55%;
+  }
+
+  .container__input i{
+    margin: 0 5px;
+  }
+
+  .corpoModal2 input{
+    box-sizing: content-box;
+    border: none;
+    height: 2rem;
+    margin: 5px;
+    outline: none;
+    width: 80%;
   }
 
   table {
@@ -90,3 +114,25 @@
     text-decoration: none;
     cursor: pointer;
   }
+
+  .botao{
+    cursor: pointer;
+    color: black;
+    background-color: var(--fundo-secundario);
+    border: none;
+    border-radius: 5px;
+    font-family: var(--paragrafo);
+    font-weight: 600;
+    height: 2rem;
+    width: 3rem;
+  }
+
+  .botao:hover{
+    opacity: 70%;
+  }
+
+  #btMRemover{
+    background-color: var(--botao-apagar);
+  }
+
+  
