@@ -33,7 +33,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
     <li>RF-008:	O site deve permitir fazer login em sua área específica no software, quando já tiver se cadastrado.</li>
    </ul>
   </td>
-  <td>Verificar se os links da página Home estão encaminhando para as respectivas páginas corretamente</td>
+  <td>Verificar se os links da página Home </td>
   <td>
    <ol>
     <li>Acessar o navegador.</li>
@@ -68,7 +68,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
     <li>RF-013:	O site deve permitir ao usuário editar o nome, o ambiente/localização e sua descrição a partir da lista mencionada no item anterior.</li>
    </ul>
   </td>
-  <td>Verificar se os links da página Home estão encaminhando para as respectivas páginas corretamente</td>
+  <td>Verificar se os botões e formulários da página estão funcionando conforme planejado</td>
   <td>
    <ol>
     <li>Abrir a página de dashboard.</li>
