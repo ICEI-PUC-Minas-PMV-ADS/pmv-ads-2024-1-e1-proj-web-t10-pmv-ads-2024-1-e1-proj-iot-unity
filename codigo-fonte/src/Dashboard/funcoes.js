@@ -95,7 +95,8 @@ btMTCriar.onclick = function () {
   modalDispositivo.style.display = "none";
   btMExcluir.style.display = "inline-block";
   createDispositivo(dispositivo);
-  montaDashboard()
+  montaDashboard();
+  atualizaWorkarea();
 };
 
 // Verifica se os três campos estão preenchidos antes de criar o dispositivo
@@ -173,7 +174,8 @@ btMAlterar.onclick = function () {
   updateDispositivo(dispositivoAtualizado);
   modalDispositivo.style.display = "none";
   montaTabela();
-  montaDashboard()
+  montaDashboard();
+  atualizaWorkarea();
 };
 
 // Abre janela modal para confirmar a remoção do dispositivo
@@ -204,7 +206,8 @@ btMExcluir.onclick = function () {
   deleteDispositivo(parseInt(campoID.value));
   modalDispositivo.style.display = "none"
   montaTabela();
-  montaDashboard()
+  montaDashboard();
+  atualizaWorkarea();
 };
 
 //------------------------------------ Funções para os ambientes -------------------------------------//
@@ -222,7 +225,7 @@ dadosAmbiente.forEach((item) => {
       <h3>${item.nome}</h3>
       <img value="${item.id}" src="./assets/remove.png" alt="Icone remover" class="excluirAmbiente"> 
   </span>
-  <span id="${item.id}" value="${item.id}" class="ambiente__dispositivos">
+  <span id="${item.nome}" value="${item.id}" class="ambiente__dispositivos">
   </span>
 </div>`
 });
@@ -238,6 +241,7 @@ document.querySelectorAll(".excluirAmbiente").forEach(function(icon){
     }
     montaAmbiente();
     atualizaAmbiente();
+    atualizaWorkarea();
   })
 })
 }
@@ -247,9 +251,12 @@ function atualizaWorkarea() {
     let ambienteID = ambient.getAttribute("value");
     let ambiente = readAmbiente(ambienteID);
     let dispositivos = readDispositivos();
+    let spanID = ambient.getAttribute("id")
+    let conteudoAmbient = ""; // Vamos criar uma variável para armazenar o conteúdo HTML
+
     for (let i = 0; i < dispositivos.length; i++) {
       if (dispositivos[i].localizacao === ambiente.nome) {
-        let conteudoAmbient = "";
+        // Adiciona o conteúdo do dispositivo à variável conteudoAmbient
         conteudoAmbient += `
           <span class="dispositivos__dispositivo">
             <p>${dispositivos[i].nome}</p>
@@ -257,6 +264,19 @@ function atualizaWorkarea() {
           </span>
         `;
       }
+    }
+
+    // Cria um elemento span para conter os dispositivos
+    let spanDispositivos = document.createElement('span');
+    spanDispositivos.innerHTML = conteudoAmbient; // Define o conteúdo HTML
+
+    // Encontra a span correspondente ao ambiente e anexa os dispositivos a ela
+    let spanAmbiente = document.getElementById(spanID);
+    if (spanAmbiente) {
+      spanAmbiente.innerHTML = ''; // Limpa o conteúdo anterior, se houver
+      spanAmbiente.appendChild(spanDispositivos);
+    } else {
+      console.error("Span do ambiente não encontrada para o ID:", ambienteID);
     }
   });
 }
@@ -311,7 +331,7 @@ let liberaBotaoMT2 = function () {
     btmAdicionar.disabled = true;
   }
 };
-campoTipo.onchange = liberaBotaoMT2;
+campoTipo.onkeyup = liberaBotaoMT2;
 
 montaTabela();
 montaDashboard();
