@@ -57,9 +57,11 @@ button.cadastro:hover{
     color: aliceblue;
     cursor: pointer;
 }
+
 .fechar:hover{
     background: linear-gradient(to right, #9c0c02,#460d0d);
 }
+
 .janela-modal.abrir{
     display: flex;
 }

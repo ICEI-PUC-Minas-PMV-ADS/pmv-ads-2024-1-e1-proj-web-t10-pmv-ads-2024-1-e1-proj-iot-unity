@@ -12,47 +12,47 @@
     background-color: dodgerblue;
 }
 #Chat-titulo h1{
+    text-align: center;
     color: white;
     padding: 15px;
 }
 #chatlogs{
     flex: 1;
     color: white;
-    background-color: rgba(0,0,0,0.7);
+    background-color: white;
     padding: 20px 30px;
     overflow: auto;
 }
 #chat-form{
     display: flex;
-   flex-direction: column;
+    align-items: center;
+    flex-direction: column;
 }
  .chat-texto{
-    background-color: rgb(32, 95, 131);
+    color: black;
+    background-color: white;
     height: 40px;
     width: auto;
     max-width: 60%;
-    border-radius: 10px;
-    border: solid rgb(2, 2, 2);
+    border-radius: 4px;
+    border: solid black;
     margin: 10px;
 }
+
 .chat-button-suporte{
     position: fixed;
     bottom: 0;
     right: 0;
 }
-#container-chat.abrir{
-    display: flex;
-}
 #sendButton{
     width: 15%;
-    margin-left: 191.25px;
-
+    cursor: pointer;
 }
 textarea{
     resize: none;
     height: 65%;
     width: 49.8%;
-    margin-left: 109.55px;
+    text-align: center;
 }
 .fechar-chat{
     position: absolute;
@@ -66,6 +66,6 @@ textarea{
     cursor: pointer;
 
 }
-.janela-modal.abrir{
+#container-chat.abrir{
     display: flex;
 }

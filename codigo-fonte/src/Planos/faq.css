@@ -34,6 +34,7 @@ section.Faq{
     border-bottom: 2px solid black;
     margin-bottom: 0px;
 }
+
 .questao{
     display: flex;
     justify-content: space-between;
@@ -41,6 +42,7 @@ section.Faq{
     max-width: 700px;
     min-width: 700px;
 }
+
 .questao h3{
     font-size: 1rem;
 }
@@ -65,6 +67,7 @@ section.Faq{
 .faq.active svg {
     transform: rotate(180deg);
 }
+
 svg {
     transition: transform .5s ease-in ;
 }

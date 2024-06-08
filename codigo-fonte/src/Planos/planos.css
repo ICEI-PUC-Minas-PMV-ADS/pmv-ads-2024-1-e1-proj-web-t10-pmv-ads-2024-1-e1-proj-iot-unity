@@ -41,7 +41,6 @@ header{
     height: 90px;
 }
 
-
 .cards{
     display: flex;
     padding-top: 50px;
@@ -61,31 +60,33 @@ header{
     box-shadow: 20px 20px  50px -30px black;
     border-radius: 12px;
     margin-bottom: 32px;
-    overflow: hidden;
-   
+    overflow: hidden;  
 }
 
 #card2:hover{
 height: 520px;
 }
+
 #card3:hover{
     height: 660px;
     }
+
 #card1{
     height: 405px;
     width: 460px;
 }
+
 #card2{
     height: 405px;
     width: 450px;
     transition: 0.9s;
 }
+
 #card3{
     height: 405px;
     width: 450px;
     transition: 1.2s;
 }
-
 
 .icon{
     width: 64px;
@@ -99,10 +100,6 @@ height: 520px;
 
 .card h3{
     margin: 16px 0;
-}
-
-.card span {
-    
 }
 
 .saiba{
@@ -119,7 +116,6 @@ height: 520px;
     background-color: #fff1ba;
 }
 
-
 .saiba:hover{
     background: linear-gradient(to right, #e6c619,#fff1ba);
 }
@@ -130,6 +126,7 @@ ol,ul{
     text-align: left;
     padding: 0px 0px 0px 0px;
 }
+
 .imagens{
     max-height: 26px;
     max-width: 26px;
