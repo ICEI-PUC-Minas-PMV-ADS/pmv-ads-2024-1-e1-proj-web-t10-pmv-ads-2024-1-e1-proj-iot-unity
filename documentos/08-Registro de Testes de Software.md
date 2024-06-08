@@ -10,3 +10,18 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 | Responsável pela execução do caso de Teste | Nome do integrante da equipe |
 
 [Inserir aqui as evidências de teste que podem ser apresentadas por print de telas ou por .gif de execução de teste]
+
+<ul>
+  <li> CT-01: Verificar o funcionamento dos links da página inicial.
+
+  Responsável: Guilherme.
+
+https://user-images.githubusercontent.com/100447878/174854223-c457e6ca-a9ce-48d3-aba9-b9e617132f31.mov
+
+  </li>
+  <hr>
+  
+  <li> CT-02: Verificar o funcionamento do filtro de pesquisa.
+
+  Responsável: Beatriz.
+</ul>
