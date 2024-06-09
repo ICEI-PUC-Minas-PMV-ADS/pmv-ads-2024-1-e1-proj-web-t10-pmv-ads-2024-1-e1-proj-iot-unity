@@ -10,7 +10,6 @@ Gerenciamento de dispositivos inteligentes (IoT) de forma centralizada.
 
 ## Integrantes
 
-* Ana Luiza Ferreira Santos
 * Bruno Duarte de Matos
 * Guilherme Henrique Salviano
 * Joel Onofre De São José Júnior
