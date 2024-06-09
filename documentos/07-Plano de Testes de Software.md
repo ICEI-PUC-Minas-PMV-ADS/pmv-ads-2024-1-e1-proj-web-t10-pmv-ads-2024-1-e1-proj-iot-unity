@@ -77,7 +77,10 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
     <li>Preencher o formulário, clicar em "Criar", verificando, em seguida, se o ambiente foi criado</li>
     <li>Clicar no link "Dispositivos" e verificar se todos os dispositivos criados se encontram na lista, bem como os ambientes/localização</li>
     <li>Selecionar algum dispositivo e verificar se é disponibilizada a opção para edição. Caso positivo, preencher o formulário e verificar se houve a mudança desejada</li>
+    <li>Clicar no botão "excluir" da lista de dispositivos é confirmar se é possível excluir um dispositivo</li>
+    <li>Clicar no botão "X" de determinado ambiente e verificar se ele é excluído.</li>
     <li>Digitar no campo "pesquisar por ambientes" e verificar se a lista filtra os dispositivos comparando o texto digitado com a relação de ambientes diponíveis</li>
+    <li>Digitar no campo próprio do chat de suporte algum texto e verificar se a mensagem é registrada</li>
    </ol>
    </td>
   <td>Todos os botões apresentam os comportamentos esperados, bem como os formulários, realizando a adição/edição/exclusão de dispositivos/ambientes.</td>
