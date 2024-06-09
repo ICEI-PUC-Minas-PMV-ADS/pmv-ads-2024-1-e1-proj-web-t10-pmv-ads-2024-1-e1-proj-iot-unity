@@ -4,7 +4,7 @@ usuarioAtual = JSON.parse(localStorage.getItem("usuarioLogado"));
 // Exibe nos campos da página as informações do usuário que realizou login
 nomeUsuario.innerHTML = usuarioAtual.nome
 emailUsuario.innerHTML = usuarioAtual.email
-dataUsuario.innerHTML = usuarioAtual.dataNascimento
+dataUsuario.innerHTML = formataData(usuarioAtual.dataNascimento) 
 
 
 // Mostra o modal para realizar a troca de senha 
@@ -38,3 +38,8 @@ let liberaBotaoMT = function () {
 fechaModal4.onclick = function () {
     modalSenha.style.display = "none";
   };
+
+function formataData(d) {
+  [ano, mes, dia] = d.split("-");
+  return dia + "-" + mes + "-" + ano;
+}
