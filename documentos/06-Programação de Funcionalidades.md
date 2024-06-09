@@ -94,6 +94,8 @@ RF-12: A aplicação deve apresentar interface prática, intuitiva.
 
 RF-18:	A aplicação deve ter uma página inicial permitindo navegar pelo site.
 
+RF-20: A aplicação deve permitir que o usuário abra um chamado de suporte  para obter soluções para seus problemas.
+
 #### Artefatos da funcionalidade
 
 ●	index.html 
