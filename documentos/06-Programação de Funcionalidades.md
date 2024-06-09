@@ -25,6 +25,12 @@ RF-12: A aplicação deve apresentar interface prática, intuitiva.
 
 ●cadastro.css
 
+●crud-Usuarios.js
+
+●script.js
+
+●variaveis.css
+
 #### Estrutura de Dados
 
 ●[cadastro.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/blob/d5edf3c4d62e3184487d16425d32ad16023f4267/codigo-fonte/src/Cadastro/cadastro.html)
@@ -61,6 +67,18 @@ RF-16: A aplicação deve permitir ao usuário fazer o login da sua conta.
 ●	login.html 
 
 ●	login.css
+
+●crud-Usuarios.js
+
+●login.js
+
+●reset.html
+
+●reset.css
+
+●reset.js
+
+●variaveis.css
 
 #### Estrutura de Dados
 
@@ -109,6 +127,25 @@ RF-20: A aplicação deve permitir que o usuário abra um chamado de suporte  pa
 
 ●	index.html 
 
+● cabecalho.css
+
+● contato.css
+
+● conteudo-principal.css
+
+● rest.css 
+
+● sobre.css
+
+● suporte.css
+
+● variaveis.css
+
+● Chat.js
+
+● modal-chat.js
+
+● Chat.css
 
 #### Estrutura de Dados
 
@@ -194,6 +231,13 @@ RF-022	A aplicação deve oferecer a funcionalidade de conta de usuário.
 
 ●	usuario.css
 
+● crud-usuarios.js
+
+● user.js
+
+● modal-senha.css
+
+● variaveis.css
 
 #### Estrutura de Dados
 
@@ -246,6 +290,28 @@ Exemplo da tela de Dispositivos:
 ●	dashboard.html 
 
 ●	dashboard.css
+
+● crud-Ambientes.js
+
+● crud-dispositivos.js
+
+● Chat.js
+
+● filtro-de-dispositivos.js
+
+● funcoes.js
+
+● modal-chat.js
+
+● chat.css
+
+● modal-ambiente.css
+
+● modal-dispositivo.css
+
+● modal-dispositivos.css
+
+● variaveis.css
 
 #### Estrutura de Dados
 
