@@ -21,7 +21,13 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
   <li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/blob/main/documentos/records/funcionalidade-formularios-pagina-inicial.mp4">Link para a gravação - teste de verificação do funcionamento dos formulários.</a></li>
   <li>Verificou-se que todos os links exibidos na página inicial direcionam o usuário para a seção/página esperada.</li>
 
+<li> CT-02: Verificar se as funcionalidades gerais da página "Dashboard" estão funcionando corretamente.
 
+  Responsável: Guilherme.
+
+  </li>
+  <li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/blob/main/documentos/records/funcionalidades-dashboard.mp4">Link para a gravação - teste geral das funcionalidades da página Dashboard</a></li>
+  <li>Verificou-se que todas as funcionalidades relacionadas a dispositivos/ambientes, assim como o chat de suporte estão funcionando corretamente.</li>
   
  
 </ul>
