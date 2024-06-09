@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="../conteudo-principal.css">
     <link rel="stylesheet" href="../sobre.css">
     <link rel="stylesheet" href="../contato.css">
+    <script defer src="https://web3forms.com/client/script.js" async defer></script>
+    <script defer type="module" src="./formularios-pagina-inicial.js"></script>
+    <link defer rel="stylesheet" href="Chat.css">
+    <script defer src="Chat.js"></script>
+    <script defer src="modal-chat.js"></script>
 </head> 
 <body>
     <header>
@@ -93,8 +98,24 @@
                 <button data-enviar-contato>Enviar</button>
             </form>
         </section>
+    </section>
+</div> 
+<section class="container-chat" id="container-chat">
+    <img class="fechar-chat" id="fechar-chat" src="./imagens/fechar.png">
+    <div id="Chat-titulo">
+       <h1>Chat suporte</h1>
+   </div>
+   <div id="chatlogs">
+      <!-- <div class="chat-texto">-->
+
+       </div>
+   </div>
+   <div id="chat-form">
+       <textarea id="Mensagem-Input" placeholder="digite sua mensagem"></textarea>
+       <button id="sendButton">Enviar</button>
+   </div>
+</section>
+<div class="chat-button-suporte" id="chat-button-suporte"><img src="./imagens/chat-suporte.png" onclick="suporte()" class="chat-suporte" ></div>        
     </footer>
-    <script src="https://web3forms.com/client/script.js" async defer></script>
-    <script type="module" src="./formularios-pagina-inicial.js"></script>
 </body>
 </html>
