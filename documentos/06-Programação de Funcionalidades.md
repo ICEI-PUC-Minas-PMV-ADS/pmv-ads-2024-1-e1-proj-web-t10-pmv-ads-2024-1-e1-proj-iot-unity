@@ -1,6 +1,6 @@
 # Programação de Funcionalidades
 
-### Tela de Cadastro (RF-001)
+### Tela de Cadastro (RF-01)
 
 Responsável: Larissa
 
@@ -13,7 +13,9 @@ Exemplo da tela de cadastro:
 
 #### Requisito atendido
 
-RF-001: O site deve permitir ao usuário cadastrar uma conta.
+RF-01: A aplicação deve permitar ao usuário criar uma conta.
+
+RF-12: A aplicação deve apresentar interface prática, intuitiva.
 
 
 #### Artefatos da funcionalidade
@@ -32,7 +34,7 @@ RF-001: O site deve permitir ao usuário cadastrar uma conta.
 Abra um navegador de Internet e informe a seguinte URL:
 
 
-### Tela de Login (RF-025)
+### Tela de Login (RF-16)
 
 Responsável: Rafael
 
@@ -46,9 +48,11 @@ Exemplo da tela de login:
 
 #### Requisito atendido
 
-RF-002: A aplicação deve permitir ao usuário fazer o login da sua conta.
+RF-15: A aplicação deve oferecer uma funcionalidade de trocar senha/Esqueci minha senha.
 
-RF-0023	A aplicação deve oferecer uma funcionalidade de trocar senha/Esqueci minha senha.
+RF-12: A aplicação deve apresentar interface prática, intuitiva.
+
+RF-16: A aplicação deve permitir ao usuário fazer o login da sua conta.
 
 #### Artefatos da funcionalidade
 
@@ -67,8 +71,7 @@ RF-0023	A aplicação deve oferecer uma funcionalidade de trocar senha/Esqueci m
   Abra um navegador de Internet e informe a seguinte URL:
 
 
-
-  ### Página inicial (RF-002)
+  ### Página inicial (RF-18)
 
 Responsável: Guilherme
 
@@ -85,8 +88,11 @@ Exemplo da página inicial:
 
 #### Requisitos atendidos
 
-RF-003	A aplicação deve oferecer uma página inicial onde o usuário tem acesso ao cadastro de conta, login,planos, contato e sobre a aplicação
+RF-09:	A aplicação deve oferecer uma funcionalidade de chat de atendimento rápido.
 
+RF-12: A aplicação deve apresentar interface prática, intuitiva.
+
+RF-18:	A aplicação deve ter uma página inicial permitindo navegar pelo site.
 
 #### Artefatos da funcionalidade
 
@@ -106,7 +112,7 @@ RF-003	A aplicação deve oferecer uma página inicial onde o usuário tem acess
 
 
 
-### Tela de planos (RF-026)
+### Tela de planos (RF-18)
 
 Responsável: Bruno
 
@@ -119,8 +125,15 @@ Exemplo da tela de Planos:
 
 
 #### Requisitos atendidos
+
+RF-09: A aplicação deve oferecer uma funcionalidade de chat de atendimento rápido.
+
+RF-12: A aplicação deve apresentar interface prática, intuitiva.
  
-RF-004	A aplicação deve permitir ao usuário entrar na página de planos.
+RF-17: A aplicação deve permitir ao usuário entrar na página de planos.
+
+RF-19: A aplicação deve ter um campo para tirar dúvidas.
+
 
 #### Artefatos da funcionalidade
 
@@ -139,7 +152,7 @@ RF-004	A aplicação deve permitir ao usuário entrar na página de planos.
 
 
 
-### Tela de Perfil de Usuário (RF-016, RF-022)
+### Tela de Perfil de Usuário (RF-16, RF-22)
 
 Responsável: Joel
 
@@ -173,9 +186,7 @@ RF-022	A aplicação deve oferecer a funcionalidade de conta de usuário.
 
 1.	Abra um navegador de Internet e informe a seguinte URL:
 
-
-
-### Tela de Dispositivos (RF-004, RF-009, RF-010, RF-012, RF-018, RF-020, RF-021)
+### Tela de Dispositivos (RF-03, RF-05, RF-06, RF-12, RF-18, RF-20, RF-21)
 
 Responsável: Joel, Guilherme, Bruno, Rafael
 
@@ -189,19 +200,29 @@ Exemplo da tela de Dispositivos:
 
 #### Requisitos atendidos
 
- RF- 004	A aplicação deve permitir ao usuário remover dispositivos.
+ RF-02: A aplicação deve permitir ao usuário	adicionar dispositivos.
 
- RF- 009	A aplicação deve permitir ao usuário nomear o dispositivo.
+ RF-03:	A aplicação deve permitir ao usuário remover dispositivos.
 
- RF- 010	A aplicação deve permitir ao usuário adicionar descrição ao dispositivo.
+ RF-04: A aplicação deve oferecer uma funcionalidade de Interface personalizável.
 
- RF- 012	A aplicação deve permitir ao usuário verificar o Status do dispositivo.
+ RF-05:	A aplicação deve permitir ao usuário nomear o dispositivo.
 
- RF- 018	A aplicação permitir ao usuário de adcionar localização de cômodos nos dispositivos
+ RF-06:	A aplicação deve permitir ao usuário adicionar descrição ao dispositivo.
 
- RF- 020	A aplicação deve apresentar interface prática, intuitiva
+ RF-07:	A aplicação deve permitir ao usuário localização do dispositivo
 
- RF- 021	A aplicação deve permitir ao usuário separar dispositivos por tipo
+ RF-08:	A aplicação deve permitir ao usuário verificar o Status do dispositivo.
+
+ RF-09: A aplicação deve oferecer uma funcionalidade de chat de atendimento rápido.
+
+ RF-10:	A aplicão deve permitir ao usuário alterar as informações do perfil de usuário.
+
+ RF-11:	A aplicação permitir ao usuário de adcionar localização de cômodos nos dispositivos.
+
+ RF-12:	A aplicação deve apresentar interface prática, intuitiva.
+
+ RF-13:	A aplicação deve permitir ao usuário separar dispositivos por tipo
 
  #### Artefatos da funcionalidade
 
