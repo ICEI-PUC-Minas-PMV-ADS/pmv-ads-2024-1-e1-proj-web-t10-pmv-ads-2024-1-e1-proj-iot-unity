@@ -22,7 +22,7 @@ header{
     height: 90px;
     background-color: var(--fundo-header);
     display:flex;
-    padding: 10px 0px 0px 0px;
+    padding: 8px 0px 0px 0px;
     justify-content: center;
     box-shadow: 0px 2px 0px black;
     align-items: center;
@@ -47,6 +47,7 @@ header{
     padding-bottom: 50px;
     justify-content: space-evenly;
     flex-wrap: wrap;
+
 
 }
 

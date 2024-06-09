@@ -8,10 +8,15 @@
     width: 100%;
 }
 
+
 .conteudo__aside{
     display: flex;
     height: 100%;
     width: 50%;
+    background-color: whitesmoke;
+}
+#inicio{
+    background-color: whitesmoke;
 }
 
 .conteudo__aside__esquerdo{
@@ -48,9 +53,11 @@
 }
 
 .conteudo__aside img{
-    border-radius: 3rem;
-    height: 90%;
-    width: 65%;
+    
+}
+.texto__container{
+    line-height: 24px;
+    
 }
 
 @media screen and (max-width: 720px){

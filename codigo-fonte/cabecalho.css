@@ -8,12 +8,13 @@ html{
     background-color: var(--fundo-principal);
     border-bottom: solid 1px grey;
     display: flex;
-    height: 23vh;
+    height: 130px;
     position: fixed;
     width: 100%;
 }
 
 .menu__logo{
+    background-color: rgb(61, 88, 161);
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -39,6 +40,7 @@ html{
     display: flex;
     justify-content: space-between;
     width: 85vw;
+    background-color: var(--fundo-header);
 }
 
 .menu__ul{
@@ -47,9 +49,12 @@ html{
     height: 100%;
     justify-content: space-around;
     width: 70vw;
+    
 }
 
+
 .menu__li{
+    color: white;
     cursor: pointer;
     font-family: var(--subtitulo);
     font-weight: 400;
@@ -77,13 +82,17 @@ html{
 .login__li{
     align-content: center;
     background-color: var(--fundo-secundario);
-    border-radius: 6em;
+    border-radius: 6px;
     cursor: pointer;
     font-family: var(--subtitulo);
     font-weight: 400;
     font-style: normal;
     height: 1.5rem;
     padding: .4rem .3rem .4rem .3rem;
+}
+.login__li:hover{
+    background: linear-gradient(to right, #dad8d2,#8f8e8c);
+    transition: 0.2s;
 }
 
 @media screen and (max-width: 720px){
