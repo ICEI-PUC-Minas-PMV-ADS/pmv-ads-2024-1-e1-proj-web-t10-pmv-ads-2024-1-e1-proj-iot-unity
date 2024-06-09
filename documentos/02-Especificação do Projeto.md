@@ -40,10 +40,6 @@
 <td><b>Necessidades</b></td>
 <td>
   <ul>
-    <li>Status dos dispositivos dos clientes</li>
-    <li>Acesso aos dispositivos dos clientes</li>
-    <li>Chat rádpido com o cliente</li>
-    <li>Conseguir verificar rapidamente o perfil do cliente</li>
     <li>Acesso aos chamados abertos</li>
   <ul>
 </td>
@@ -109,11 +105,8 @@
 
 |ID      | Descrição               |Prioridade |
 |--------|-------------------------|:----:|
-|	RNF-01	|	A aplicação deve ter responsividade com dispositivos móveis. 	|	ALTA	|
-|	RNF-02	|	A aplicação deve executar uma função em até 3 segundos.	|	MÉDIA	|
-|	RNF-03	|	A aplicação deve ter disponibilidade 24H	|	ALTA	|
-|	RNF-04	|	A aplicação deve prover segurança para as credenciais (LGPD)	|	ALTA	|
-|	RNF-05	|	A aplicação deve possuir design intuitivo	|	MÉDIA	|
-|	RNF-06	|	A aplicaçaõ deve ser funcional nos principais navegadores.	|	ALTA	|
+|	RNF-01	|	A aplicação deve executar uma função em até 3 segundos.	|	MÉDIA	|
+|	RNF-02	|	A aplicação deve possuir design intuitivo	|	MÉDIA	|
+|	RNF-03	|	A aplicaçaõ deve ser funcional nos principais navegadores.	|	ALTA	|
 
 
