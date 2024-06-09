@@ -25,3 +25,21 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
   
  
 </ul>
+
+<li> CT-03: Verificar o cadastro de usuários.
+   
+  Responsável: Larissa. 
+   
+   <p>Usuário preenche os campos "Senha" e "Confirmaçāo de Senha" com valores diferentes.</p>
+      
+ ![Confirmação de senha](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/blob/main/documentos/img/Tela%20cadastro-confirma%C3%A7%C3%A3o%20de%20senha.jpg)
+    
+  </li>
+  
+  <p>Verificar se o usuário foi cadastrado.</p>
+    
+ ![Cadastro feito](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/blob/main/documentos/img/Tela%20de%20cadastro-Cadastro%20realizado%20com%20sucesso.jpg)
+    
+  
+  
+  </li>

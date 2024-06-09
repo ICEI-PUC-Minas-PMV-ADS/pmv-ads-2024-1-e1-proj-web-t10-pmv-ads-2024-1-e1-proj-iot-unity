@@ -1,6 +1,6 @@
 # Programação de Funcionalidades
 
-### Tela de Cadastro (RF-001)
+### Tela de Cadastro 
 
 Responsável: Larissa
 
@@ -8,12 +8,15 @@ O acesso a tela de cadastro poderá ser feito através da opção de menu “Cad
 
 Exemplo da tela de cadastro: 
 
-<img src="https://i.ibb.co/ScK6cVz/Cadastro.png" alt="Cadastro" border="0" width="500">
+![Pagina de cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/assets/165733363/5edc582d-ab89-4b77-a7f1-de62b1d8c29d)
+
 
 
 #### Requisito atendido
 
-RF-001: O site deve permitir ao usuário cadastrar uma conta.
+RF-01: A aplicação deve permitar ao usuário criar uma conta.
+
+RF-12: A aplicação deve apresentar interface prática, intuitiva.
 
 
 #### Artefatos da funcionalidade
@@ -32,7 +35,7 @@ RF-001: O site deve permitir ao usuário cadastrar uma conta.
 Abra um navegador de Internet e informe a seguinte URL:
 
 
-### Tela de Login (RF-025)
+### Tela de Login 
 
 Responsável: Rafael
 
@@ -40,15 +43,18 @@ O acesso a tela de login poderá ser feito através do menu “Login” na pági
 
 Exemplo da tela de login: 
 
-<img src="https://i.ibb.co/D9Nk2RN/Tela-Login.png" alt="Tela-Login" border="0" width="500">
+![Pagina de login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/assets/165733363/fb39b96b-0e44-49e7-b9fa-d28a4bc73e9f)
+
 
 
 
 #### Requisito atendido
 
-RF-002: A aplicação deve permitir ao usuário fazer o login da sua conta.
+RF-15: A aplicação deve oferecer uma funcionalidade de trocar senha/Esqueci minha senha.
 
-RF-0023	A aplicação deve oferecer uma funcionalidade de trocar senha/Esqueci minha senha.
+RF-12: A aplicação deve apresentar interface prática, intuitiva.
+
+RF-16: A aplicação deve permitir ao usuário fazer o login da sua conta.
 
 #### Artefatos da funcionalidade
 
@@ -67,8 +73,7 @@ RF-0023	A aplicação deve oferecer uma funcionalidade de trocar senha/Esqueci m
   Abra um navegador de Internet e informe a seguinte URL:
 
 
-
-  ### Página inicial (RF-002)
+  ### Página inicial 
 
 Responsável: Guilherme
 
@@ -76,17 +81,29 @@ O acesso a página inicial pode ser feito quando o usuário entrar na aplicaçã
 
 Exemplo da página inicial:
 
-<img src="https://i.ibb.co/23yP0Qy/P-gina-Inicial.png" alt="P-gina-Inicial" border="0" width="500">
+![Pagina inicial 1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/assets/165733363/b49c037d-a1b9-4b93-adf9-d7991f01f2ae)
 
-<img src="https://i.ibb.co/DYNktFK/Sobre.png" alt="Sobre" border="0" width="500">
+![Pagina inicial 2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/assets/165733363/5220a296-947e-4c32-b545-6817f03c0e03)
 
-<img src="https://i.ibb.co/cFJw5PZ/Contato.png" alt="Contato" border="0" width="500">
+![Pagina inicial 3](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/assets/165733363/c0bb0be7-6723-4f40-93e3-aa0aaf255f24)
+
+![Pagina inicial 4](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/assets/165733363/b8d8e7f1-068b-4005-8e4d-7c3dfe6a8654)
+
+![Pagina inicial 5](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/assets/165733363/d518ee6f-1476-4975-ab25-d6b81fbf1c4b)
+
+![Pagina inicial 6](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/assets/165733363/a3552d3b-3ee6-4200-bd0f-13241da9d760)
+
 
 
 #### Requisitos atendidos
 
-RF-003	A aplicação deve oferecer uma página inicial onde o usuário tem acesso ao cadastro de conta, login,planos, contato e sobre a aplicação
+RF-09:	A aplicação deve oferecer uma funcionalidade de chat de atendimento rápido.
 
+RF-12: A aplicação deve apresentar interface prática, intuitiva.
+
+RF-19:	A aplicação deve ter uma página inicial que permita navegar pelo site.
+
+RF-20: A aplicação deve permitir que o usuário abra um chamado de suporte  para obter soluções para seus problemas.
 
 #### Artefatos da funcionalidade
 
@@ -106,7 +123,7 @@ RF-003	A aplicação deve oferecer uma página inicial onde o usuário tem acess
 
 
 
-### Tela de planos (RF-026)
+### Tela de planos 
 
 Responsável: Bruno
 
@@ -114,13 +131,26 @@ O acesso a tela de planos pode ser feita através do botão planos no menu da p�
 
 Exemplo da tela de Planos:
 
-<img src="https://i.ibb.co/WxXVhqY/Planos.png" alt="Planos" border="0" width="500">
+![Pagina de planos 1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/assets/165733363/b921440a-2f83-4897-8d19-39a4989e939e)
+
+![Pagina de planos 3](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/assets/165733363/efbf5f4c-802f-451b-8d5e-2e90fddfc5ee)
+
+![Pagina de planos 2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/assets/165733363/82583ed0-e562-417b-90f1-5ca872c04263)
+
+
 
 
 
 #### Requisitos atendidos
+
+RF-09: A aplicação deve oferecer uma funcionalidade de chat de atendimento rápido.
+
+RF-12: A aplicação deve apresentar interface prática, intuitiva.
  
-RF-004	A aplicação deve permitir ao usuário entrar na página de planos.
+RF-17: A aplicação deve permitir ao usuário entrar na página de planos.
+
+RF-19: A aplicação deve ter um campo para tirar dúvidas.
+
 
 #### Artefatos da funcionalidade
 
@@ -139,7 +169,7 @@ RF-004	A aplicação deve permitir ao usuário entrar na página de planos.
 
 
 
-### Tela de Perfil de Usuário (RF-016, RF-022)
+### Tela de Perfil de Usuário 
 
 Responsável: Joel
 
@@ -173,9 +203,7 @@ RF-022	A aplicação deve oferecer a funcionalidade de conta de usuário.
 
 1.	Abra um navegador de Internet e informe a seguinte URL:
 
-
-
-### Tela de Dispositivos (RF-004, RF-009, RF-010, RF-012, RF-018, RF-020, RF-021)
+### Tela de Dispositivos
 
 Responsável: Joel, Guilherme, Bruno, Rafael
 
@@ -184,24 +212,34 @@ O acesso a tela de Dispositivos poderá ser feita após o login. As estruturas d
 Exemplo da tela de Dispositivos:
 
 
-<img src="https://i.ibb.co/c33WgqQ/Dashboard.png" alt="Dashboard" border="0" width="500">
+![Pagina do dashboard](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/assets/165733363/3bfcbdc6-18ca-4dcb-ba2b-deabea22dd34)
 
 
 #### Requisitos atendidos
 
- RF- 004	A aplicação deve permitir ao usuário remover dispositivos.
+ RF-02: A aplicação deve permitir ao usuário	adicionar dispositivos.
 
- RF- 009	A aplicação deve permitir ao usuário nomear o dispositivo.
+ RF-03:	A aplicação deve permitir ao usuário remover dispositivos.
 
- RF- 010	A aplicação deve permitir ao usuário adicionar descrição ao dispositivo.
+ RF-04: A aplicação deve oferecer uma funcionalidade de Interface personalizável.
 
- RF- 012	A aplicação deve permitir ao usuário verificar o Status do dispositivo.
+ RF-05:	A aplicação deve permitir ao usuário nomear o dispositivo.
 
- RF- 018	A aplicação permitir ao usuário de adcionar localização de cômodos nos dispositivos
+ RF-06:	A aplicação deve permitir ao usuário adicionar descrição ao dispositivo.
 
- RF- 020	A aplicação deve apresentar interface prática, intuitiva
+ RF-07:	A aplicação deve permitir ao usuário localização do dispositivo
 
- RF- 021	A aplicação deve permitir ao usuário separar dispositivos por tipo
+ RF-08:	A aplicação deve permitir ao usuário verificar o Status do dispositivo.
+
+ RF-09: A aplicação deve oferecer uma funcionalidade de chat de atendimento rápido.
+
+ RF-10:	A aplicão deve permitir ao usuário alterar as informações do perfil de usuário.
+
+ RF-11:	A aplicação permitir ao usuário de adcionar localização de cômodos nos dispositivos.
+
+ RF-12:	A aplicação deve apresentar interface prática, intuitiva.
+
+ RF-13:	A aplicação deve permitir ao usuário separar dispositivos por tipo
 
  #### Artefatos da funcionalidade
 

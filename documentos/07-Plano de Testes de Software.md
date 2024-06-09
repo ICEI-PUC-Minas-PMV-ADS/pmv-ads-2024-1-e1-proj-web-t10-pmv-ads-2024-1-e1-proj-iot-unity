@@ -25,12 +25,10 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
   <td>CT-01: Verificar o funcionamento dos links da página inicial</td>
   <td>
    <ul>
-    <li>RF-001:	O site deve permitir ao usuário visualizar os planos para aquisição do produto.</li>
-   <li>RF-002:	O site deve permitir ao usuário entrar em contato com a empresa para tirar dúvidas gerais sobre o produto.</li>
-   <li>RF-005:	O site deve permitir ao usuário entrar em contato com uma área de atendimento para solucionar problemas relacionados ao sistema.</li>
-    <li>RF-006:	O site deve permitir ao usuário acessar uma área específica que resume os objetivos do software.</li>
-    <li>RF-007:	O site deve permitir ao usuário cadastrar-se na plataforma do sistema.</li>
-    <li>RF-008:	O site deve permitir fazer login em sua área específica no software, quando já tiver se cadastrado.</li>
+    <li>RF-09: A aplicação deve oferecer uma funcionalidade de chat de atendimento rápido.</li>
+    <li>RF-12: A aplicação deve apresentar interface prática, intuitiva.</li>
+    <li>RF-19: A aplicação deve ter uma página inicial que permita navegar pelo site.</li>
+    <li>RF-20: A aplicação deve permitir que o usuário abra um chamado de suporte para obter soluções para seus problemas.</li>
    </ul>
   </td>
   <td>Verificar se os links da página inicial estão encaminhando o usuário para as páginas/seções corretamente</td>
@@ -61,11 +59,12 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
   <td>CT-02: Verificar se as funcionalidades gerais da página "Dashboard" estão funcionando corretamente</td>
   <td>
    <ul>
-    <li>RF-009:	O site deve permitir ao usuário criar/excluir um ambiente.</li>
-   <li>RF-010:	O site deve permitir ao usuário criar/excluir um dispositivo.</li>
-   <li>RF-011:	O site deve permitir ao usuário ligar/desligar um dispositivo.</li>
-    <li>RF-012:	O site deve permitir ao usuário visualizar os dispositivos numa lista que pode ser filtrada pelo nome do ambiente.</li>
-    <li>RF-013:	O site deve permitir ao usuário editar o nome, o ambiente/localização e sua descrição a partir da lista mencionada no item anterior.</li>
+    <li>RF-02: A aplicação deve permitir ao usuário adicionar dispositivos.</li>
+    <li>RF-03: A aplicação deve permitir ao usuário remover dispositivos.</li>
+    <li>RF-04: A aplicação deve oferecer uma funcionalidade de Interface personalizável.</li>
+    <li>RF-05: A aplicação deve permitir ao usuário nomear o dispositivo.</li>
+    <li>RF-06: A aplicação deve permitir ao usuário adicionar descrição ao dispositivo.</li>
+    <li>RF-12: A aplicação deve apresentar interface prática, intuitiva.</li>
    </ul>
   </td>
   <td>Verificar se os botões e formulários da página estão funcionando conforme planejado</td>
@@ -82,11 +81,41 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
    </ol>
    </td>
   <td>Todos os botões apresentam os comportamentos esperados, bem como os formulários, realizando a adição/edição/exclusão de dispositivos/ambientes.</td>
-  <td>Bruno</td>
+  <td>Guilherme e Joel</td>
  </tr>
 </table>
 
- 
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-03: Verificar o cadastro de usuários</td>
+  <td>
+   <ul>
+ <li>RF-01: A aplicação deve permitar ao usuário criar uma conta..</li>
+</ul>
+  </td>
+  <td>Verificar se o cadastro está sendo feito corretamente.</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página Home.</li>
+    <li> Clicar em "Cadastre-se", no Menu.</li>
+    <li>Preencher o formulário e clicar em “Cadastrar”.</li>
+   </ol>
+   </td>
+  <td>Deve ocorrer uma validação das informações fornecidas pelo usuário, e ao clicar em "Cadastrar", deve aparecer a mensagem "Usuário cadastrado com sucesso".</td>
+  <td>Larissa</td>
+ </tr>
+</table>
+    
 > **Links Úteis**:
 > - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
 > -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)

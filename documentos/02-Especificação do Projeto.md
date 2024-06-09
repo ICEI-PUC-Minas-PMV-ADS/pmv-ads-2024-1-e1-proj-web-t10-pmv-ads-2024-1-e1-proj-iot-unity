@@ -67,19 +67,21 @@
 |	HU-09	|Usuário(a)	|Gostaria de poder solicitar uma ajuda rápida	|Porque assim conseguiria resolver meus problemas com mais velocidade e facilidade.	|
 |	HU-10	|Usuário(a)	|Gostaria de Administrar meu perfil	|Para trocar informações importantes como: Endereço; E-mail; Nome de usuário; Troca de senha	|
 |	HU-11	|Usuário(a)	|Gostaria de poder classificar meus dispositivos conforme o cômodo onde se encontram (sala, quarto etc.)	|Porque assim, terei um controle mais específico e rápido dos meus dispositivos conforme o cômodo onde estão.	|
-|	HU-12	|Usuário(a)	|Uma interface prática.	|Reunir de maneira prática dispositivos essenciais para a execução de seu trabalho.	|
+|	HU-12	|Usuário(a)	|Uma interface prática.	|O site deve apresentar uma interface simples e prática para o uso confortável.|
 |	HU-13	|Usuário(a)	|Gostaria de poder classificar meus dispositivos conforme as categorias em que eles se encontrem (lâmpadas, câmeras etc.)	|Porque assim, terei um controle mais específico e rápido de meus dispositivos na hipótese de a residência possuir muitos deles|
 |	HU-14	|Usuário(a)	|Gostaria de remover um colega de quarto que mudou de residência.	|Assim permito o acesso apenas daqueles que moram comigo.	|
 |	HU-15	|Usuário(a)	|Esqueci minha senha e gostaria de redefini-la.	|Conseguir acessar minha conta novamente.	|
 | HU-16 | Usuário(a) | Gostaria de realizar login na aplicação. | Dessa forma conseguirei acessar minha conta e os meus dispositivos. |
 | HU-17 | Usuário(a) | Gostaria de visualizar quais planos estão disponíveis para assinar. | Dessa forma vou conseguir visualizar quais planos estão disponíveis. |
+|	HU-18	|Usuário(a)	|Quero abrir um chamado	|Para sanar dúvidas e obter suporte com a equipe especializada	|
+
 ## Requisitos do Projeto
 
 ### Requisitos Funcionais
 
 |ID    | Descrição                | Prioridade |
 |----|---------------------------------|:----:|
-|RF- 01	|	A aplicação deve permitar ao usuário criar uma conta |	ALTA	|
+|RF- 01	|	A aplicação deve permitar ao usuário criar uma conta. |	ALTA	|
 |RF- 02	| A aplicação deve permitir ao usuário	adicionar dispositivos.	|	ALTA	|
 |RF- 03	|	A aplicação deve permitir ao usuário remover dispositivos.	|	ALTA	|
 |RF- 04	|	A aplicação deve oferecer uma funcionalidade de Interface personalizável.	|	BAIXA	|
@@ -87,15 +89,19 @@
 |RF- 06	|	A aplicação deve permitir ao usuário adicionar descrição ao dispositivo.	|	MÉDIA	|
 |RF- 07	|	A aplicação deve permitir ao usuário localização do dispositivo.	|	MÉDIA	|
 |RF- 08	|	A aplicação deve permitir ao usuário verificar o Status do dispositivo.	|	ALTA	|
-|RF- 09	|	A aplicação deve oferecer uma funcionalidade de chat de atendimento rápido	|	BAIXA	|
-|RF- 10	|	A aplicão deve permitir ao usuário alterar as informações do perfil de usuário	|	MÉDIA	|
-|RF- 11	|	A aplicação permitir ao usuário de adcionar localização de cômodos nos dispositivos	|	MÉDIA	|
-|RF- 12	|	A aplicação deve apresentar interface prática, intuitiva	|	MÉDIA	|
-|RF- 13	|	A aplicação deve permitir ao usuário separar dispositivos por tipo	|	BAIXA	|
-|RF- 14	|	A aplicação deve oferecer a funcionalidade de conta de usuário/Quero excluir minha conta	|	MÉDIA	|
-|RF- 15	|	A aplicação deve oferecer uma funcionalidae de trocar senha/Esqueci minha senha	|	MÉDIA	|
-|RF- 16 | A aplicação deve permitir ao usuário fazer login | ALTA |
-|RF- 17 | A aplicação deve ter uma página informando quais planos são ofertados | MÉDIA |
+|RF- 09	|	A aplicação deve oferecer uma funcionalidade de chat de atendimento rápido.	|	BAIXA	|
+|RF- 10	|	A aplicão deve permitir ao usuário alterar as informações do perfil de usuário.	|	MÉDIA	|
+|RF- 11	|	A aplicação permitir ao usuário de adcionar localização de cômodos nos dispositivos.	|	MÉDIA	|
+|RF- 12	|	A aplicação deve apresentar interface prática, intuitiva.	|	MÉDIA	|
+|RF- 13	|	A aplicação deve permitir ao usuário separar dispositivos por tipo.	|	BAIXA	|
+|RF- 14	|	A aplicação deve oferecer a funcionalidade de conta de usuário/Quero excluir minha conta.	|	MÉDIA	|
+|RF- 15	|	A aplicação deve oferecer uma funcionalidae de trocar senha/Esqueci minha senha.	|	MÉDIA	|
+|RF- 16 | A aplicação deve permitir ao usuário fazer login. | ALTA |
+|RF- 17 | A aplicação deve ter uma página informando quais planos são ofertados. | MÉDIA |
+|RF- 18 | A aplicação deve ter o usuario abrir um chamado para o suporte especializaado | MÉDIA |
+|RF- 19 | A aplicação deve ter uma página inicial que permita navegar pelo site. | ALTA |
+|RF- 20 |A aplicação deve permitir que o usuário abra um chamado de suporte  para obter soluções para seus problemas. | ALTA |
+
 
 
 
