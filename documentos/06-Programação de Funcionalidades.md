@@ -8,7 +8,8 @@ O acesso a tela de cadastro poderá ser feito através da opção de menu “Cad
 
 Exemplo da tela de cadastro: 
 
-<img src="https://i.ibb.co/ScK6cVz/Cadastro.png" alt="Cadastro" border="0" width="500">
+![Pagina de cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/assets/165733363/5edc582d-ab89-4b77-a7f1-de62b1d8c29d)
+
 
 
 #### Requisito atendido
@@ -42,7 +43,8 @@ O acesso a tela de login poderá ser feito através do menu “Login” na pági
 
 Exemplo da tela de login: 
 
-<img src="https://i.ibb.co/D9Nk2RN/Tela-Login.png" alt="Tela-Login" border="0" width="500">
+![Pagina de login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/assets/165733363/fb39b96b-0e44-49e7-b9fa-d28a4bc73e9f)
+
 
 
 
@@ -79,11 +81,18 @@ O acesso a página inicial pode ser feito quando o usuário entrar na aplicaçã
 
 Exemplo da página inicial:
 
-<img src="https://i.ibb.co/23yP0Qy/P-gina-Inicial.png" alt="P-gina-Inicial" border="0" width="500">
+![Pagina inicial 1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/assets/165733363/b49c037d-a1b9-4b93-adf9-d7991f01f2ae)
 
-<img src="https://i.ibb.co/DYNktFK/Sobre.png" alt="Sobre" border="0" width="500">
+![Pagina inicial 2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/assets/165733363/5220a296-947e-4c32-b545-6817f03c0e03)
 
-<img src="https://i.ibb.co/cFJw5PZ/Contato.png" alt="Contato" border="0" width="500">
+![Pagina inicial 3](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/assets/165733363/c0bb0be7-6723-4f40-93e3-aa0aaf255f24)
+
+![Pagina inicial 4](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/assets/165733363/b8d8e7f1-068b-4005-8e4d-7c3dfe6a8654)
+
+![Pagina inicial 5](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/assets/165733363/d518ee6f-1476-4975-ab25-d6b81fbf1c4b)
+
+![Pagina inicial 6](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/assets/165733363/a3552d3b-3ee6-4200-bd0f-13241da9d760)
+
 
 
 #### Requisitos atendidos
@@ -122,7 +131,13 @@ O acesso a tela de planos pode ser feita através do botão planos no menu da p�
 
 Exemplo da tela de Planos:
 
-<img src="https://i.ibb.co/WxXVhqY/Planos.png" alt="Planos" border="0" width="500">
+![Pagina de planos 1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/assets/165733363/b921440a-2f83-4897-8d19-39a4989e939e)
+
+![Pagina de planos 3](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/assets/165733363/efbf5f4c-802f-451b-8d5e-2e90fddfc5ee)
+
+![Pagina de planos 2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/assets/165733363/82583ed0-e562-417b-90f1-5ca872c04263)
+
+
 
 
 
@@ -197,7 +212,7 @@ O acesso a tela de Dispositivos poderá ser feita após o login. As estruturas d
 Exemplo da tela de Dispositivos:
 
 
-<img src="https://i.ibb.co/c33WgqQ/Dashboard.png" alt="Dashboard" border="0" width="500">
+![Pagina do dashboard](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/assets/165733363/3bfcbdc6-18ca-4dcb-ba2b-deabea22dd34)
 
 
 #### Requisitos atendidos
