@@ -26,8 +26,8 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
   <td>
    <ul>
     <li>RF-001:	O site deve permitir ao usuário visualizar os planos para aquisição do produto.</li>
-   <li>RF-002:	O site deve permitir ao usuário entrar em contato com a empresa para tirar dúvidas gerais sobre o produto.</li>
-   <li>RF-005:	O site deve permitir ao usuário entrar em contato com uma área de atendimento para solucionar problemas relacionados ao sistema.</li>
+    <li>RF-002:	O site deve permitir ao usuário entrar em contato com a empresa para tirar dúvidas gerais sobre o produto.</li>
+    <li>RF-005:	O site deve permitir ao usuário entrar em contato com uma área de atendimento para solucionar problemas relacionados ao sistema.</li>
     <li>RF-006:	O site deve permitir ao usuário acessar uma área específica que resume os objetivos do software.</li>
     <li>RF-007:	O site deve permitir ao usuário cadastrar-se na plataforma do sistema.</li>
     <li>RF-008:	O site deve permitir fazer login em sua área específica no software, quando já tiver se cadastrado.</li>
@@ -61,11 +61,12 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
   <td>CT-02: Verificar se as funcionalidades gerais da página "Dashboard" estão funcionando corretamente</td>
   <td>
    <ul>
-    <li>RF-009:	O site deve permitir ao usuário criar/excluir um ambiente.</li>
-   <li>RF-010:	O site deve permitir ao usuário criar/excluir um dispositivo.</li>
-   <li>RF-011:	O site deve permitir ao usuário ligar/desligar um dispositivo.</li>
-    <li>RF-012:	O site deve permitir ao usuário visualizar os dispositivos numa lista que pode ser filtrada pelo nome do ambiente.</li>
-    <li>RF-013:	O site deve permitir ao usuário editar o nome, o ambiente/localização e sua descrição a partir da lista mencionada no item anterior.</li>
+    <li>RF-02: A aplicação deve permitir ao usuário adicionar dispositivos.</li>
+    <li>RF-03: A aplicação deve permitir ao usuário remover dispositivos.</li>
+    <li>RF-04: A aplicação deve oferecer uma funcionalidade de Interface personalizável.</li>
+    <li>RF-05: A aplicação deve permitir ao usuário nomear o dispositivo.</li>
+    <li>RF-06: A aplicação deve permitir ao usuário adicionar descrição ao dispositivo.</li>
+    <li>RF-12: A aplicação deve apresentar interface prática, intuitiva.</li>
    </ul>
   </td>
   <td>Verificar se os botões e formulários da página estão funcionando conforme planejado</td>
@@ -82,7 +83,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
    </ol>
    </td>
   <td>Todos os botões apresentam os comportamentos esperados, bem como os formulários, realizando a adição/edição/exclusão de dispositivos/ambientes.</td>
-  <td>Bruno</td>
+  <td>Guilherme e Joel</td>
  </tr>
 </table>
 
