@@ -11,6 +11,9 @@
     <script defer src="./crud-dispositivos.js"></script>
     <script defer src="./crud-Ambientes.js"></script>
     <script defer src="./funcoes.js"></script>
+    <link defer rel="stylesheet" href="Chat.css">
+    <script defer src="Chat.js"></script>
+    <script defer src="modal-chat.js"></script>
     <title>Dashboard</title>
 </head>
 <body>
@@ -121,7 +124,23 @@
             <button id="btmAdicionar">Criar</button>      
           </p>
         </div>
-      </div>  
+      </div> 
+      <section class="container-chat" id="container-chat">
+        <img class="fechar-chat" id="fechar-chat" src="./assets/fechar.png">
+        <div id="Chat-titulo">
+           <h1>Chat suporte</h1>
+       </div>
+       <div id="chatlogs">
+          <!-- <div class="chat-texto">-->
+   
+           </div>
+       </div>
+       <div id="chat-form">
+           <textarea id="Mensagem-Input" placeholder="digite sua mensagem"></textarea>
+           <button id="sendButton">Enviar</button>
+       </div>
+   </section>
+   <div class="chat-button-suporte" id="chat-button-suporte"><img src="./assets/chat-suporte.png" onclick="suporte()" class="chat-suporte" ></div>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
