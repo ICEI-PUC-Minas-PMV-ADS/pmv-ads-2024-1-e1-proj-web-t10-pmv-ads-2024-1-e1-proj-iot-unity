@@ -73,6 +73,8 @@
 |	HU-15	|Usuário(a)	|Esqueci minha senha e gostaria de redefini-la.	|Conseguir acessar minha conta novamente.	|
 | HU-16 | Usuário(a) | Gostaria de realizar login na aplicação. | Dessa forma conseguirei acessar minha conta e os meus dispositivos. |
 | HU-17 | Usuário(a) | Gostaria de visualizar quais planos estão disponíveis para assinar. | Dessa forma vou conseguir visualizar quais planos estão disponíveis. |
+|	HU-18	|Usuário(a)	|Quero abrir um chamado	|Para sanar dúvidas e obter suporte com a equipe especializada	|
+
 ## Requisitos do Projeto
 
 ### Requisitos Funcionais
@@ -96,8 +98,9 @@
 |RF- 15	|	A aplicação deve oferecer uma funcionalidae de trocar senha/Esqueci minha senha.	|	MÉDIA	|
 |RF- 16 | A aplicação deve permitir ao usuário fazer login. | ALTA |
 |RF- 17 | A aplicação deve ter uma página informando quais planos são ofertados. | MÉDIA |
-|RF- 18 | A aplicação deve ter uma página inicial permitindo navegar pelo site. | ALTA |
-|RF- 19 | A aplicação deve ter um campo para tirar dúvidas. | BAIXA |
+|RF- 18 | A aplicação deve ter o usuario abrir um chamado para o suporte especializaado | MÉDIA |
+|RF- 19 | A aplicação deve ter uma página inicial permitindo navegar pelo site. | ALTA |
+|RF- 20 |A aplicação deve permitir que o usuário abra um chamado de suporte  para obter soluções para seus problemas. | ALTA |
 
 
 
