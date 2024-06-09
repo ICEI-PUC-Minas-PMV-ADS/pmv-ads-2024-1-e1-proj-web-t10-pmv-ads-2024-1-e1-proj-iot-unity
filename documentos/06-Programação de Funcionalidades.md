@@ -1,6 +1,6 @@
 # Programação de Funcionalidades
 
-### Tela de Cadastro (RF-01)
+### Tela de Cadastro 
 
 Responsável: Larissa
 
@@ -34,7 +34,7 @@ RF-12: A aplicação deve apresentar interface prática, intuitiva.
 Abra um navegador de Internet e informe a seguinte URL:
 
 
-### Tela de Login (RF-16)
+### Tela de Login 
 
 Responsável: Rafael
 
@@ -71,7 +71,7 @@ RF-16: A aplicação deve permitir ao usuário fazer o login da sua conta.
   Abra um navegador de Internet e informe a seguinte URL:
 
 
-  ### Página inicial (RF-18)
+  ### Página inicial 
 
 Responsável: Guilherme
 
@@ -112,7 +112,7 @@ RF-18:	A aplicação deve ter uma página inicial permitindo navegar pelo site.
 
 
 
-### Tela de planos (RF-18)
+### Tela de planos 
 
 Responsável: Bruno
 
@@ -152,7 +152,7 @@ RF-19: A aplicação deve ter um campo para tirar dúvidas.
 
 
 
-### Tela de Perfil de Usuário (RF-16, RF-22)
+### Tela de Perfil de Usuário 
 
 Responsável: Joel
 
@@ -186,7 +186,7 @@ RF-022	A aplicação deve oferecer a funcionalidade de conta de usuário.
 
 1.	Abra um navegador de Internet e informe a seguinte URL:
 
-### Tela de Dispositivos (RF-03, RF-05, RF-06, RF-12, RF-18, RF-20, RF-21)
+### Tela de Dispositivos
 
 Responsável: Joel, Guilherme, Bruno, Rafael
 
