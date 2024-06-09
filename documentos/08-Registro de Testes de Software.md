@@ -28,11 +28,8 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
   </li>
   <li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/blob/main/documentos/records/funcionalidades-dashboard.mp4">Link para a gravação - teste geral das funcionalidades da página Dashboard</a></li>
   <li>Verificou-se que todas as funcionalidades relacionadas a dispositivos/ambientes, assim como o chat de suporte estão funcionando corretamente.</li>
-  
- 
-</ul>
 
-<li> CT-03: Verificar o cadastro de usuários.
+  <li> CT-03: Verificar o cadastro de usuários.
    
   Responsável: Larissa. 
    
@@ -44,8 +41,8 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
   
   <p>Verificar se o usuário foi cadastrado.</p>
     
- ![Cadastro feito](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/blob/main/documentos/img/Tela%20de%20cadastro-Cadastro%20realizado%20com%20sucesso.jpg)
-    
-  
-  
-  </li>
+ ![Cadastro feito](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/blob/main/documentos/img/Tela%20de%20cadastro-Cadastro%20realizado%20com%20sucesso.jpg)</li>
+
+ 
+</ul>
+
