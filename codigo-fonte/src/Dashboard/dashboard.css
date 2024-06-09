@@ -339,12 +339,13 @@ label input:checked ~ span{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 5rem;
+    height: 7rem;
     margin: 2rem;
-    width: 5rem;
+    width: 7rem;
 }
 
 .geral__dispositivo h4{
+    text-align: center;
     font-family: var(--paragrafo);
 }
 
