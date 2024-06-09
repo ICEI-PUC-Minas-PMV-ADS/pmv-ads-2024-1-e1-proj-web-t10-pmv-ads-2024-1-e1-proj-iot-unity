@@ -99,7 +99,7 @@
 |RF- 16 | A aplicação deve permitir ao usuário fazer login. | ALTA |
 |RF- 17 | A aplicação deve ter uma página informando quais planos são ofertados. | MÉDIA |
 |RF- 18 | A aplicação deve ter o usuario abrir um chamado para o suporte especializaado | MÉDIA |
-|RF- 19 | A aplicação deve ter uma página inicial permitindo navegar pelo site. | ALTA |
+|RF- 19 | A aplicação deve ter uma página inicial que permita navegar pelo site. | ALTA |
 |RF- 20 |A aplicação deve permitir que o usuário abra um chamado de suporte  para obter soluções para seus problemas. | ALTA |
 
 

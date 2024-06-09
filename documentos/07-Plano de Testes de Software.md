@@ -1,17 +1,5 @@
 # Plano de Testes de Software
 
-[Apresente os cenários de testes a serem utilizados na realização dos testes da aplicação. Escolha cenários de testes que demonstrem os requisitos sendo atendidos. ]
-
-Os testes funcionais a serem realizados na aplicação são descritos a seguir. [Utilize a estrutura abaixo para cada caso de teste]
-
-|Caso de Teste    | CT-X - Título Caso de Teste |
-|:---|:---|
-| Requisitos Associados | RF-X |
-| Objetivo do Teste | Descrição do objetivo do teste |
-| Passos | Indicar passos para a execução do teste |
-| Critérios de êxito | Indicar os critérios de êxito  |
-| Responsável pela elaborar do caso de Teste | Nome do integrante da equipe |
-
 <table>
  <tr>
   <th>Caso de teste</th>
@@ -25,12 +13,10 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
   <td>CT-01: Verificar o funcionamento dos links da página inicial</td>
   <td>
    <ul>
-    <li>RF-001:	O site deve permitir ao usuário visualizar os planos para aquisição do produto.</li>
-   <li>RF-002:	O site deve permitir ao usuário entrar em contato com a empresa para tirar dúvidas gerais sobre o produto.</li>
-   <li>RF-005:	O site deve permitir ao usuário entrar em contato com uma área de atendimento para solucionar problemas relacionados ao sistema.</li>
-    <li>RF-006:	O site deve permitir ao usuário acessar uma área específica que resume os objetivos do software.</li>
-    <li>RF-007:	O site deve permitir ao usuário cadastrar-se na plataforma do sistema.</li>
-    <li>RF-008:	O site deve permitir fazer login em sua área específica no software, quando já tiver se cadastrado.</li>
+    <li>RF-09: A aplicação deve oferecer uma funcionalidade de chat de atendimento rápido.</li>
+    <li>RF-12: A aplicação deve apresentar interface prática, intuitiva.</li>
+    <li>RF-19: A aplicação deve ter uma página inicial que permita navegar pelo site.</li>
+    <li>RF-20: A aplicação deve permitir que o usuário abra um chamado de suporte para obter soluções para seus problemas.</li>
    </ul>
   </td>
   <td>Verificar se os links da página inicial estão encaminhando o usuário para as páginas/seções corretamente</td>
@@ -61,11 +47,12 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
   <td>CT-02: Verificar se as funcionalidades gerais da página "Dashboard" estão funcionando corretamente</td>
   <td>
    <ul>
-    <li>RF-009:	O site deve permitir ao usuário criar/excluir um ambiente.</li>
-   <li>RF-010:	O site deve permitir ao usuário criar/excluir um dispositivo.</li>
-   <li>RF-011:	O site deve permitir ao usuário ligar/desligar um dispositivo.</li>
-    <li>RF-012:	O site deve permitir ao usuário visualizar os dispositivos numa lista que pode ser filtrada pelo nome do ambiente.</li>
-    <li>RF-013:	O site deve permitir ao usuário editar o nome, o ambiente/localização e sua descrição a partir da lista mencionada no item anterior.</li>
+    <li>RF-02: A aplicação deve permitir ao usuário adicionar dispositivos.</li>
+    <li>RF-03: A aplicação deve permitir ao usuário remover dispositivos.</li>
+    <li>RF-04: A aplicação deve oferecer uma funcionalidade de Interface personalizável.</li>
+    <li>RF-05: A aplicação deve permitir ao usuário nomear o dispositivo.</li>
+    <li>RF-06: A aplicação deve permitir ao usuário adicionar descrição ao dispositivo.</li>
+    <li>RF-12: A aplicação deve apresentar interface prática, intuitiva.</li>
    </ul>
   </td>
   <td>Verificar se os botões e formulários da página estão funcionando conforme planejado</td>
@@ -78,11 +65,14 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
     <li>Preencher o formulário, clicar em "Criar", verificando, em seguida, se o ambiente foi criado</li>
     <li>Clicar no link "Dispositivos" e verificar se todos os dispositivos criados se encontram na lista, bem como os ambientes/localização</li>
     <li>Selecionar algum dispositivo e verificar se é disponibilizada a opção para edição. Caso positivo, preencher o formulário e verificar se houve a mudança desejada</li>
+    <li>Clicar no botão "excluir" da lista de dispositivos é confirmar se é possível excluir um dispositivo</li>
+    <li>Clicar no botão "X" de determinado ambiente e verificar se ele é excluído.</li>
     <li>Digitar no campo "pesquisar por ambientes" e verificar se a lista filtra os dispositivos comparando o texto digitado com a relação de ambientes diponíveis</li>
+    <li>Digitar no campo próprio do chat de suporte algum texto e verificar se a mensagem é registrada</li>
    </ol>
    </td>
   <td>Todos os botões apresentam os comportamentos esperados, bem como os formulários, realizando a adição/edição/exclusão de dispositivos/ambientes.</td>
-  <td>Bruno</td>
+  <td>Guilherme e Joel</td>
  </tr>
 </table>
 
@@ -116,10 +106,34 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
   <td>Larissa</td>
  </tr>
 </table>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-04: Verificar o login de usuários</td>
+  <td>
+   <ul>
+   <li>RF-016: O site deve permitir ao usuário fazer o login da sua conta.</li>
+   </ul>
+  </td>
+  <td>Verificar se o login está sendo feito corretamente. </td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página Home.</li>
+    <li>Clicar em “Login”, no menu.</li>
+    <li>Preencher seus dados e clicar em “Login”.</li>
+   </ol>
+   </td>
+  <td>Após o login, o usuário deverá ser redirecionado para a sua página de perfil.</td>
+  <td>Rafael</td>
+ </tr>
     
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)

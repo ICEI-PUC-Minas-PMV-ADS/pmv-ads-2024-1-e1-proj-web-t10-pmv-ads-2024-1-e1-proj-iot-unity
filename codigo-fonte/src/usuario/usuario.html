@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="usuario.css">
+    <link rel="stylesheet" href="modal-senha.css">
     <title>User</title>
+    <script defer src="./user.js"></script>
+    <script src="../Cadastro/crud-Usuarios.js"></script>
 </head>
 <body>
     <header>
@@ -26,34 +29,41 @@
             <dl class="form">
                 <dt><label >Nome de usuário</label></dt>
                 <dd>
-                  <div class="textbox"><p>Joel Onofre de São José Júnior</p></div>
-                </dd>
-              </dl>
-              <dl class="form">
-                <dt><label>Nome completo</label></dt>
-                <dd>
-                  <div class="textbox"><p>Joel Onofre de São José Júnior</p></div>
+                  <div class="textbox"><p id="nomeUsuario"></p></div>
                 </dd>
               </dl>
               <dl class="form">
                 <dt><label>E-mail</label></dt>
                 <dd>
-                  <div class="textbox"><p>Joel Onofre de São José Júnior</p></div>
-                </dd>
-              </dl>
-              <dl class="form">
-                <dt><label>Endereço</label></dt>
-                <dd>
-                  <div class="textbox"><p>Joel Onofre de São José Júnior</p></div>
+                  <div class="textbox"><p id="emailUsuario"></p></div>
                 </dd>
               </dl>
               <dl class="form">
                 <dt><label>Data de nascimento</label></dt>
                 <dd>
-                  <div class="textbox"><p>Joel Onofre de São José Júnior</p></div>
+                  <div class="textbox"><p id="dataUsuario"></p></div>
                 </dd>
               </dl>
+              <p>
+              <button class="botao" id="btmSenha">Alterar senha</button>
+              </p>
         </div>
+        <div id="modalSenha" class="modal-senha">
+          <div class="corpoModal4">
+            <div class="headerModal4">
+              <span id="fechaModal4">&times;</span>
+              <h3>Insira sua nova senha</h3>
+            </div>
+            <p>
+              <label for="Tipos">Senha: </label>
+              <input type="text" id="campoSenha"/>
+            </p>
+            <p>
+              <button id="btmAlterar">Alterar</button>      
+            </p>
+          </div>
+        </div> 
+         </div>
     </section>
 </body>
 </html>

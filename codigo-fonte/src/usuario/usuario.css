@@ -14,6 +14,11 @@ body {
 p{
     font-family: var(--paragrafo);
     font-size: small;
+    text-align: center;
+}
+
+.botao{
+    margin-top: 20px;
 }
 
 h2{
