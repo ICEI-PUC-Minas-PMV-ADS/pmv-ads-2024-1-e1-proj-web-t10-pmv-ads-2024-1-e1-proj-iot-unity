@@ -32,6 +32,20 @@
     
  ![Cadastro feito](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/blob/main/documentos/img/Tela%20de%20cadastro-Cadastro%20realizado%20com%20sucesso.jpg)</li>
 
+<hr>
+  
+  <li> CT-04: Verificar o login de usuários.
+
+  Responsável: Rafael. 
+  
+   <p>Usuário preenche os campos "Email" e "Senha" com valores diferentes do usuário já cadastrado.</p>
+  
+  ![Tela login incorreto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/blob/main/documentos/img/Tela%20de%20login-%20dados%20incorretos.png)
+
+
+  <p>Se as informações de usuário forem válidas, o login será bem sucedido.</p>
+
+![Login realizado com sucesso](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/blob/main/documentos/img/Login%20realizado%20com%20sucesso.jpg)
  
 </ul>
 
