@@ -3,9 +3,8 @@ document.addEventListener('DOMContentLoaded', function() {
     botao.onclick = function (event) {
         const email = document.getElementById('email').value.trim();
         const password = document.getElementById('password').value.trim();
-        const userRole = document.getElementById('user').checked;
-        const adminRole = document.getElementById('admin').checked;
 
+        
         let isValid = true;
 
         // Validação de email aprimorada
@@ -20,12 +19,6 @@ document.addEventListener('DOMContentLoaded', function() {
         // Validação de senha
         if (password.length < 4) {
             alert('A senha deve ter pelo menos 4 caracteres.');
-            isValid = false;
-        }
-
-        // Validação de tipo de usuário
-        if (!userRole && !adminRole) {
-            alert('Por favor, selecione o tipo de usuário.');
             isValid = false;
         }
 
