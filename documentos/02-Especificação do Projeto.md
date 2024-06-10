@@ -61,7 +61,7 @@
 |	HU-07	|Usuário(a)	|Gostaria de poder classificar meus dispositivos conforme os cômodos da residência eles se encontrem	|Porque assim, terei um controle mais específico e rápido de meus dispositivos na hipótese de a residência possuir muitos deles	|
 |	HU-08	|Usuário(a)	|Gostaria de saber o status de atividade do meu dispositivo	|Para ter a informação de quais dispositivos estão funcionando ou não, de fora da minha casa.	|
 |	HU-09	|Usuário(a)	|Gostaria de poder solicitar uma ajuda rápida	|Porque assim conseguiria resolver meus problemas com mais velocidade e facilidade.	|
-|	HU-10	|Usuário(a)	|Gostaria de Administrar meu perfil	|Para trocar informações importantes como: Endereço; E-mail; Nome de usuário; Troca de senha	|
+|	HU-10	|Usuário(a)	|Gostaria de Administrar meu perfil	|Para Troca da senha	|
 |	HU-11	|Usuário(a)	|Gostaria de poder classificar meus dispositivos conforme o cômodo onde se encontram (sala, quarto etc.)	|Porque assim, terei um controle mais específico e rápido dos meus dispositivos conforme o cômodo onde estão.	|
 |	HU-12	|Usuário(a)	|Uma interface prática.	|O site deve apresentar uma interface simples e prática para o uso confortável.|
 |	HU-13	|Usuário(a)	|Gostaria de poder classificar meus dispositivos conforme as categorias em que eles se encontrem (lâmpadas, câmeras etc.)	|Porque assim, terei um controle mais específico e rápido de meus dispositivos na hipótese de a residência possuir muitos deles|
@@ -86,7 +86,7 @@
 |RF- 07	|	A aplicação deve permitir ao usuário localização do dispositivo.	|	MÉDIA	|
 |RF- 08	|	A aplicação deve permitir ao usuário verificar o Status do dispositivo.	|	ALTA	|
 |RF- 09	|	A aplicação deve oferecer uma funcionalidade de chat de atendimento rápido.	|	BAIXA	|
-|RF- 10	|	A aplicão deve permitir ao usuário alterar as informações do perfil de usuário.	|	MÉDIA	|
+|RF- 10	|	A aplicão deve permitir ao usuário alterar a senha.	|	MÉDIA	|
 |RF- 11	|	A aplicação permitir ao usuário de adcionar localização de cômodos nos dispositivos.	|	MÉDIA	|
 |RF- 12	|	A aplicação deve apresentar interface prática, intuitiva.	|	MÉDIA	|
 |RF- 13	|	A aplicação deve permitir ao usuário separar dispositivos por tipo.	|	BAIXA	|
