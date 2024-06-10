@@ -15,6 +15,26 @@ O código utilizado para a construção dos elementos citados,pode ser consultad
 <h3><b>Tela do dashboard</b></h3>
 <p>Exibe informações sobre quantos dispositivos, ambientes, edição, configuração de cada dispositivo e ligar e desligar dispositivos</p>
 <figure>
-<img src="https://i.ibb.co/c33WgqQ/Dashboard.png" alt="Dashboard" border="0" width ="500" > 
-<figcaption> Figura 1 - Dashboard
+  
+![Pagina do dashboard](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/assets/165733363/3bfcbdc6-18ca-4dcb-ba2b-deabea22dd34)
+
+  <figcaption> Figura 1 - Dashboard
+</figure>
+
+<h3><b>Tela inicial</b></h3>
+<p>Pagina de exibição e navegabilidade do site.</p>
+<figure>
+  
+![Pagina inicial 1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/assets/165733363/981347bd-a001-4633-a86b-b8eef3e5e0bb)
+
+  <figcaption> Figura 2 - Home page.
+</figure>
+
+<h3><b>Tela de plano</b></h3>
+<p>Exibe informações sobre os planos de suporte do site.</p>
+<figure>
+  
+![Pagina de planos 1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/assets/165733363/d094c448-f441-4c37-9f20-94ec301cd98d)
+
+  <figcaption> Figura 3 - Plano
 </figure>
