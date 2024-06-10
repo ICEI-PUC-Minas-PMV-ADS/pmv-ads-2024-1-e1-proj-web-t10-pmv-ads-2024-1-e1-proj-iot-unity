@@ -225,15 +225,15 @@ O acesso a tela de perfil de usuário poderá ser feito após o login do usuári
 
 Exemplo da tela de Perfil de Usuário:
 
-<img src="https://i.ibb.co/yhVsV5z/Usuario.png" alt="Usuario" border="0" width="500">
+![Pagina usuario](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/assets/165733363/12e9a7ec-0d14-4dc7-b06a-c53abe9bbbbb)
 
 
 
 #### Requisitos atendidos
  
-RF-016	A aplicação deve permitir ao usuário alterar as informações do perfil de usuário.
+RF-10	A aplicação deve permitir ao usuário alterar as informações do perfil de usuário.
 
-RF-022	A aplicação deve oferecer a funcionalidade de conta de usuário.
+RF-14	A aplicação deve oferecer a funcionalidade de conta de usuário.
 
 
 #### Artefatos da funcionalidade
