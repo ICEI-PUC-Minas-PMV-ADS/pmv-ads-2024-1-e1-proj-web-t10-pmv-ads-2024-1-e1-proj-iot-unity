@@ -38,7 +38,7 @@ RF-12: A aplicação deve apresentar interface prática, intuitiva.
 
 #### Instruções de acesso
 
-Abra um navegador de Internet e informe a seguinte URL:
+Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/codigo-fonte/src/Cadastro/cadastro.html
 
 
 ### Tela de Login 
@@ -88,7 +88,7 @@ RF-16: A aplicação deve permitir ao usuário fazer o login da sua conta.
 
 #### Instruções de acesso
 
-  Abra um navegador de Internet e informe a seguinte URL:
+  Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/codigo-fonte/src/Login/login.html
 
 
   ### Página inicial 
@@ -156,7 +156,7 @@ RF-20: A aplicação deve permitir que o usuário abra um chamado de suporte  pa
 #### Instruções de acesso
 
 
-1.	Abra um navegador de Internet e informe a seguinte URL:
+1.	Abra um navegador de Internet e informe a seguinte URL:[ (https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/codigo-fonte/src/index#contato)](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/codigo-fonte/src/index#contato)
 
 
 
@@ -213,7 +213,7 @@ RF-19: A aplicação deve ter um campo para tirar dúvidas.
 
 #### Instruções de acesso
 
-1.	Abra um navegador de Internet e informe a seguinte URL: 
+1.	Abra um navegador de Internet e informe a seguinte URL:  https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/codigo-fonte/src/Planos/planos.html
 
 
 
@@ -256,7 +256,7 @@ RF-14	A aplicação deve oferecer a funcionalidade de conta de usuário.
 
 #### Instruções de acesso
 
-1.	Abra um navegador de Internet e informe a seguinte URL:
+1.	Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/codigo-fonte/src/usuario/usuario.html
 
 ### Tela de Dispositivos
 
