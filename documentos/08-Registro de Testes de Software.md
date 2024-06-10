@@ -46,6 +46,24 @@
   <p>Se as informações de usuário forem válidas, o login será bem sucedido.</p>
 
 ![Login realizado com sucesso](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/blob/main/documentos/img/Login%20realizado%20com%20sucesso.jpg)
- 
+ </li>
+ <li> CT-05: Verificar o funcionamento dos links da página inicial.
+
+  Responsável: Joel.
+
+  </li>
+  
+  <p>O usuário deve conseguir visualizar suas informações e trocar sua senha.</p>
+  
+  ![Pagina usuario](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/assets/165733363/3922dcc6-2fbc-4f78-aff8-1b7260c33784)
+
+  ![Pagina usuario 2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/assets/165733363/cd6f6d5f-67c2-4fe5-ad56-11b2f2c5239c)
+
+  ![Pagina usuario 3](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/assets/165733363/f982a7b7-6c3a-48bb-a497-07f7224f9369)
+  
+  ![Pagina usuario 4](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/assets/165733363/91545c20-ddfe-48e0-8fe6-52808e508f07)
+
+
+  <li>Verificou-se que foi possivel alterar a senha e visualizar as informações do usuário </li>
 </ul>
 
