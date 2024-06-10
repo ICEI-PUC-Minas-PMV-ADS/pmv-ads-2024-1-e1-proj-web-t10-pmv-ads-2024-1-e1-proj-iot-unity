@@ -5,8 +5,8 @@ O layout padrão do site foi construído com as linguagens de marcação HTML e 
 As páginas terão como elementos padrões sidebar, header, footer e main além dos elementos de identidade visual citados abaixo:
 
 <ul>
-<li>Cores: RGB: #ffffff, #565656, #d9dadb, e7e2e2;</li>
-<li>Font-family: Teachers, Nunito Sans e Open Sans.</li>
+<li>Cores: white,#565656, #d9dadb, e7e2e2;</li>
+<li>Font-family: sans-serif.</li>
 <li>Font-size: Large and Small. </li>
 </ul>
 
