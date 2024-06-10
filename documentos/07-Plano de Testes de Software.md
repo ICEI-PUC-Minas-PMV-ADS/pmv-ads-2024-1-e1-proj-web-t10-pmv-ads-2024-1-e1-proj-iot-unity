@@ -136,4 +136,35 @@
   <td>Após o login, o usuário deverá ser redirecionado para a sua página de perfil.</td>
   <td>Rafael</td>
  </tr>
+</table>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-05: Verificar o usuários</td>
+  <td>
+   <ul>
+   <li>RF-10 A aplicação deve permitir ao usuário alterar as informações do perfil de usuário.</li>
+   <li> RF-14 A aplicação deve oferecer a funcionalidade de conta de usuário.</li>
+   </ul>
+  </td>
+  <td>Verificar se a pagina de usuário está funcional </td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Informações do usuário.</li>
+    <li>alterar senha.</li>
+   </ol>
+   </td>
+  <td>A pagina de usuário devera permitir o usuário troca sua senha.</td>
+  <td>Joel</td>
+ </tr>
     
