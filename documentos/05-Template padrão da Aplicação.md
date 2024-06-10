@@ -10,7 +10,7 @@ As páginas terão como elementos padrões sidebar, header, footer e main além 
 <li>Font-size: Large and Small. </li>
 </ul>
 
-O código utilizado para a construção dos elementos citados,pode ser consultado <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/tree/main/codigo-fonte">aqui</a>. As imagens e ícones utilizados no projeto estão disponíveis <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/tree/main/codigo-fonte/src/imagens">aqui</a>.
+O código utilizado para a construção dos elementos citados,pode ser consultado <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/issues/new">aqui</a>. As imagens e ícones utilizados no projeto estão disponíveis <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/tree/main/codigo-fonte/src/imagens">aqui</a>.
 
 <h3><b>Tela do dashboard</b></h3>
 <p>Exibe informações sobre quantos dispositivos, ambientes, edição, configuração de cada dispositivo e ligar e desligar dispositivos</p>
