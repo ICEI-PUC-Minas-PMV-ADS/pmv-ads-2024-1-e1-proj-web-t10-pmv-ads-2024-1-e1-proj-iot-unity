@@ -65,7 +65,7 @@
 |	HU-11	|Usuário(a)	|Gostaria de poder classificar meus dispositivos conforme o cômodo onde se encontram (sala, quarto etc.)	|Porque assim, terei um controle mais específico e rápido dos meus dispositivos conforme o cômodo onde estão.	|
 |	HU-12	|Usuário(a)	|Uma interface prática.	|O site deve apresentar uma interface simples e prática para o uso confortável.|
 |	HU-13	|Usuário(a)	|Gostaria de poder classificar meus dispositivos conforme as categorias em que eles se encontrem (lâmpadas, câmeras etc.)	|Porque assim, terei um controle mais específico e rápido de meus dispositivos na hipótese de a residência possuir muitos deles|
-|	HU-14	|Usuário(a)	|Gostaria de remover um colega de quarto que mudou de residência.	|Assim permito o acesso apenas daqueles que moram comigo.	|
+|	HU-14	|Usuário(a)	|Gostaria de ter minha propria conta.	|Assim terei controle apenas do meu perfil.	|
 |	HU-15	|Usuário(a)	|Esqueci minha senha e gostaria de redefini-la.	|Conseguir acessar minha conta novamente.	|
 | HU-16 | Usuário(a) | Gostaria de realizar login na aplicação. | Dessa forma conseguirei acessar minha conta e os meus dispositivos. |
 | HU-17 | Usuário(a) | Gostaria de visualizar quais planos estão disponíveis para assinar. | Dessa forma vou conseguir visualizar quais planos estão disponíveis. |
@@ -90,7 +90,7 @@
 |RF- 11	|	A aplicação permitir ao usuário de adcionar localização de cômodos nos dispositivos.	|	MÉDIA	|
 |RF- 12	|	A aplicação deve apresentar interface prática, intuitiva.	|	MÉDIA	|
 |RF- 13	|	A aplicação deve permitir ao usuário separar dispositivos por tipo.	|	BAIXA	|
-|RF- 14	|	A aplicação deve oferecer a funcionalidade de conta de usuário/Quero excluir minha conta.	|	MÉDIA	|
+|RF- 14	|	A aplicação deve oferecer a funcionalidade de conta de usuário.|	MÉDIA	|
 |RF- 15	|	A aplicação deve oferecer uma funcionalidae de trocar senha/Esqueci minha senha.	|	MÉDIA	|
 |RF- 16 | A aplicação deve permitir ao usuário fazer login. | ALTA |
 |RF- 17 | A aplicação deve ter uma página informando quais planos são ofertados. | MÉDIA |
