@@ -195,6 +195,17 @@ RF-19: A aplicação deve ter um campo para tirar dúvidas.
 
 ●	planos.css
 
+● variaveis.css
+
+●faq.js
+
+●faq.css
+
+● Chat.js
+
+● modal-chat.js
+
+● Chat.css
 
 #### Estrutura de Dados
 
