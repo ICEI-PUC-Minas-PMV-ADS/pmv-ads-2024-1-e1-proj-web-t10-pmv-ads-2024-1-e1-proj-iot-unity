@@ -156,8 +156,7 @@ RF-20: A aplicação deve permitir que o usuário abra um chamado de suporte  pa
 #### Instruções de acesso
 
 
-1.	Abra um navegador de Internet e informe a seguinte URL:[ (https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/codigo-fonte/src/index#contato)](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/codigo-fonte/src/index#contato)
-
+1.	Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/codigo-fonte/src/index.html#inicio
 
 
 ### Tela de planos 
