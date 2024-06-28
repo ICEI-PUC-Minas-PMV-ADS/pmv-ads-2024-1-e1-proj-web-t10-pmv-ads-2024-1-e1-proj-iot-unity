@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
       createUsuario(usuario);
   
       alert('user cadastrado com sucesso!');
-      window.location.href = '.././login/login.html'
+      window.location.href = '.././Login/login.html'
     });
   });
   
