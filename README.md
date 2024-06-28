@@ -36,7 +36,7 @@ Gerenciamento de dispositivos inteligentes (IoT) de forma centralizada.
 
 # Hospedagem
 
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
+https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-iot-unity/codigo-fonte/src/index.html
 
 # Código-Fonte
 
